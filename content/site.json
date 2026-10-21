@@ -1,0 +1,1477 @@
+{
+ "id": "mpqatqwt",
+ "name": "Walid Al Wawi",
+ "site": {
+  "colors": {
+   "ink": "#111111",
+   "page": "#ffffff",
+   "panel": "#ffffff",
+   "rule": "#ffffff"
+  },
+  "cols": 12,
+  "colsM": 6,
+  "css": "",
+  "externals": [
+   {
+    "section": "e",
+    "title": "Samt for Art and Research",
+    "url": "https://samt.co"
+   },
+   {
+    "section": "e",
+    "title": "@walidalwawi",
+    "url": "https://www.instagram.com/walidalwawi/"
+   }
+  ],
+  "fs": 15,
+  "fsM": 15,
+  "gap": 0,
+  "gapM": 0,
+  "header": true,
+  "indent": 100,
+  "indentM": 0,
+  "labelW": 100,
+  "labelWM": 88,
+  "lh": 20,
+  "lhM": 20,
+  "master": {
+   "space": 50,
+   "spaceM": 50,
+   "headX": 2,
+   "headXM": 1,
+   "headSpace": 60,
+   "headSpaceM": 40,
+   "types": {
+    "text": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": 0,
+     "spaceM": 0
+    },
+    "notes": {
+     "x": 3,
+     "w": 9,
+     "xm": 1,
+     "wm": 5,
+     "space": "",
+     "spaceM": ""
+    },
+    "image": {
+     "x": 1,
+     "w": 10,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
+    },
+    "gallery": {
+     "x": 2,
+     "w": 10,
+     "xm": 0,
+     "wm": 4,
+     "space": "",
+     "spaceM": ""
+    },
+    "link": {
+     "x": 0,
+     "w": 4,
+     "xm": 0,
+     "wm": 4,
+     "space": 0,
+     "spaceM": ""
+    },
+    "list": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 4,
+     "space": 5,
+     "spaceM": 5
+    },
+    "embed": {
+     "x": 3,
+     "w": 9,
+     "xm": 0,
+     "wm": 4,
+     "space": "",
+     "spaceM": ""
+    },
+    "html": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 4,
+     "space": "",
+     "spaceM": ""
+    },
+    "rule": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 4,
+     "space": "",
+     "spaceM": ""
+    }
+   }
+  },
+  "menu": true,
+  "ml": 20,
+  "mlM": 20,
+  "mono": "IBM Plex Mono",
+  "ms": 15,
+  "msM": 15,
+  "name": "Walid Al Wawi",
+  "nav": {
+   "icon": "text",
+   "label": "index;",
+   "openLabel": "",
+   "btnFont": "sans",
+   "btnSize": 15,
+   "btnColor": "",
+   "btnCase": "lowercase",
+   "corner": "right",
+   "btnTop": 50,
+   "btnSide": 100,
+   "btnTopM": 25,
+   "btnSideM": 20,
+   "font": "sans",
+   "size": 0,
+   "lh": 0,
+   "sizeM": 0,
+   "lhM": 0,
+   "color": "",
+   "navCase": "none",
+   "tracking": 0,
+   "headings": true,
+   "accordion": true,
+   "current": "dim",
+   "indent": 0,
+   "title": "hide",
+   "fade": 0.1,
+   "bg": "",
+   "bgAlpha": 0.92
+  },
+  "pad": 100,
+  "pager": true,
+  "row": 50,
+  "sans": "Hanken Grotesk",
+  "sections": [
+   {
+    "key": "a",
+    "label": "a. art"
+   },
+   {
+    "key": "b",
+    "label": "b. biography"
+   },
+   {
+    "key": "c",
+    "label": "c. commentary"
+   },
+   {
+    "key": "e",
+    "label": "e. external"
+   }
+  ],
+  "showNum": false,
+  "styles": {
+   "body": {
+    "font": "sans",
+    "size": 15,
+    "lh": 20,
+    "sizeM": 15,
+    "lhM": 20,
+    "weight": "400",
+    "italic": false,
+    "textCase": "none",
+    "tracking": 0,
+    "color": ""
+   },
+   "caption": {
+    "font": "mono",
+    "size": 15,
+    "lh": 20,
+    "sizeM": 15,
+    "lhM": 20,
+    "weight": 400,
+    "italic": false,
+    "textCase": "none",
+    "tracking": 0,
+    "color": ""
+   },
+   "heading": {
+    "font": "sans",
+    "size": 21.8,
+    "lh": 26,
+    "sizeM": 21.8,
+    "lhM": 26,
+    "weight": 400,
+    "italic": false,
+    "textCase": "none",
+    "tracking": 0,
+    "color": ""
+   },
+   "mono": {
+    "font": "mono",
+    "size": 15,
+    "lh": 20,
+    "sizeM": 15,
+    "lhM": 20,
+    "weight": 400,
+    "italic": false,
+    "textCase": "none",
+    "tracking": 0,
+    "color": ""
+   },
+   "small": {
+    "font": "sans",
+    "size": 15,
+    "lh": 20,
+    "sizeM": 15,
+    "lhM": 20,
+    "weight": 400,
+    "italic": false,
+    "textCase": "none",
+    "tracking": 0,
+    "color": ""
+   }
+  },
+  "top": 50,
+  "w": 750,
+  "zoom": false,
+  "head": ""
+ },
+ "order": [
+  "q7qvfbel",
+  "eogqrkvs",
+  "fgw1xddq",
+  "t5b76rf0",
+  "xr287be3",
+  "zrqd5ge3",
+  "hbyuk2gw",
+  "5kqxmmg6",
+  "70vxwodd",
+  "p5tfzre8",
+  "tud4lpid",
+  "icrcf1kz",
+  "hnb4ahmi",
+  "6nqav62x",
+  "qjwmrcrh",
+  "1aasbjv9",
+  "x5diswj0",
+  "7p91dczr",
+  "cgpa8ceq",
+  "fecdj2r3",
+  "m8sb43uz"
+ ],
+ "pages": {
+  "fecdj2r3": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "w4g3sr62",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "fecdj2r3",
+   "num": "c.5",
+   "section": "c",
+   "slug": "israels-co-opting",
+   "title": "“Israel's” co opting of indigenous struggle.",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "hbyuk2gw": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "g6durzc5",
+     "m": {
+      "h": 4,
+      "w": 6,
+      "x": 0,
+      "y": 0
+     },
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "hbyuk2gw",
+   "num": "a. 7",
+   "section": "a",
+   "slug": "white-socks",
+   "title": "White Socks",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "icrcf1kz": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "v9lqwar9",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "icrcf1kz",
+   "num": "a. 12",
+   "section": "a",
+   "slug": "hiding",
+   "title": "Hiding",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "tud4lpid": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "zqx39yhc",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "tud4lpid",
+   "num": "a. 11",
+   "section": "a",
+   "slug": "grasshopper",
+   "title": "Grasshopper",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "q7qvfbel": {
+   "css": "",
+   "desc": "EOUP. Paper Architecture / Installation. Commissioned by The Qattan Art Foundation for YAYA 2018.",
+   "els": [
+    {
+     "d": {
+      "h": 1,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "qm6gqe9p",
+     "m": {
+      "h": 2,
+      "w": 6,
+      "x": 0,
+      "y": 0
+     },
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Paper Architecture / Installation. Commissioned by The Qattan Art Foundation for YAYA 2018.</p><p>Proposes a hypothetical organisation that works on providing relief for Palestinian Refugees residing outside of the PLO mandates or UNRWA jurisdiction.<sup>1</sup> Hosted within a structure that mixes the iconography of the Dome of the Rock with the mechanism of parachuting in an architectural image that identifies its purpose as a body of aid to Palestinians.<sup>2</sup></p>",
+      "indent": true,
+      "size": "body"
+     },
+     "type": "text"
+    },
+    {
+     "d": {
+      "h": 1,
+      "w": 7,
+      "x": 5,
+      "y": 2
+     },
+     "id": "yv074djn",
+     "m": {
+      "h": 2,
+      "w": 6,
+      "x": 0,
+      "y": 5
+     },
+     "props": {
+      "items": [
+       "<a href=\"/files/EOUP-Charter.pdf\">EOUP-Charter.pdf</a>",
+       "<a href=\"/files/Negotiation_Affairs_Department_PLO-Excerpt.pdf\">Negotiation_Affairs_Department_PLO-Excerpt</a>"
+      ]
+     },
+     "type": "notes"
+    },
+    {
+     "d": {
+      "h": 1,
+      "w": 10,
+      "x": 1,
+      "y": 4
+     },
+     "id": "jl82frva",
+     "m": {
+      "h": 4,
+      "w": 6,
+      "x": 0,
+      "y": 10
+     },
+     "props": {
+      "alt": "EOUP installed at Library Circles, James Art Center, Dubai",
+      "assetId": "live",
+      "caption": "",
+      "file": "eoup-library-circles.jpg",
+      "fit": "contain"
+     },
+     "type": "image"
+    },
+    {
+     "d": {
+      "h": 1,
+      "w": 7,
+      "x": 5,
+      "y": 6
+     },
+     "id": "qy5c52kx",
+     "m": {
+      "h": 2,
+      "w": 6,
+      "x": 0,
+      "y": 17
+     },
+     "props": {
+      "items": [
+       "Library Circles, James Art Center, Dubai."
+      ]
+     },
+     "type": "notes"
+    }
+   ],
+   "h1": "EOUP, 2018",
+   "header": true,
+   "id": "q7qvfbel",
+   "kind": "page",
+   "layout": "master",
+   "num": "a.1",
+   "pin": {
+    "fixed": false,
+    "pages": [],
+    "place": "top",
+    "show": "all"
+   },
+   "section": "a",
+   "slug": "eoup",
+   "stack": [],
+   "title": "EOUP"
+  },
+  "qjwmrcrh": {
+   "css": "",
+   "desc": "In 2024, Al Wawi initiated Resignation, a performance that frames his daily existence as a Palestinian as an ongoing work.",
+   "els": [
+    {
+     "d": {
+      "h": 2,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "kenr0qvk",
+     "m": {
+      "h": 2,
+      "w": 6,
+      "x": 0,
+      "y": 0
+     },
+     "own": {},
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>In 2024, Al Wawi initiated Resignation, a performance that frames his daily existence as a Palestinian as an ongoing work, one that began at birth and will continue until the end of his mortal journey. In affirmation of this, all work on this website and any future works added will be exhibited with no financial compensation to the artist, under specific conditions.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    },
+    {
+     "d": {
+      "h": 2,
+      "w": 9,
+      "x": 3,
+      "y": 3
+     },
+     "id": "rmmj6mda",
+     "m": {
+      "h": 2,
+      "w": 6,
+      "x": 0,
+      "y": 5
+     },
+     "own": {},
+     "props": {
+      "items": [
+       "Approval is granted by the artist.",
+       "Art production costs are covered if needed.",
+       "Artwork delivery to the exhibition space and back to the artist is covered.",
+       "<a href=\"/files/Resignation-Letter.pdf\">Resignation-Letter</a>"
+      ]
+     },
+     "type": "notes"
+    },
+    {
+     "d": {
+      "h": 13,
+      "w": 10,
+      "x": 1,
+      "y": 6
+     },
+     "id": "xu2h9qc8",
+     "m": {
+      "h": 9,
+      "w": 6,
+      "x": 0,
+      "y": 10
+     },
+     "own": {},
+     "props": {
+      "alt": "Handwritten resignation letter by Walid Al Wawi",
+      "assetId": "live",
+      "caption": "",
+      "file": "resignation-letter.webp",
+      "fit": "contain"
+     },
+     "type": "image"
+    }
+   ],
+   "h1": "1988/2024 – ?, Resignation",
+   "header": true,
+   "id": "qjwmrcrh",
+   "kind": "page",
+   "layout": "master",
+   "num": "b.3",
+   "pin": {
+    "fixed": false,
+    "pages": [],
+    "place": "top",
+    "show": "all"
+   },
+   "section": "b",
+   "slug": "",
+   "stack": [],
+   "title": "Resignation"
+  },
+  "p5tfzre8": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "887xdcgk",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "p5tfzre8",
+   "num": "a. 10",
+   "section": "a",
+   "slug": "thobe",
+   "title": "Thobe",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "x5diswj0": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "q3rqhzvn",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "x5diswj0",
+   "num": "c.2",
+   "section": "c",
+   "slug": "militant-improvisation",
+   "title": "Militant Improvisation: The Militant Cultural Front",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "t5b76rf0": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "cob88nlb",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "t5b76rf0",
+   "num": "a. 4",
+   "section": "a",
+   "slug": "inaudible-dialogue",
+   "title": "Inaudible Dialogue",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "xr287be3": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "79t4ppco",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "xr287be3",
+   "num": "a. 5",
+   "section": "a",
+   "slug": "qibla",
+   "title": "Qibla",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "70vxwodd": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "84fsc3vl",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "70vxwodd",
+   "num": "a. 9",
+   "section": "a",
+   "slug": "coffin",
+   "title": "Coffin",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "1aasbjv9": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "funiewkp",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "1aasbjv9",
+   "num": "c.1",
+   "section": "c",
+   "slug": "how-to-deseed-a-watermelon",
+   "title": "How To Deseed A Watermelon For Safe Consumption",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "6nqav62x": {
+   "css": "",
+   "desc": "Residencies, exhibitions, curation, awards and collections of Walid Al Wawi.",
+   "els": [
+    {
+     "d": {
+      "h": 8,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "to7rgcpx",
+     "m": {
+      "h": 1,
+      "w": 6,
+      "x": 0,
+      "y": 0
+     },
+     "own": {
+      "wm": 6,
+      "xm": 0
+     },
+     "props": {
+      "heading": "Residencies",
+      "rows": [
+       [
+        "2017",
+        "Museum of Modern and Contemporary Art, Seoul"
+       ]
+      ]
+     },
+     "type": "list"
+    },
+    {
+     "d": {
+      "h": 40,
+      "w": 12,
+      "x": 0,
+      "y": 9
+     },
+     "id": "4nenfh5b",
+     "m": {
+      "h": 11,
+      "w": 6,
+      "x": 0,
+      "y": 2
+     },
+     "own": {
+      "wm": 6,
+      "xm": 0
+     },
+     "props": {
+      "heading": "Exhibitions, Fairs &amp; International contributions",
+      "rows": [
+       [
+        "2022",
+        "Verbal History, Public Art Fund, New York"
+       ],
+       [
+        "2022",
+        "He-athen, Mathaf, Qatar"
+       ],
+       [
+        "2019",
+        "EOUP, Art Jameel, Dubai"
+       ],
+       [
+        "2019",
+        "Qala, Darat Al Funun, Amman"
+       ],
+       [
+        "2018",
+        "We Shall Be Monsters, Qattan Art Foundation, Ramallah"
+       ],
+       [
+        "2017",
+        "May God Teach You English, MMCA, Seoul"
+       ],
+       [
+        "2017",
+        "The Rationaliser .b, XX Bienal, Santa Cruz"
+       ],
+       [
+        "2017",
+        "Dialectic, Tate Exchange, London"
+       ],
+       [
+        "2017",
+        "Portrait Patriot, Momentum, Berlin"
+       ],
+       [
+        "2016",
+        "Flood System, Art16, London"
+       ],
+       [
+        "2016",
+        "Iteration, Satalite, Dubai"
+       ],
+       [
+        "2016",
+        "The Rationaliser, Fe Alharaka Baraka, Maraya Art Center, Dubai"
+       ],
+       [
+        "2014",
+        "The Grasshopper, FIAC In Process, Paris"
+       ],
+       [
+        "2014",
+        "Modification and tragedy, Turning point, Tashkeel, Dubai"
+       ],
+       [
+        "2013",
+        "Hiding, INCUBARTE, Spain"
+       ],
+       [
+        "2013",
+        "Flood System, Maraya Art Center, Abudhabi Art, Dubai"
+       ],
+       [
+        "2012",
+        "Place the dots, Funoon, Art Dubai, Dubai"
+       ]
+      ]
+     },
+     "type": "list"
+    },
+    {
+     "d": {
+      "h": 12,
+      "w": 12,
+      "x": 0,
+      "y": 50
+     },
+     "id": "zpqtvojc",
+     "m": {
+      "h": 3,
+      "w": 6,
+      "x": 0,
+      "y": 14
+     },
+     "own": {
+      "wm": 6,
+      "xm": 0
+     },
+     "props": {
+      "heading": "Curation",
+      "rows": [
+       [
+        "",
+        "Qala 0.89003 at Darat Al Funun, The Lab"
+       ],
+       [
+        "",
+        "Qala 0.89002 at Gray Noise, Alserkal Avenue"
+       ],
+       [
+        "",
+        "Qala 0.89001 at Satellite, Alserkal Avenue"
+       ],
+       [
+        "",
+        "Flag Continent at TATE exchange"
+       ]
+      ]
+     },
+     "type": "list"
+    },
+    {
+     "d": {
+      "h": 16,
+      "w": 12,
+      "x": 0,
+      "y": 63
+     },
+     "id": "8j6pff3v",
+     "m": {
+      "h": 4,
+      "w": 6,
+      "x": 0,
+      "y": 19
+     },
+     "own": {
+      "wm": 6,
+      "xm": 0
+     },
+     "props": {
+      "heading": "Awards &amp; Honours",
+      "rows": [
+       [
+        "2018",
+        "10 Finalists, YAYA 2018, Qattan Art Foundation"
+       ],
+       [
+        "2017",
+        "Slama Art Fellowship"
+       ],
+       [
+        "2016",
+        "50 Finalists, Sovereign Art Prize"
+       ],
+       [
+        "2013",
+        "Kunooz Art Prize, Ayyam Gallery"
+       ],
+       [
+        "2013",
+        "50 Shortlisted, Emergant International Artist"
+       ],
+       [
+        "2011",
+        "First Place in Fine Arts, Shikha Manal YAA"
+       ]
+      ]
+     },
+     "type": "list"
+    },
+    {
+     "d": {
+      "h": 10,
+      "w": 12,
+      "x": 0,
+      "y": 80
+     },
+     "id": "e8lk4mfv",
+     "m": {
+      "h": 2,
+      "w": 6,
+      "x": 0,
+      "y": 24
+     },
+     "own": {
+      "wm": 6,
+      "xm": 0
+     },
+     "props": {
+      "heading": "Collections",
+      "rows": [
+       [
+        "2020",
+        "Burjeel Art Foundation"
+       ],
+       [
+        "2016",
+        "Zayed Bin Sultan Al Nahyan"
+       ],
+       [
+        "2016",
+        "Maraya Art Center"
+       ]
+      ]
+     },
+     "type": "list"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "6nqav62x",
+   "kind": "page",
+   "layout": "master",
+   "num": "b.2",
+   "pin": {
+    "fixed": false,
+    "pages": [],
+    "place": "top",
+    "show": "all"
+   },
+   "section": "b",
+   "slug": "resume",
+   "stack": [],
+   "title": "Resume"
+  },
+  "7p91dczr": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "abudyd74",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "7p91dczr",
+   "num": "c.3",
+   "section": "c",
+   "slug": "the-many-and-the-ones",
+   "title": "The Many And The Ones",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "cgpa8ceq": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "cqq6xmyy",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "cgpa8ceq",
+   "num": "c.4",
+   "section": "c",
+   "slug": "south-north-palestine",
+   "title": "South, North, Palestine",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "zrqd5ge3": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "mbqrhzpb",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "zrqd5ge3",
+   "num": "a. 6",
+   "section": "a",
+   "slug": "passport",
+   "title": "Passport",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "fgw1xddq": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "obnrowiw",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "fgw1xddq",
+   "num": "a. 3",
+   "section": "a",
+   "slug": "eternity-of-silence",
+   "title": "Eternity Of Silence",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "eogqrkvs": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "ddl61b1u",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "eogqrkvs",
+   "num": "a. 2",
+   "section": "a",
+   "slug": "forbidden-fruit",
+   "title": "Forbidden Fruit",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "m8sb43uz": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "wqgrirqu",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "m8sb43uz",
+   "num": "c.6",
+   "section": "c",
+   "slug": "al-thawabit",
+   "title": "Al Thawabit",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "5kqxmmg6": {
+   "css": "",
+   "desc": "",
+   "els": [
+    {
+     "d": {
+      "h": 4,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "hs00fzfs",
+     "m": null,
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Text to come.</p>",
+      "indent": false,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "5kqxmmg6",
+   "num": "a. 8",
+   "section": "a",
+   "slug": "chair-of-saladin",
+   "title": "Chair Of Saladin",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
+  },
+  "hnb4ahmi": {
+   "css": "",
+   "desc": "Walid Al Wawi is a Palestinian artist, writer, and cultural practitioner.",
+   "els": [
+    {
+     "d": {
+      "h": 60,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "ze3b6f4v",
+     "m": null,
+     "own": {
+      "wm": 6,
+      "xm": 0
+     },
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Walid Al Wawi is a Palestinian artist, writer, and cultural practitioner whose work moves between painting, performance, video, installation, and text. Rooted in more than a decade of engagement in the SWANA region, his practice interrogates the conditions of art in times of crisis, exposing sentimentalism as a mechanism through which institutional frameworks reduce Arab identity to tragedy.</p><p>Al Wawi’s practice unfolds at the intersection of performance, installation, and object-based intervention, where material is weaponised against the infrastructures that seek to contain it. His works dismantle the symbols through which authority, nationalism, and capital reproduce themselves. Rather than documenting identity, his practice performs its impossibility, staging Palestinian existence as both a refusal of imposed categories and an insistence on continuity beyond them.</p><p>Among his projects, <a href=\"/eoup\">EOUP</a> (Embassy of Unofficial Palestine) proposes an architectural installation imagining a hypothetical organisation that provides relief for Palestinian refugees outside the mandates of the PLO or UNRWA. The work combines the iconography of the Dome of the Rock with the mechanics of parachuting, creating an architectural image that identifies itself as a body of aid. Through video, audio, text, and constructed form, EOUP opens an inquiry into jurisdiction, exile, and the possibilities of unofficial spaces.</p><p>Al Wawi has been welcomed by institutions including Darat al Funun, Jameel Arts Centre, Tate Exchange, the Museum of Modern and Contemporary Art South Korea, and FIAC Art Fair, though his work insists on the limits of such spaces.</p><p>Building on this trajectory, in 2017 Al Wawi founded Samt, a virtual platform for art and research that exists primarily online through <a href=\"https://samt.co\" target=\"_blank\" rel=\"noopener\">samt.co</a>. Conceived as both a critique and an alternative to the Western-centered art educational canon, Samt challenges the political economy and hierarchical structures of the art system. By shifting the site of discourse from fixed geographies to a fluid techno-digital approach, it expands the terrain of art beyond its physical confinements.</p><p>In 2022, Samt advanced this mission with the creation of the Samt Alternative Art School (SAAS), directly confronting the Eurocentric academy, capitalist frameworks, and patriarchal dominance embedded in the historical and contemporary art canon, fostering instead a pedagogy of insurgent practice.</p>",
+      "indent": true,
+      "size": "body"
+     },
+     "type": "text"
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "hnb4ahmi",
+   "kind": "page",
+   "layout": "master",
+   "num": "b.1",
+   "pin": {
+    "fixed": false,
+    "pages": [],
+    "place": "top",
+    "show": "all"
+   },
+   "section": "b",
+   "slug": "biography",
+   "stack": [],
+   "title": "Biography"
+  }
+ }
+}
