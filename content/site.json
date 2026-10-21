@@ -224,7 +224,8 @@
    "title": "hide",
    "fade": 0.1,
    "bg": "",
-   "bgAlpha": 0.92
+   "bgAlpha": 0.92,
+   "menu": "main"
   },
   "pad": 100,
   "pager": false,
@@ -438,7 +439,175 @@
     "style": "body",
     "align": "left"
    }
-  }
+  },
+  "menus": [
+   {
+    "id": "main",
+    "name": "Main menu",
+    "items": [
+     {
+      "id": "zd8c3lim",
+      "type": "heading",
+      "label": "a. art"
+     },
+     {
+      "id": "ex3l657e",
+      "type": "page",
+      "page": "q7qvfbel",
+      "label": ""
+     },
+     {
+      "id": "e7656myd",
+      "type": "page",
+      "page": "eogqrkvs",
+      "label": ""
+     },
+     {
+      "id": "5mdcfyah",
+      "type": "page",
+      "page": "fgw1xddq",
+      "label": ""
+     },
+     {
+      "id": "33sshjlw",
+      "type": "page",
+      "page": "t5b76rf0",
+      "label": ""
+     },
+     {
+      "id": "o32ica91",
+      "type": "page",
+      "page": "xr287be3",
+      "label": ""
+     },
+     {
+      "id": "1jybxj8p",
+      "type": "page",
+      "page": "zrqd5ge3",
+      "label": ""
+     },
+     {
+      "id": "j1zjyifi",
+      "type": "page",
+      "page": "hbyuk2gw",
+      "label": ""
+     },
+     {
+      "id": "t78hh1q6",
+      "type": "page",
+      "page": "5kqxmmg6",
+      "label": ""
+     },
+     {
+      "id": "ewfdqjnd",
+      "type": "page",
+      "page": "70vxwodd",
+      "label": ""
+     },
+     {
+      "id": "2zj64g1i",
+      "type": "page",
+      "page": "p5tfzre8",
+      "label": ""
+     },
+     {
+      "id": "f5llqjdu",
+      "type": "page",
+      "page": "tud4lpid",
+      "label": ""
+     },
+     {
+      "id": "ykp0iisl",
+      "type": "page",
+      "page": "icrcf1kz",
+      "label": ""
+     },
+     {
+      "id": "5gomfy07",
+      "type": "heading",
+      "label": "b. biography"
+     },
+     {
+      "id": "v2brwi48",
+      "type": "page",
+      "page": "hnb4ahmi",
+      "label": ""
+     },
+     {
+      "id": "3y3pp237",
+      "type": "page",
+      "page": "6nqav62x",
+      "label": ""
+     },
+     {
+      "id": "eobpedy2",
+      "type": "page",
+      "page": "qjwmrcrh",
+      "label": ""
+     },
+     {
+      "id": "2no1iqp1",
+      "type": "heading",
+      "label": "c. commentary"
+     },
+     {
+      "id": "c4m992p3",
+      "type": "page",
+      "page": "1aasbjv9",
+      "label": ""
+     },
+     {
+      "id": "4rqwiz07",
+      "type": "page",
+      "page": "x5diswj0",
+      "label": ""
+     },
+     {
+      "id": "qixxmivn",
+      "type": "page",
+      "page": "7p91dczr",
+      "label": ""
+     },
+     {
+      "id": "ne3hk9s6",
+      "type": "page",
+      "page": "cgpa8ceq",
+      "label": ""
+     },
+     {
+      "id": "jb78b5zp",
+      "type": "page",
+      "page": "fecdj2r3",
+      "label": ""
+     },
+     {
+      "id": "weogixg7",
+      "type": "page",
+      "page": "m8sb43uz",
+      "label": ""
+     },
+     {
+      "id": "0e4041yq",
+      "type": "heading",
+      "label": "e. external"
+     },
+     {
+      "id": "yq9tz2c2",
+      "type": "link",
+      "label": "Samt for Art and Research",
+      "url": "https://samt.co",
+      "newTab": true
+     },
+     {
+      "id": "cfbgsjjj",
+      "type": "link",
+      "label": "@walidalwawi",
+      "url": "https://www.instagram.com/walidalwawi/",
+      "newTab": true
+     }
+    ]
+   }
+  ]
  },
  "order": [
   "flw46tjo",
@@ -1832,7 +2001,8 @@
       "current": "",
       "hover": "",
       "brandSizeM": "",
-      "brandLhM": ""
+      "brandLhM": "",
+      "menu": ""
      }
     }
    ],

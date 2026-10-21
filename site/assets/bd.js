@@ -1,5 +1,27 @@
 /* DATA */
-var BD_DATA = {"site":"Walid Al Wawi","menu":true,"pager":false,"nav":{"icon":"text","label":"index;","openLabel":"","corner":"right","headings":true,"accordion":true,"current":"dim","title":"hide"},"sections":[{"key":"a","label":"a. art"},
+var BD_DATA = {"site":"Walid Al Wawi","menu":true,"groups":[{"label":"a. art","items":[{"title":"EOUP","slug":"eoup"},
+{"title":"Forbidden Fruit","slug":"forbidden-fruit"},
+{"title":"Eternity Of Silence","slug":"eternity-of-silence"},
+{"title":"Inaudible Dialogue","slug":"inaudible-dialogue"},
+{"title":"Qibla","slug":"qibla"},
+{"title":"Passport","slug":"passport"},
+{"title":"White Socks","slug":"white-socks"},
+{"title":"Chair Of Saladin","slug":"chair-of-saladin"},
+{"title":"Coffin","slug":"coffin"},
+{"title":"Thobe","slug":"thobe"},
+{"title":"Grasshopper","slug":"grasshopper"},
+{"title":"Hiding","slug":"hiding"}]},
+{"label":"b. biography","items":[{"title":"Biography","slug":"biography"},
+{"title":"Resume","slug":"resume"},
+{"title":"Resignation","slug":""}]},
+{"label":"c. commentary","items":[{"title":"How To Deseed A Watermelon For Safe Consumption","slug":"how-to-deseed-a-watermelon"},
+{"title":"Militant Improvisation: The Militant Cultural Front","slug":"militant-improvisation"},
+{"title":"The Many And The Ones","slug":"the-many-and-the-ones"},
+{"title":"South, North, Palestine","slug":"south-north-palestine"},
+{"title":"“Israel's” co opting of indigenous struggle.","slug":"israels-co-opting"},
+{"title":"Al Thawabit","slug":"al-thawabit"}]},
+{"label":"e. external","items":[{"title":"Samt for Art and Research","url":"https://samt.co","ext":true},
+{"title":"@walidalwawi","url":"https://www.instagram.com/walidalwawi/","ext":true}]}],"pager":false,"nav":{"icon":"text","label":"index;","openLabel":"","corner":"right","headings":true,"accordion":true,"current":"dim","title":"hide"},"sections":[{"key":"a","label":"a. art"},
 {"key":"b","label":"b. biography"},
 {"key":"c","label":"c. commentary"},
 {"key":"e","label":"e. external"}],"pages":[{"section":"a","slug":"eoup","num":"a.1","title":"EOUP"},
@@ -64,40 +86,37 @@ var o = data.nav || {};
 var menu = make("nav", "bd-menu is-cur-" + (o.current || "dim") + (o.headings === false ? " is-flat" : "") + (o.accordion === false ? " is-open-all" : "") + (o.title === "left" ? " is-title-left" : ""));
 menu.setAttribute("aria-label", "Menu");
 var list = make("div", "bd-menu-list");
-data.sections.forEach(function (s) {
-var items = pages.filter(function (p) { return p.section === s.key; });
-var ext = (data.externals || []).filter(function (x) { return x.section === s.key; });
-if (!items.length && !ext.length) return;
-var group = make("div", "bd-menu-group" + (s.key === section ? " is-open" : ""));
+(data.groups || []).forEach(function (gr) {
+if (!gr.items.length && !gr.label) return;
+var mine = gr.items.some(function (it) { return !it.url && it.slug === data.current; });
+var group = make("div", "bd-menu-group" + (mine || !gr.label ? " is-open" : ""));
+var ul = make("ul", "bd-menu-items");
+if (gr.label) {
 var head = make("button", "bd-menu-head");
 head.type = "button";
-head.textContent = s.label;
-head.setAttribute("aria-expanded", s.key === section || o.accordion === false ? "true" : "false");
+head.textContent = gr.label;
+head.setAttribute("aria-expanded", mine || o.accordion === false ? "true" : "false");
 head.addEventListener("click", function () {
 if (o.accordion === false) return;
 var open = group.classList.toggle("is-open");
 head.setAttribute("aria-expanded", open ? "true" : "false");
 });
-var ul = make("ul", "bd-menu-items");
-items.forEach(function (p) {
+group.appendChild(head);
+} else group.classList.add("is-plain");
+gr.items.forEach(function (it) {
 var li = make("li");
-var a = make("a", p.slug === data.current ? "is-current" : "");
-a.textContent = p.title;
-link(a, p);
-li.appendChild(a);
-ul.appendChild(li);
-});
-ext.forEach(function (x) {
-var li = make("li");
-var a = make("a");
-a.textContent = x.title;
-a.href = x.url;
+var a = make("a", !it.url && it.slug === data.current ? "is-current" : "");
+a.textContent = it.title;
+if (it.url) {
+a.href = it.url;
+if (it.ext) {
 a.target = "_blank";
 a.rel = "noopener";
+}
+} else link(a, { slug: it.slug });
 li.appendChild(a);
 ul.appendChild(li);
 });
-group.appendChild(head);
 group.appendChild(ul);
 list.appendChild(group);
 });

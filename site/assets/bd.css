@@ -373,6 +373,10 @@ cursor: default;
 .bd-menu.is-flat .bd-menu-head {
 display: none;
 }
+.bd-menu-group.is-plain .bd-menu-items {
+display: block;
+padding-left: 0;
+}
 .bd-menu.is-flat .bd-menu-items {
 display: block;
 padding: 0;
