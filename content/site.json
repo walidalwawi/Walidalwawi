@@ -27,7 +27,7 @@
   "fsM": 15,
   "gap": 0,
   "gapM": 0,
-  "header": true,
+  "header": false,
   "indent": 100,
   "indentM": 0,
   "labelW": 100,
@@ -121,10 +121,34 @@
      "wm": 4,
      "space": "",
      "spaceM": ""
+    },
+    "ptitle": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
+    },
+    "menubtn": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
+    },
+    "pager": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
     }
    }
   },
-  "menu": true,
+  "menu": false,
   "ml": 100,
   "mlM": 20,
   "mono": "IBM Plex Mono",
@@ -162,7 +186,7 @@
    "bgAlpha": 0.92
   },
   "pad": 100,
-  "pager": true,
+  "pager": false,
   "row": 50,
   "sans": "Hanken Grotesk",
   "sections": [
@@ -268,6 +292,7 @@
   "mrM": 20
  },
  "order": [
+  "flw46tjo",
   "q7qvfbel",
   "eogqrkvs",
   "fgw1xddq",
@@ -288,7 +313,8 @@
   "7p91dczr",
   "cgpa8ceq",
   "fecdj2r3",
-  "m8sb43uz"
+  "m8sb43uz",
+  "pim1q0ai"
  ],
  "pages": {
   "fecdj2r3": {
@@ -1580,6 +1606,135 @@
    "slug": "biography",
    "stack": [],
    "title": "Biography"
+  },
+  "flw46tjo": {
+   "id": "flw46tjo",
+   "title": "Header",
+   "h1": "",
+   "num": "",
+   "slug": "header",
+   "section": "",
+   "desc": "",
+   "header": false,
+   "layout": "master",
+   "css": "",
+   "els": [
+    {
+     "id": "rsizcy1y",
+     "type": "ptitle",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "own": {
+      "x": 2,
+      "w": 10,
+      "xm": 1,
+      "wm": 5
+     },
+     "props": {
+      "style": "body",
+      "align": "left",
+      "num": false
+     }
+    },
+    {
+     "id": "x7sau0n0",
+     "type": "menubtn",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "own": {},
+     "props": {
+      "corner": "right"
+     }
+    }
+   ],
+   "kind": "pin",
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": 60,
+    "gapM": 40
+   },
+   "colset": {
+    "cols": 1,
+    "align": "center",
+    "spans": [
+     12
+    ],
+    "colsM": 1,
+    "gutter": 30,
+    "gutterM": 20
+   },
+   "stack": []
+  },
+  "pim1q0ai": {
+   "id": "pim1q0ai",
+   "title": "Footer",
+   "h1": "",
+   "num": "",
+   "slug": "footer",
+   "section": "",
+   "desc": "",
+   "header": false,
+   "layout": "master",
+   "css": "",
+   "els": [
+    {
+     "id": "38zgm8ea",
+     "type": "pager",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "own": {},
+     "props": {
+      "num": "num",
+      "line": true,
+      "loop": false
+     }
+    }
+   ],
+   "kind": "pin",
+   "pin": {
+    "place": "bottom",
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": 120,
+    "gapM": 80
+   },
+   "colset": {
+    "cols": 1,
+    "align": "center",
+    "spans": [
+     12
+    ],
+    "colsM": 1,
+    "gutter": 30,
+    "gutterM": 20
+   },
+   "stack": []
   }
  }
 }

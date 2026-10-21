@@ -1,5 +1,5 @@
 /* DATA */
-var BD_DATA = {"site":"Walid Al Wawi","menu":true,"pager":true,"nav":{"icon":"text","label":"index;","openLabel":"","corner":"right","headings":true,"accordion":true,"current":"dim","title":"hide"},"sections":[{"key":"a","label":"a. art"},
+var BD_DATA = {"site":"Walid Al Wawi","menu":true,"pager":false,"nav":{"icon":"text","label":"index;","openLabel":"","corner":"right","headings":true,"accordion":true,"current":"dim","title":"hide"},"sections":[{"key":"a","label":"a. art"},
 {"key":"b","label":"b. biography"},
 {"key":"c","label":"c. commentary"},
 {"key":"e","label":"e. external"}],"pages":[{"section":"a","slug":"eoup","num":"a.1","title":"EOUP"},
@@ -120,7 +120,13 @@ else burger.innerHTML = icons.burger;
 };
 face(false);
 burger.setAttribute("aria-label", "Open menu");
+var slot = root.querySelector("[data-bd-menu]");
+if (slot) {
+burger.className += " is-inline";
+slot.appendChild(burger);
+} else {
 host.appendChild(burger);
+}
 var setMenu = function (open) {
 host.classList.toggle("has-menu", open);
 burger.setAttribute("aria-expanded", open ? "true" : "false");
