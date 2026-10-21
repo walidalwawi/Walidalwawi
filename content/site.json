@@ -78,7 +78,7 @@
      "x": 0,
      "w": 12,
      "xm": 0,
-     "wm": 4,
+     "wm": 6,
      "space": "",
      "spaceM": ""
     },
@@ -186,7 +186,8 @@
      "space": "",
      "spaceM": ""
     }
-   }
+   },
+   "libFix": 1
   },
   "menu": false,
   "ml": 100,
@@ -329,7 +330,115 @@
   "mr": 100,
   "mtM": 24,
   "mbM": 24,
-  "mrM": 20
+  "mrM": 20,
+  "blockStyles": {
+   "quote": {
+    "style": "body",
+    "size": "",
+    "sizeM": "",
+    "lh": "",
+    "lhM": "",
+    "align": "center",
+    "pad": 40,
+    "padM": 28,
+    "padX": 46,
+    "padXM": 22,
+    "bg": "",
+    "ink": "",
+    "shadow": "1",
+    "line": "0"
+   },
+   "posts": {
+    "titleStyle": "body",
+    "titleSize": "",
+    "titleSizeM": "",
+    "titleLh": "",
+    "titleLhM": "",
+    "metaStyle": "small",
+    "metaSize": "",
+    "metaSizeM": "",
+    "metaLh": "",
+    "metaLhM": "",
+    "metaGap": 8,
+    "cardBg": "",
+    "cardPad": 0,
+    "cardPadM": "",
+    "minH": "",
+    "imgGap": 12,
+    "imagePos": "top",
+    "ratio": "auto",
+    "hover": "dim",
+    "fTitleStyle": "heading"
+   },
+   "library": {
+    "book": "1",
+    "spine": "#8a8a8a",
+    "spineW": 10,
+    "shadow": "1",
+    "radius": 2,
+    "hover": "tilt"
+   },
+   "toggle": {
+    "style": "body",
+    "size": "",
+    "sizeM": "",
+    "lh": "",
+    "lhM": "",
+    "marker": "plus",
+    "itemGap": 0,
+    "indent": 0
+   },
+   "product": {
+    "style": "body",
+    "size": "",
+    "sizeM": "",
+    "lh": "",
+    "lhM": "",
+    "align": "left"
+   },
+   "pager": {
+    "style": "body",
+    "size": "",
+    "sizeM": "",
+    "lh": "",
+    "lhM": "",
+    "align": "left"
+   },
+   "postinfo": {
+    "style": "small",
+    "size": "",
+    "sizeM": "",
+    "lh": "",
+    "lhM": ""
+   },
+   "menubtn": {
+    "style": "body",
+    "size": "",
+    "sizeM": "",
+    "lh": "",
+    "lhM": "",
+    "textCase": "none",
+    "tracking": "",
+    "itemGap": 0,
+    "itemGapM": "",
+    "groupGap": 20,
+    "groupGapM": "",
+    "headGap": 4,
+    "current": "underline",
+    "hover": "underline",
+    "brandStyle": "body",
+    "brandSize": "",
+    "brandSizeM": "",
+    "brandLh": "",
+    "brandLhM": "",
+    "brandGap": 16,
+    "brandGapM": ""
+   },
+   "ptitle": {
+    "style": "body",
+    "align": "left"
+   }
+  }
  },
  "order": [
   "flw46tjo",
@@ -1677,8 +1786,8 @@
       "wm": 5
      },
      "props": {
-      "style": "body",
-      "align": "left",
+      "style": "",
+      "align": "",
       "num": false
      }
     },
@@ -1700,28 +1809,30 @@
       "brand": "none",
       "brandText": "",
       "brandPos": "before",
-      "brandStyle": "body",
+      "brandStyle": "",
       "brandSize": "",
       "brandLh": "",
-      "brandGap": 16,
+      "brandGap": "",
       "brandGapM": "",
       "align": "start",
       "dir": "vertical",
       "group": "flat",
-      "style": "body",
+      "style": "",
       "size": "",
       "sizeM": "",
       "lh": "",
       "lhM": "",
-      "textCase": "none",
+      "textCase": "",
       "tracking": "",
-      "itemGap": 0,
+      "itemGap": "",
       "itemGapM": "",
-      "groupGap": 20,
+      "groupGap": "",
       "groupGapM": "",
-      "headGap": 4,
-      "current": "underline",
-      "hover": "underline"
+      "headGap": "",
+      "current": "",
+      "hover": "",
+      "brandSizeM": "",
+      "brandLhM": ""
      }
     }
    ],
@@ -1780,8 +1891,12 @@
       "look": "arrows",
       "nextLabel": "Next, ",
       "prevLabel": "",
-      "align": "left",
-      "style": "body"
+      "align": "",
+      "style": "",
+      "size": "",
+      "sizeM": "",
+      "lh": "",
+      "lhM": ""
      }
     }
    ],
