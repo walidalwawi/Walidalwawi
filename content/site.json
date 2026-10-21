@@ -125,7 +125,7 @@
    }
   },
   "menu": true,
-  "ml": 20,
+  "ml": 100,
   "mlM": 20,
   "mono": "IBM Plex Mono",
   "ms": 15,
@@ -259,7 +259,13 @@
    "colsM": 1,
    "gutter": 30,
    "gutterM": 20
-  }
+  },
+  "mt": 100,
+  "mb": 100,
+  "mr": 100,
+  "mtM": 24,
+  "mbM": 24,
+  "mrM": 20
  },
  "order": [
   "q7qvfbel",
@@ -322,7 +328,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "hbyuk2gw": {
@@ -367,7 +377,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "icrcf1kz": {
@@ -407,7 +421,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "tud4lpid": {
@@ -447,7 +465,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "q7qvfbel": {
@@ -551,10 +573,14 @@
    "layout": "master",
    "num": "a.1",
    "pin": {
-    "fixed": false,
-    "pages": [],
     "place": "top",
-    "show": "all"
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    },
    "section": "a",
    "slug": "eoup",
@@ -646,10 +672,14 @@
    "layout": "master",
    "num": "b.3",
    "pin": {
-    "fixed": false,
-    "pages": [],
     "place": "top",
-    "show": "all"
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    },
    "section": "b",
    "slug": "",
@@ -693,7 +723,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "x5diswj0": {
@@ -733,7 +767,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "t5b76rf0": {
@@ -773,7 +811,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "xr287be3": {
@@ -813,7 +855,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "70vxwodd": {
@@ -853,7 +899,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "1aasbjv9": {
@@ -893,7 +943,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "6nqav62x": {
@@ -1157,10 +1211,14 @@
    "layout": "master",
    "num": "b.2",
    "pin": {
-    "fixed": false,
-    "pages": [],
     "place": "top",
-    "show": "all"
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    },
    "section": "b",
    "slug": "resume",
@@ -1204,7 +1262,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "cgpa8ceq": {
@@ -1244,7 +1306,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "zrqd5ge3": {
@@ -1284,7 +1350,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "fgw1xddq": {
@@ -1324,7 +1394,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "eogqrkvs": {
@@ -1364,7 +1438,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "m8sb43uz": {
@@ -1404,7 +1482,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "5kqxmmg6": {
@@ -1444,7 +1526,11 @@
     "place": "top",
     "fixed": false,
     "show": "all",
-    "pages": []
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    }
   },
   "hnb4ahmi": {
@@ -1481,10 +1567,14 @@
    "layout": "master",
    "num": "b.1",
    "pin": {
-    "fixed": false,
-    "pages": [],
     "place": "top",
-    "show": "all"
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
    },
    "section": "b",
    "slug": "biography",
