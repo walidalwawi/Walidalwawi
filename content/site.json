@@ -241,7 +241,17 @@
   "top": 50,
   "w": 750,
   "zoom": false,
-  "head": ""
+  "head": "",
+  "layout": {
+   "cols": 1,
+   "align": "center",
+   "spans": [
+    12
+   ],
+   "colsM": 1,
+   "gutter": 30,
+   "gutterM": 20
+  }
  },
  "order": [
   "q7qvfbel",
