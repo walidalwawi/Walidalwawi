@@ -145,6 +145,46 @@
      "wm": 6,
      "space": "",
      "spaceM": ""
+    },
+    "posts": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
+    },
+    "postinfo": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
+    },
+    "quote": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
+    },
+    "toggle": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
+    },
+    "product": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
     }
    }
   },
@@ -1655,7 +1695,33 @@
      "m": null,
      "own": {},
      "props": {
-      "corner": "right"
+      "corner": "right",
+      "mode": "button",
+      "brand": "none",
+      "brandText": "",
+      "brandPos": "before",
+      "brandStyle": "body",
+      "brandSize": "",
+      "brandLh": "",
+      "brandGap": 16,
+      "brandGapM": "",
+      "align": "start",
+      "dir": "vertical",
+      "group": "flat",
+      "style": "body",
+      "size": "",
+      "sizeM": "",
+      "lh": "",
+      "lhM": "",
+      "textCase": "none",
+      "tracking": "",
+      "itemGap": 0,
+      "itemGapM": "",
+      "groupGap": 20,
+      "groupGapM": "",
+      "headGap": 4,
+      "current": "underline",
+      "hover": "underline"
      }
     }
    ],
@@ -1709,7 +1775,13 @@
      "props": {
       "num": "num",
       "line": true,
-      "loop": false
+      "loop": false,
+      "scope": "site",
+      "look": "arrows",
+      "nextLabel": "Next, ",
+      "prevLabel": "",
+      "align": "left",
+      "style": "body"
      }
     }
    ],
