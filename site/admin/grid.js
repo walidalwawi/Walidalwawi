@@ -6205,6 +6205,8 @@ var pop = $("bd-pop");
 var live = REPO.domain ? "https://" + REPO.domain : location.origin;
 var h = '<div class="bd-ed-sec"><span class="bd-ed-label">Sites · one back office</span>' + SITES.map(function (x) {
 return '<button class="bd-ed-proj' + (x.repo === REPO.repo ? " is-on" : "") + '" data-act="site-switch" data-repo="' + esc(x.repo) + '"><span>' + esc(x.domain) + "</span><small>" + (x.repo === REPO.repo ? "editing" : "switch") + "</small></button>";
+}).join("") + (window.BD_ELSEWHERE || []).map(function (x) {
+return '<a class="bd-ed-proj" href="' + esc(x.admin) + '" target="_blank" rel="noopener"><span>' + esc(x.domain) + "</span><small>Own back office ↗</small></a>";
 }).join("") + '</div><div class="bd-ed-sec"><span class="bd-ed-label">This site</span>'
 + '<a class="bd-ed-proj" href="' + esc(live) + '" target="_blank" rel="noopener"><span>' + esc(REPO.domain || location.host) + "</span><small>Open ↗</small></a>"
 + '<a class="bd-ed-proj" href="https://github.com/' + esc(REPO.owner + "/" + REPO.repo) + '" target="_blank" rel="noopener"><span>' + esc(REPO.owner + "/" + REPO.repo) + "</span><small>GitHub ↗</small></a>"

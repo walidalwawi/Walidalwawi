@@ -5,7 +5,7 @@ Static site for walidalwawi.com on Cloudflare Workers (static assets, free plan)
 Source of truth is `content/site.json`; the back office at /admin renders and publishes it.
 
 ## Back office (site/admin.html + site/admin/grid.*)
-Walid's Site Grid editor — ONE back office for walidalwawi.com and samt.co. Identical files in both repos (site/admin.html differs only in BD_HOST); change one, copy to the other. BD_SITES in admin.html lists the sites; the switcher stores the choice in localStorage bd-site-current. One GitHub key (bd-gh-key) covers both repos.
+Walid's Site Grid editor for walidalwawi.com. Since Oct 2026 samt.co has its OWN back office (samt.co/admin, layer site, in the Samt repo) and is no longer in BD_SITES; it's listed in BD_ELSEWHERE, which the site menu shows as a link. BD_SITES in admin.html lists the sites this editor can switch between; the switcher stores the choice in localStorage bd-site-current. GitHub key in bd-gh-key.
 - Blocks: text, image, gallery, library, link, notes, list, video, html, rule, quote, fold-out list (toggle), product; site blocks menu (list or button + overlay, with brand text beside it), page title, page arrows (arrows or "Next, title" words; pages or blog scope); blog blocks posts (cards grid/columns/list, featured, card look) and post info (back link, words ~ minutes).
 - Blogs: a page with `blog: true`; posts are pages with `parent: <blog id>`, plus `date`, `excerpt`, `featured`. Posts are skipped by the menu and by site-scope page arrows. Cards use the post's h1 || title, first image, and word count.
 - Prefer a real block over an html block; html blocks are for genuine one-offs.
