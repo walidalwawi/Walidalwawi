@@ -5,7 +5,7 @@ Static site for walidalwawi.com on Cloudflare Workers (static assets, free plan)
 Source of truth is `content/site.json`; the back office at /admin renders and publishes it.
 
 ## Back office (site/admin.html + site/admin/grid.*)
-Walid's Site Grid editor for walidalwawi.com. Since Oct 2026 samt.co has its OWN back office (samt.co/admin, layer site, in the Samt repo) and is no longer in BD_SITES; it's listed in BD_ELSEWHERE, which the site menu shows as a link. BD_SITES in admin.html lists the sites this editor can switch between; the switcher stores the choice in localStorage bd-site-current. GitHub key in bd-gh-key.
+Walid's Site Grid editor — ONE back office for walidalwawi.com and samt.co. Identical files in both repos (site/admin.html differs only in BD_HOST); change one, copy to the other. BD_SITES in admin.html lists the sites; the switcher stores the choice in localStorage bd-site-current. One GitHub key (bd-gh-key) covers both repos.
 - Blocks: text, image, gallery, library, link, notes, list, video, html, rule, quote, fold-out list (toggle), product; site blocks menu (list or button + overlay, with brand text beside it), page title, page arrows (arrows or "Next, title" words; pages or blog scope); blog blocks posts (cards grid/columns/list, featured, card look) and post info (back link, words ~ minutes).
 - Blogs: a page with `blog: true`; posts are pages with `parent: <blog id>`, plus `date`, `excerpt`, `featured`. Posts are skipped by the menu and by site-scope page arrows. Cards use the post's h1 || title, first image, and word count.
 - Prefer a real block over an html block; html blocks are for genuine one-offs.
@@ -15,6 +15,20 @@ Walid's Site Grid editor for walidalwawi.com. Since Oct 2026 samt.co has its OWN
 - Draft autosaves to localStorage (bd-draft-<repo>) until Publish.
 - Publish = one commit: content/site.json, content/manifest.json, every page .html, site/404.html, site/assets/bd.css (stamped "PUBLISHED <id>"), site/assets/bd.js, new images (uploaded earlier as git blobs). Pages in the old manifest but not the new one are deleted. Then polls /assets/bd.css for the stamp.
 - Image props: assetId "live" (in site/images), "sha:<blob>" (uploaded, not yet published), "remote" (still hot-linked from an old URL; Publish tries to copy it in).
+
+## Layers (site.layers) — the paper-sheet site (used by samt.co)
+Site tab → Paper sheets. When on, Publish/Preview wrap every page into three sheets that slide and blur what's under them:
+- Menu sheet (top): desktop column on the left / phone band on top; lists the site menu (main menu). The About page (layers.about) is written on its hidden part; About slides the sheet over everything.
+- Index sheet (middle, tracing paper): layers.journal page on the top half, layers.library page on the bottom half; Journal ↔ Library slides it. Opening a post/page slides it away (left desktop, up phone) leaving a sliver.
+- Content (bottom): every other page and post pre-rendered as .bd-ly-art; the blog's featured ★ post lies under the index.
+- Every URL is the same layered document with a different start state (layerState). Runtime bdLayers() in bd.js moves the sheets + pushState; bdGalleries' gestures hand the open to window.bdLayerOpen.
+- Settings: colours/see-through/blur/width/sliver/motion (presets Paper, Heavy drag, Stop-motion, Quiet, Still). Layer CSS goes in bd.css under /* LAYERS */, phone part inside the one mobile block. Pins (header/footer) are not shown in layers mode.
+- Preview with layers on renders the real export in an iframe inside the canvas.
+
+## Looks: master + override for every block type
+Styles → Blocks sets the default look per block type (BLOCK_STYLE); a block's own Look fields override it ("Site" = follow the master). Now covers text, image, gallery, notes, list, link, video, rule, quote, posts, library, toggle, product, pager, post info, menu, page title. Images, galleries, library covers and post card images have a blend mode (mix-blend-mode) plus tone/opacity/corners.
+- Code drawer: Full output tab (page HTML, bd.css, bd.js) is always there; editor fills the drawer and scrolls.
+- Editor theme: monochrome warm greys, mono tabs, black for what's on.
 
 ## Delivery format — non-negotiable
 - Complete file replacements only. Never partial diffs.

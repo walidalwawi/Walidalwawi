@@ -67,10 +67,20 @@ I[k] = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width=
 /* BLOCK STYLES — A SITE-WIDE LOOK PER BLOCK TYPE (STYLES TAB); A BLOCK'S OWN VALUE WINS, EMPTY = SITE STYLE */
 var BS_ALIGN = [["left", "Left"], ["center", "Centre"], ["right", "Right"]];
 var BS_CASE = [["none", "As typed"], ["uppercase", "UPPER"], ["lowercase", "lower"]];
+var BS_BLEND = [["normal", "Normal"], ["multiply", "Multiply"], ["darken", "Darken"], ["lighten", "Lighten"], ["screen", "Screen"], ["overlay", "Overlay"], ["soft-light", "Soft light"], ["hard-light", "Hard light"], ["color-burn", "Colour burn"], ["difference", "Difference"], ["exclusion", "Exclusion"], ["luminosity", "Luminosity"]];
+var BS_TONE = [["color", "Colour"], ["grey", "Greyscale"], ["dark", "Darker"], ["light", "Lighter"]];
 var BLOCK_STYLE = {
+text: [["size", "Size", "dp", ""], ["lh", "Line", "dp", ""], ["ink", "Text colour", "color", ""], ["tracking", "Spacing (em)", "px", ""], ["measure", "Max width", "px", ""]],
+image: [["blend", "Blend mode", "sel", "normal", BS_BLEND], ["tone", "Tone", "sel", "color", BS_TONE], ["opacity", "Opacity %", "px", 100], ["radius", "Corners", "px", 0], ["hard", "Hard shadow", "bool", "0"]],
+gallery: [["blend", "Blend mode", "sel", "normal", BS_BLEND], ["tone", "Tone", "sel", "color", BS_TONE], ["opacity", "Opacity %", "px", 100], ["radius", "Corners", "px", 0]],
+notes: [["size", "Size", "dp", ""], ["lh", "Line", "dp", ""], ["ink", "Text colour", "color", ""]],
+list: [["size", "Size", "dp", ""], ["lh", "Line", "dp", ""], ["ink", "Text colour", "color", ""]],
+link: [["size", "Size", "dp", ""], ["lh", "Line", "dp", ""], ["ink", "Text colour", "color", ""]],
+embed: [["radius", "Corners", "px", 0]],
+rule: [["ink", "Colour", "color", ""], ["weight", "Thickness", "px", 1]],
 quote: [["style", "Text style", "style", "body"], ["size", "Size", "dp", ""], ["lh", "Line", "dp", ""], ["align", "Align", "sel", "center", BS_ALIGN], ["pad", "Padding top/bottom", "dp", 40, null, 28], ["padX", "Padding sides", "dp", 46, null, 22], ["bg", "Background", "color", ""], ["ink", "Text colour", "color", ""], ["shadow", "Soft shadow", "bool", "1"], ["line", "Line on the left", "bool", "0"]],
-posts: [["titleStyle", "Title style", "style", "body"], ["titleSize", "Title size", "dp", ""], ["titleLh", "Title line", "dp", ""], ["metaStyle", "Info style", "style", "small"], ["metaSize", "Info size", "dp", ""], ["metaLh", "Info line", "dp", ""], ["metaGap", "Gap above info", "px", 8], ["cardBg", "Card colour", "color", ""], ["cardPad", "Card padding", "dp", 0], ["minH", "Text min height", "px", ""], ["imgGap", "Image gap", "px", 12], ["imagePos", "Image", "sel", "top", [["top", "Above text"], ["bottom", "Below text"]]], ["ratio", "Crop", "sel", "auto", [["auto", "Original"], ["1", "Square"], ["4/3", "4 : 3"], ["3/2", "3 : 2"], ["16/9", "16 : 9"], ["3/4", "3 : 4"]]], ["hover", "Hover", "sel", "dim", [["none", "None"], ["dim", "Dim"], ["lift", "Lift"], ["open", "Open (cover swings)"]]], ["look", "Card look", "sel", "plain", [["plain", "Plain"], ["zine", "Zine (cover swings)"], ["trace", "Tracing paper"]]], ["fTitleStyle", "Featured title", "style", "heading"], ["zine", "Zine look (staples + page)", "bool", "0"], ["staple", "Staple colour", "color", ""], ["pageBg", "Inside page colour", "color", ""], ["paperBg", "Paper colour", "color", ""], ["paperInk", "Paper text colour", "color", ""], ["paperAlpha", "Paper opacity %", "px", 72], ["paperFrost", "Paper frost (blur)", "px", 8], ["paperPad", "Paper padding", "dp", 16], ["paperInset", "Paper inset", "px", 0], ["paperLine", "Paper edge line", "color", ""], ["paperTilt", "Paper tilt (deg)", "px", 0], ["textPos", "Text on paper", "sel", "bottom", [["top", "Top"], ["center", "Middle"], ["bottom", "Bottom"]]], ["slideDir", "Paper slides", "sel", "up", [["up", "Up"], ["down", "Down"], ["left", "Left"], ["right", "Right"]]], ["slideHover", "Slide on hover %", "px", 12], ["slideTap", "Slide on tap %", "px", 62], ["imgBlur", "Extra image blur", "px", 0], ["imgTone", "Image tone", "sel", "color", [["color", "Colour"], ["grey", "Greyscale"], ["dark", "Darker"], ["light", "Lighter"]]]],
-library: [["book", "Book look", "bool", "1"], ["spine", "Spine colour", "color", "#8a8a8a"], ["spineW", "Spine width", "px", 10], ["shadow", "Shadow", "bool", "1"], ["radius", "Page corner", "px", 2], ["hover", "Hover", "sel", "tilt", [["none", "None"], ["tilt", "Open (perspective)"], ["lift", "Lift"]]]],
+posts: [["titleStyle", "Title style", "style", "body"], ["titleSize", "Title size", "dp", ""], ["titleLh", "Title line", "dp", ""], ["metaStyle", "Info style", "style", "small"], ["metaSize", "Info size", "dp", ""], ["metaLh", "Info line", "dp", ""], ["metaGap", "Gap above info", "px", 8], ["cardBg", "Card colour", "color", ""], ["cardPad", "Card padding", "dp", 0], ["minH", "Text min height", "px", ""], ["imgGap", "Image gap", "px", 12], ["imagePos", "Image", "sel", "top", [["top", "Above text"], ["bottom", "Below text"]]], ["ratio", "Crop", "sel", "auto", [["auto", "Original"], ["1", "Square"], ["4/3", "4 : 3"], ["3/2", "3 : 2"], ["16/9", "16 : 9"], ["3/4", "3 : 4"]]], ["hover", "Hover", "sel", "dim", [["none", "None"], ["dim", "Dim"], ["lift", "Lift"], ["open", "Open (cover swings)"]]], ["look", "Card look", "sel", "plain", [["plain", "Plain"], ["zine", "Zine (cover swings)"], ["trace", "Tracing paper"]]], ["fTitleStyle", "Featured title", "style", "heading"], ["zine", "Zine look (staples + page)", "bool", "0"], ["staple", "Staple colour", "color", ""], ["pageBg", "Inside page colour", "color", ""], ["paperBg", "Paper colour", "color", ""], ["paperInk", "Paper text colour", "color", ""], ["paperAlpha", "Paper opacity %", "px", 72], ["paperFrost", "Paper frost (blur)", "px", 8], ["paperPad", "Paper padding", "dp", 16], ["paperInset", "Paper inset", "px", 0], ["paperLine", "Paper edge line", "color", ""], ["paperTilt", "Paper tilt (deg)", "px", 0], ["textPos", "Text on paper", "sel", "bottom", [["top", "Top"], ["center", "Middle"], ["bottom", "Bottom"]]], ["slideDir", "Paper slides", "sel", "up", [["up", "Up"], ["down", "Down"], ["left", "Left"], ["right", "Right"]]], ["slideHover", "Slide on hover %", "px", 12], ["slideTap", "Slide on tap %", "px", 62], ["imgBlur", "Extra image blur", "px", 0], ["imgTone", "Image tone", "sel", "color", [["color", "Colour"], ["grey", "Greyscale"], ["dark", "Darker"], ["light", "Lighter"]]], ["imgBlend", "Image blend mode", "sel", "normal", BS_BLEND]],
+library: [["blend", "Cover blend mode", "sel", "normal", BS_BLEND], ["book", "Book look", "bool", "1"], ["spine", "Spine colour", "color", "#8a8a8a"], ["spineW", "Spine width", "px", 10], ["shadow", "Shadow", "bool", "1"], ["radius", "Page corner", "px", 2], ["hover", "Hover", "sel", "tilt", [["none", "None"], ["tilt", "Open (perspective)"], ["lift", "Lift"]]]],
 toggle: [["style", "Text style", "style", "body"], ["size", "Size", "dp", ""], ["lh", "Line", "dp", ""], ["marker", "Marker", "sel", "plus", [["plus", "+ / —"], ["arrow", "→ / ↓"], ["none", "None"]]], ["itemGap", "Between items", "px", 0], ["indent", "Indent items", "px", 0]],
 product: [["style", "Text style", "style", "body"], ["size", "Size", "dp", ""], ["lh", "Line", "dp", ""], ["align", "Align", "sel", "left", BS_ALIGN]],
 pager: [["style", "Text style (words)", "style", "body"], ["size", "Size", "dp", ""], ["lh", "Line", "dp", ""], ["align", "Align (words)", "sel", "left", BS_ALIGN]],
@@ -509,11 +519,28 @@ out.push(".bd-cols.bd-cl-" + p.id + " {\ngrid-template-columns: " + colTemplate(
 return out.join("\n");
 }
 var BD_FILL_TYPES = ["ptitle", "menubtn", "pager", "posts", "postinfo", "quote", "toggle", "product"];
+/* LAYERS — THE SITE AS PAPER SHEETS (MENU, INDEX, CONTENT) THAT SLIDE AND BLUR WHAT'S UNDER THEM */
+var LAYER_DEFAULTS = {
+on: false, journal: "", library: "", about: "", mark: "",
+menuColor: "#D2CEC6", menuAlpha: 58, menuBlur: 9, menuW: 200, menuBand: 52, menuPad: 40, menuPadM: 16, menuGap: 4, menuGapM: 14, menuAlign: "right", marker: ">", menuEdge: true, menuStyle: "heading",
+aboutW: 620, aboutPad: 64, aboutPadM: 24,
+indexColor: "#E4E1DA", indexAlpha: 55, indexBlur: 9, sliver: 44, sliverM: 14, indexEdge: true,
+ease: "paper", dur: 460, menuDur: 460, tilt: 0, lift: true, reveal: "focus", focusBlur: 3
+};
+var LAYER_EASE = { paper: ["Paper", "cubic-bezier(.2,.8,.2,1)"], slide: ["Even slide", "cubic-bezier(.65,0,.35,1)"], drag: ["Heavy drag", "cubic-bezier(.7,0,.25,1)"], stop: ["Stop-motion", "steps(6, end)"], straight: ["Straight", "linear"] };
+var LAYER_PRESETS = {
+paper: { ease: "paper", dur: 460, menuDur: 460, tilt: 0, lift: true, reveal: "focus" },
+drag: { ease: "drag", dur: 720, menuDur: 640, tilt: 0.6, lift: true, reveal: "focus" },
+stop: { ease: "stop", dur: 540, menuDur: 540, tilt: 1, lift: false, reveal: "none" },
+quiet: { ease: "slide", dur: 320, menuDur: 320, tilt: 0, lift: false, reveal: "none" },
+still: { ease: "straight", dur: 120, menuDur: 120, tilt: 0, lift: false, reveal: "none" }
+};
 function normalizeProject(p) {
 var d = siteDefaults(p.site && p.site.name);
 var s = p.site;
 if (!s.styles && s.fs) s.styles = stylesFrom(s.fs, s.lh, s.ms || s.fs, s.ml || s.lh, s.fsM || s.fs, s.lhM || s.lh, s.msM || s.ms || s.fs, s.mlM || s.ml || s.lh);
 if (s.showNum === undefined) s.showNum = false;
+s.layers = Object.assign(clone(LAYER_DEFAULTS), s.layers || {});
 if (s.mt === undefined) {
 var ot = s.top != null ? s.top : 48;
 var op = s.pad != null ? s.pad : 33;
@@ -2217,6 +2244,36 @@ if (!phone) d.push("text-align: " + (E(e, "align") || "left") + ";");
 font(sel + " .bd-product-t", "size", "lh");
 }
 if (e.type === "pager" || e.type === "postinfo") font(sel, "size", "lh");
+/* MASTER + OVERRIDE LOOKS FOR TEXT-LIKE BLOCKS */
+if (e.type === "text" || e.type === "notes" || e.type === "list" || e.type === "link") {
+font(sel, "size", "lh");
+if (!phone) {
+if (E(e, "ink")) d.push("color: " + E(e, "ink") + ";");
+if (e.type === "text" && N(e, "tracking", false) != null) d.push("letter-spacing: " + N(e, "tracking", false) + "em;");
+if (e.type === "text" && N(e, "measure", false) != null) d.push("max-width: " + N(e, "measure", false) + "px;");
+}
+}
+/* IMAGES — BLEND MODE, TONE, OPACITY, CORNERS, HARD SHADOW */
+if ((e.type === "image" || e.type === "gallery" || e.type === "library" || e.type === "posts") && !phone) {
+var im = [];
+var bl = E(e, e.type === "posts" ? "imgBlend" : "blend");
+if (bl && bl !== "normal") im.push("mix-blend-mode: " + bl + ";");
+if (e.type === "image" || e.type === "gallery") {
+var tn = E(e, "tone");
+if (tn && tn !== "color") im.push("filter: " + (tn === "grey" ? "grayscale(1)" : tn === "dark" ? "brightness(0.7)" : "brightness(1.2) saturate(0.8)") + ";");
+var op = N(e, "opacity", false);
+if (op != null && op < 100) im.push("opacity: " + Math.max(0, op) / 100 + ";");
+var rd = N(e, "radius", false);
+if (rd) im.push("border-radius: " + rd + "px;");
+if (e.type === "image" && ON(e, "hard")) im.push("box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.12);");
+}
+if (im.length) out.push(sel + " img {\n" + im.join("\n") + "\n}");
+}
+if (e.type === "embed" && !phone && N(e, "radius", false)) out.push(sel + " iframe {\nborder-radius: " + N(e, "radius", false) + "px;\n}");
+if (e.type === "rule" && !phone) {
+if (E(e, "ink")) d.push("border-color: " + E(e, "ink") + ";");
+if (N(e, "weight", false) != null) d.push("border-top-width: " + N(e, "weight", false) + "px;");
+}
 if (e.type === "menubtn") {
 px("--mgap", "brandGap");
 px("--igap", "itemGap");
@@ -2817,6 +2874,245 @@ var s = S.project.site;
 if (!s.header || page.header === false || page.kind === "pin") return "";
 return '<header class="bd-head">\n' + (page.num && s.showNum ? '<span class="bd-num">' + esc(page.num) + "</span>\n" : "") + "<h1>" + esc(page.h1 || page.title) + "</h1>\n</header>\n";
 }
+/* LAYERS — WHICH PAGE IS WHICH SHEET */
+function layersOn() {
+return !!(S.project && S.project.site.layers && S.project.site.layers.on);
+}
+function layerRoles() {
+var Ls = S.project.site.layers;
+var pg = function (id) { var q = id && S.project.pages[id]; return q && q.kind !== "pin" ? q : null; };
+var all = S.project.order.map(function (id) { return S.project.pages[id]; }).filter(function (q) { return q && q.kind !== "pin"; });
+var journal = pg(Ls.journal) || all.filter(function (q) { return q.blog; })[0] || all[0];
+var library = pg(Ls.library) || all.filter(function (q) { return (q.els || []).some(function (e) { return e.type === "library"; }); })[0] || null;
+var about = pg(Ls.about) || all.filter(function (q) { return q.slug === "about"; })[0] || null;
+return { journal: journal, library: library, about: about };
+}
+function layerBody(page, ctx) {
+var keep = S.renderPage;
+S.renderPage = page;
+var out = '<div class="bd-panel">\n<main class="bd-main">\n' + headHTML(page) + contentHTML(page, ctx) + "\n</main>\n</div>";
+S.renderPage = keep;
+return out;
+}
+function layerState(page) {
+var r = layerRoles();
+var posts = r.journal && r.journal.blog ? postsOf(r.journal.id) : [];
+var feat = (posts.filter(function (q) { return q.featured; })[0] || posts[0] || {}).id || "";
+if (!page || (r.journal && page.id === r.journal.id)) return { view: "journal", half: "journal", post: feat };
+if (r.library && page.id === r.library.id) return { view: "library", half: "library", post: feat };
+if (r.about && page.id === r.about.id) return { view: "about", half: "journal", post: feat };
+return { view: "post", half: "journal", post: page.id };
+}
+function layerDoc(page, ctx) {
+var s = S.project.site;
+var Ls = s.layers;
+var r = layerRoles();
+var st = layerState(page);
+var roles = [r.journal, r.library, r.about].filter(Boolean).map(function (q) { return q.id; });
+var arts = S.project.order.map(function (id) { return S.project.pages[id]; }).filter(function (q) { return q && q.kind !== "pin" && roles.indexOf(q.id) < 0; }).map(function (q) {
+return '<article class="bd-ly-art' + (q.id === st.post ? " is-shown" : "") + '" data-id="' + q.id + '" data-slug="' + esc(q.slug) + '" data-title="' + esc(q.title) + '">\n' + layerBody(q, ctx) + "\n</article>";
+}).join("\n");
+var role = function (q) {
+if (!q) return "";
+if (r.journal && q.id === r.journal.id) return "journal";
+if (r.library && q.id === r.library.id) return "library";
+if (r.about && q.id === r.about.id) return "about";
+return "post";
+};
+var items = [];
+menuGroups(s.nav.menu).forEach(function (g) {
+g.items.forEach(function (it) {
+if (it.url) {
+items.push('<li><a href="' + esc(it.url) + '"' + (it.ext ? ' target="_blank" rel="noopener"' : "") + ">" + esc(it.title) + "</a></li>");
+return;
+}
+var q = S.project.pages[it.page] || S.project.order.map(function (id) { return S.project.pages[id]; }).filter(function (x) { return x && x.slug === it.slug && x.kind !== "pin"; })[0];
+var ro = role(q);
+var cur = ro === "about" ? st.view === "about" : ro === "post" ? st.view === "post" && q && q.id === st.post : st.view !== "about" && ro === st.half && !(st.view === "post" && roles.indexOf(st.post) < 0 && S.project.pages[st.post] && !S.project.pages[st.post].parent);
+items.push('<li><a class="bd-ly-a' + (cur ? " is-current" : "") + '" href="/' + esc(it.slug) + '" data-go="' + ro + '"' + (q ? ' data-id="' + q.id + '"' : "") + '><span class="bd-ly-mk" aria-hidden="true">' + esc(Ls.marker) + "</span>" + esc(it.title) + "</a></li>");
+});
+});
+var mark = Ls.mark || s.name;
+return '<div class="bd-ly is-v-' + st.view + " is-h-" + st.half + '" id="bd-ly" data-view="' + st.view + '" data-half="' + st.half + '" data-post="' + esc(st.post) + '" data-dur="' + Ls.dur + '" data-menu-dur="' + Ls.menuDur + '">\n'
++ '<div class="bd-ly-sheet bd-ly-content" id="bd-ly-content" tabindex="-1">\n' + arts + "\n</div>\n"
++ '<section class="bd-ly-sheet bd-ly-index" id="bd-ly-index" aria-label="Index">\n<div class="bd-ly-half is-journal">\n' + (r.journal ? layerBody(r.journal, ctx) : "") + '\n</div>\n<div class="bd-ly-half is-library">\n' + (r.library ? layerBody(r.library, ctx) : "") + "\n</div>\n</section>\n"
++ '<nav class="bd-ly-sheet bd-ly-menu" id="bd-ly-menu" aria-label="Menu">\n<div class="bd-ly-about">\n' + (r.about ? layerBody(r.about, ctx) : "") + '\n</div>\n<ul class="bd-ly-list bd-ts-' + esc(Ls.menuStyle || "heading") + '">\n' + items.join("\n") + '\n</ul>\n<div class="bd-ly-mark bd-ts-' + esc(Ls.menuStyle || "heading") + '">' + esc(mark) + "</div>\n</nav>\n</div>";
+}
+function hexAlpha(hex, pct) {
+var h = String(hex || "#000000").replace("#", "");
+if (h.length === 3) h = h.split("").map(function (c) { return c + c; }).join("");
+var n = parseInt(h, 16) || 0;
+return "rgba(" + ((n >> 16) & 255) + ", " + ((n >> 8) & 255) + ", " + (n & 255) + ", " + Math.round(pct) / 100 + ")";
+}
+function layerCSS(phone) {
+var Ls = S.project.site.layers;
+if (phone) return [
+":root {\n--ly-band: " + Ls.menuBand + "px;\n--ly-menu-pad: " + Ls.menuPadM + "px;\n--ly-menu-gap: " + Ls.menuGapM + "px;\n--ly-about-pad: " + Ls.aboutPadM + "px;\n--ly-sliver: " + Ls.sliverM + "px;\n}",
+".bd-ly-art > .bd-panel {\npadding-top: calc(var(--ly-band) + var(--bd-wt));\npadding-left: var(--bd-wl);\n}",
+".bd-ly-index {\ntop: var(--ly-band);\nleft: 0;\nwidth: 100vw;\nheight: calc(200% - var(--ly-band) * 2);\nbox-shadow: " + (Ls.indexEdge ? "0 -1px 0 rgba(0, 0, 0, 0.1)" : "none") + ";\n}",
+".is-v-post .bd-ly-index,\n.is-tucked .bd-ly-index {\n--lx: 0px;\n--ly: calc(-100% + var(--ly-sliver));\n}",
+".bd-ly-menu {\n--lx: 0px;\n--ly: calc(var(--ly-band) - 100%);\nbox-shadow: " + (Ls.menuEdge ? "0 1px 0 rgba(0, 0, 0, 0.12)" : "none") + ";\n}",
+".is-v-about .bd-ly-menu {\n--ly: 0px;\n}",
+".bd-ly-list {\ntop: auto;\nbottom: 0;\nright: var(--ly-menu-pad);\nwidth: auto;\nheight: var(--ly-band);\nflex-direction: row;\nalign-items: center;\n}",
+".bd-ly-mark {\ntop: auto;\nleft: var(--ly-menu-pad);\nright: auto;\nbottom: 0;\nheight: var(--ly-band);\ndisplay: flex;\nalign-items: center;\n}",
+".bd-ly-about {\nright: 0;\nbottom: var(--ly-band);\npadding: 0 var(--ly-about-pad);\n}"
+].join("\n");
+var ease = (LAYER_EASE[Ls.ease] || LAYER_EASE.paper)[1];
+var out = [
+":root {\n--ly-menu-bg: " + hexAlpha(Ls.menuColor, Ls.menuAlpha) + ";\n--ly-menu-blur: " + Ls.menuBlur + "px;\n--ly-menu-w: " + Ls.menuW + "px;\n--ly-menu-pad: " + Ls.menuPad + "px;\n--ly-menu-gap: " + Ls.menuGap + "px;\n--ly-about-w: " + Ls.aboutW + "px;\n--ly-about-pad: " + Ls.aboutPad + "px;\n--ly-index-bg: " + hexAlpha(Ls.indexColor, Ls.indexAlpha) + ";\n--ly-index-blur: " + Ls.indexBlur + "px;\n--ly-sliver: " + Ls.sliver + "px;\n--ly-dur: " + Ls.dur + "ms;\n--ly-menu-dur: " + Ls.menuDur + "ms;\n--ly-ease: " + ease + ";\n--ly-tilt: " + (Ls.tilt || 0) + "deg;\n--ly-focus: " + Ls.focusBlur + "px;\n}",
+"body.bd-layered {\nheight: 100%;\nmargin: 0;\noverflow: hidden;\n}",
+".bd-ly {\nposition: fixed;\ninset: 0;\noverflow: hidden;\n}",
+".bd-ly-sheet {\nposition: absolute;\n--lx: 0px;\n--ly: 0px;\n--lr: 0deg;\ntransform: translate3d(var(--lx), var(--ly), 0) rotate(var(--lr));\ntransition: transform var(--ly-dur) var(--ly-ease), box-shadow var(--ly-dur) var(--ly-ease), filter var(--ly-dur) var(--ly-ease);\nwill-change: transform;\n}",
+".bd-ly-sheet.is-moving {\n--lr: var(--ly-tilt);\n}",
+Ls.lift ? ".bd-ly-index.is-moving,\n.bd-ly-menu.is-moving {\nbox-shadow: 8px 8px 0 rgba(0, 0, 0, 0.06);\n}" : "",
+".bd-ly-sheet .bd-panel {\nmin-height: 0;\nbackground: transparent;\n}",
+".bd-ly-content {\ninset: 0;\nz-index: 1;\noverflow-y: auto;\n-webkit-overflow-scrolling: touch;\noverscroll-behavior: contain;\nbackground: var(--bd-page);\n}",
+Ls.reveal === "focus" ? ".bd-ly:not(.is-v-post) .bd-ly-content {\nfilter: blur(var(--ly-focus));\n}" : Ls.reveal === "rise" ? ".bd-ly:not(.is-v-post) .bd-ly-content {\n--ly: 18px;\n}" : "",
+".bd-ly-art {\ndisplay: none;\n}",
+".bd-ly-art.is-shown {\ndisplay: block;\n}",
+".bd-ly-art > .bd-panel {\npadding-left: calc(var(--ly-menu-w) + var(--bd-wl));\n}",
+".bd-ly-index {\ntop: 0;\nleft: var(--ly-menu-w);\nwidth: calc(100vw - var(--ly-menu-w));\nheight: 200%;\nz-index: 2;\nbackground: var(--ly-index-bg);\n-webkit-backdrop-filter: blur(var(--ly-index-blur));\nbackdrop-filter: blur(var(--ly-index-blur));\nbox-shadow: " + (Ls.indexEdge ? "-1px 0 0 rgba(0, 0, 0, 0.1)" : "none") + ";\n}",
+".bd-ly-half {\nheight: 50%;\noverflow-y: auto;\n-webkit-overflow-scrolling: touch;\noverscroll-behavior: contain;\n}",
+".is-h-library .bd-ly-index {\n--ly: -50%;\n}",
+".is-v-post .bd-ly-index,\n.is-tucked .bd-ly-index {\n--lx: calc(var(--ly-sliver) - 100vw);\n}",
+".bd-ly-menu {\ntop: 0;\nleft: 0;\nwidth: 100vw;\nheight: 100%;\nz-index: 3;\n--lx: calc(var(--ly-menu-w) - 100vw);\nbackground: var(--ly-menu-bg);\n-webkit-backdrop-filter: blur(var(--ly-menu-blur));\nbackdrop-filter: blur(var(--ly-menu-blur));\nbox-shadow: " + (Ls.menuEdge ? "1px 0 0 rgba(0, 0, 0, 0.12)" : "none") + ";\ntransition-duration: var(--ly-menu-dur);\n}",
+".is-v-about .bd-ly-menu {\n--lx: 0px;\n}",
+".bd-ly-list {\nposition: absolute;\ntop: var(--bd-wt);\nright: var(--ly-menu-pad);\nwidth: calc(var(--ly-menu-w) - var(--ly-menu-pad) - 16px);\ndisplay: flex;\nflex-direction: column;\nalign-items: " + (Ls.menuAlign === "left" ? "flex-start" : "flex-end") + ";\ngap: var(--ly-menu-gap);\nmargin: 0;\npadding: 0;\nlist-style: none;\n}",
+".bd-ly-a {\ndisplay: inline-flex;\ngap: 10px;\nwhite-space: nowrap;\n}",
+".bd-ly-mk {\nvisibility: hidden;\n}",
+".bd-ly-a.is-current .bd-ly-mk {\nvisibility: visible;\n}",
+".bd-ly-mark {\nposition: absolute;\nright: var(--ly-menu-pad);\nbottom: var(--bd-wt);\n}",
+".bd-ly-about {\nposition: absolute;\ntop: 0;\nbottom: 0;\nleft: 0;\nright: var(--ly-menu-w);\noverflow-y: auto;\npadding: 0 var(--ly-about-pad);\n}",
+".bd-ly-about > .bd-panel {\nmax-width: var(--ly-about-w);\nmargin: 0;\npadding-left: 0;\npadding-right: 0;\n}",
+"@media (prefers-reduced-motion: reduce) {\n.bd-ly-sheet {\ntransition-duration: 1ms;\n}\n}"
+];
+return out.filter(Boolean).join("\n");
+}
+/* LAYER RUNTIME (EXPORTED AS-IS) — MOVES THE SHEETS, KEEPS THE ADDRESS BAR IN STEP */
+function bdLayers(doc, preview) {
+var root = doc.getElementById("bd-ly");
+if (!root) return;
+var content = doc.getElementById("bd-ly-content");
+var index = doc.getElementById("bd-ly-index");
+var menu = doc.getElementById("bd-ly-menu");
+var dur = parseInt(root.getAttribute("data-dur"), 10) || 460;
+var menuDur = parseInt(root.getAttribute("data-menu-dur"), 10) || dur;
+var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+var siteTitle = doc.title.split(" — ").pop();
+var S = { view: root.getAttribute("data-view"), half: root.getAttribute("data-half"), post: root.getAttribute("data-post") };
+var before = "journal";
+var homeSlug = (menu.querySelector('[data-go="journal"]') || { getAttribute: function () { return "/"; } }).getAttribute("href");
+function art(id) {
+return content.querySelector('.bd-ly-art[data-id="' + id + '"]');
+}
+function moving(el) {
+if (reduce || !el) return;
+el.classList.add("is-moving");
+clearTimeout(el.bdMv);
+el.bdMv = setTimeout(function () { el.classList.remove("is-moving"); }, Math.round((el === menu ? menuDur : dur) * 0.55));
+}
+function urlFor() {
+if (S.view === "post") {
+var a = art(S.post);
+return a ? "/" + a.getAttribute("data-slug") : "/";
+}
+var m = menu.querySelector('[data-go="' + (S.view === "about" ? "about" : S.half) + '"]');
+return m ? m.getAttribute("href") : homeSlug;
+}
+function mark() {
+menu.querySelectorAll(".bd-ly-a").forEach(function (a) {
+var g = a.getAttribute("data-go");
+var on = S.view === "about" ? g === "about" : S.view === "post" && g === "post" ? a.getAttribute("data-id") === S.post : g === S.half && !(S.view === "post" && menu.querySelector('[data-go="post"][data-id="' + S.post + '"]'));
+a.classList.toggle("is-current", on);
+});
+}
+function go(view, id, pop) {
+var prev = { view: S.view, half: S.half, post: S.post };
+if (view === "journal" || view === "library") {
+S.view = view;
+S.half = view;
+} else if (view === "about") {
+if (S.view !== "about") before = S.view;
+S.view = "about";
+} else if (view === "post") {
+S.view = "post";
+if (id) S.post = id;
+}
+if (S.post !== prev.post) {
+var a = art(S.post);
+if (a) {
+content.querySelectorAll(".bd-ly-art.is-shown").forEach(function (x) { x.classList.remove("is-shown"); });
+a.classList.add("is-shown");
+content.scrollTop = 0;
+}
+}
+var tucked = S.view === "about" && (prev.view === "post" || (prev.view === "about" && root.classList.contains("is-tucked")));
+root.classList.toggle("is-tucked", tucked);
+root.classList.remove("is-v-" + prev.view, "is-h-" + prev.half);
+root.classList.add("is-v-" + S.view, "is-h-" + S.half);
+if (prev.half !== S.half || (prev.view === "post") !== (S.view === "post" || tucked)) moving(index);
+if ((prev.view === "about") !== (S.view === "about")) moving(menu);
+mark();
+var t = S.view === "post" && art(S.post) ? art(S.post).getAttribute("data-title") + " — " + siteTitle : siteTitle;
+doc.title = t;
+if (S.view === "post") content.focus({ preventScroll: true });
+if (preview || pop) return;
+try {
+history.pushState({ bdly: 1 }, "", urlFor());
+} catch (e) {}
+}
+function back() {
+if (S.view === "about") go(before === "post" ? "post" : S.half);
+else if (S.view === "post") go(S.half);
+}
+function bySlug(slug) {
+slug = String(slug || "").replace(/^\/+|\/+$/g, "").replace(/\.html$/, "");
+var m = menu.querySelector('.bd-ly-a[href="/' + slug + '"]');
+if (m && m.getAttribute("data-go") !== "post") return { view: m.getAttribute("data-go") };
+var a = content.querySelector('.bd-ly-art[data-slug="' + slug + '"]');
+if (a) return { view: "post", id: a.getAttribute("data-id") };
+return null;
+}
+window.bdLayerOpen = function (href) {
+var u;
+try {
+u = new URL(href, location.href);
+} catch (e) {
+return false;
+}
+if (!preview && u.origin !== location.origin) return false;
+var r = bySlug(u.pathname);
+if (!r) return false;
+go(r.view, r.id);
+setTimeout(function () {
+doc.querySelectorAll(".bd-unfold").forEach(function (x) { x.remove(); });
+doc.querySelectorAll(".is-open, .is-unfold").forEach(function (x) { x.classList.remove("is-open", "is-unfold"); });
+}, dur);
+return true;
+};
+doc.addEventListener("click", function (ev) {
+if (ev.defaultPrevented || ev.button > 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+var a = ev.target.closest && ev.target.closest("a[href]");
+if (!a || a.target === "_blank") return;
+var g = a.getAttribute("data-go");
+if (g === "about" && S.view === "about") {
+ev.preventDefault();
+back();
+return;
+}
+if (window.bdLayerOpen(a.href)) ev.preventDefault();
+});
+doc.addEventListener("keydown", function (ev) {
+if (ev.key === "Escape") back();
+});
+if (!preview) {
+window.addEventListener("popstate", function () {
+var r = bySlug(location.pathname) || { view: "journal" };
+go(r.view, r.id, true);
+});
+}
+mark();
+}
 function relatedPages(page) {
 return S.project.order.map(function (id) { return S.project.pages[id]; }).filter(function (p) {
 return p && p.id !== page.id && (p.kind === "pin" || (page.stack || []).indexOf(p.id) > -1);
@@ -3017,6 +3313,10 @@ var host = root.querySelector(".bd-site") || (root.classList && root.classList.c
 /* GESTURES — HOVER TEASES, A TAP OR CLICK PLAYS THE FULL MOVE, THEN THE LINK OPENS */
 if (!root.__bdGesture) {
 root.__bdGesture = true;
+var bdOpen = function (u) {
+if (window.bdLayerOpen && window.bdLayerOpen(u)) return;
+window.location.href = u;
+};
 root.addEventListener("click", function (ev) {
 var a = ev.target.closest && ev.target.closest(".bd-library.is-hov-tilt a.bd-lib-item, .bd-library.is-hov-lift a.bd-lib-item, .bd-posts.is-zine a.bd-post, .bd-posts.is-trace a.bd-post");
 if (!a || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.defaultPrevented) return;
@@ -3029,12 +3329,12 @@ return;
 }
 ev.preventDefault();
 if (!a.matches(".bd-post")) {
-setTimeout(function () { window.location.href = a.href; }, 520);
+setTimeout(function () { bdOpen(a.href); }, 520);
 return;
 }
 /* TRACING PAPER: THE SHEET SLIDES OFF THE POSTER, THEN THE POST OPENS */
 if (a.closest(".is-trace")) {
-setTimeout(function () { window.location.href = a.href; }, 620);
+setTimeout(function () { bdOpen(a.href); }, 620);
 return;
 }
 /* ZINE: COVER SWINGS FULLY AWAY, THE INSIDE PAGE GROWS INTO THE NEXT PAGE */
@@ -3058,7 +3358,7 @@ sheet.style.width = "100vw";
 sheet.style.height = "100vh";
 if (panel) sheet.style.background = getComputedStyle(panel).backgroundColor;
 }, 600);
-setTimeout(function () { window.location.href = a.href; }, 1000);
+setTimeout(function () { bdOpen(a.href); }, 1000);
 });
 window.addEventListener("pageshow", function () {
 root.querySelectorAll(".is-open, .is-unfold").forEach(function (x) { if (x.matches("a.bd-lib-item, a.bd-post")) x.classList.remove("is-open", "is-unfold"); });
@@ -3198,6 +3498,7 @@ var r = layoutRules(p, false);
 if (r) out.push("/* PAGE: " + (p.title || p.slug).toUpperCase().replace(/\*\//g, "") + " */\n" + r + "\n");
 });
 var cs = cssSplit(s.css);
+if (layersOn()) out.push("/* LAYERS */\n" + layerCSS(false) + "\n");
 if (cs.desk.trim()) out.push("/* CUSTOM */\n" + cs.desk.trim() + "\n");
 var mob = [mobileRules(s, ":root"), "/* MASTER */\n" + masterRules(s, true), "/* COLUMNS */\n" + colRules(true)];
 var prm = pinRules(true);
@@ -3206,6 +3507,7 @@ pages.forEach(function (p) {
 var r = layoutRules(p, true);
 if (r) mob.push("/* PAGE: " + (p.title || p.slug).toUpperCase().replace(/\*\//g, "") + " */\n" + r);
 });
+if (layersOn()) mob.push("/* LAYERS */\n" + layerCSS(true));
 if (cs.mob.trim()) mob.push("/* CUSTOM */\n" + cs.mob.trim());
 out.push("/* MOBILE */\n@media (max-width: 760px) {\n" + mob.join("\n") + "\n}\n");
 return out.join("\n");
@@ -3213,15 +3515,26 @@ return out.join("\n");
 function exportJS() {
 var d = chromeData("");
 delete d.current;
-return "/* DATA */\nvar BD_DATA = " + JSON.stringify(d, null, 0).replace(/\},\{/g, "},\n{") + ";\n\n/* CHROME */\n" + bdChrome.toString() + "\n\n/* GALLERIES */\n" + bdGalleries.toString() + "\n\n/* START */\ndocument.addEventListener(\"DOMContentLoaded\", function () {\nvar data = Object.assign({}, BD_DATA, { current: document.body.getAttribute(\"data-bd-page\") || \"\" });\nbdChrome(document, data);\nbdGalleries(document);\n});\n";
+if (layersOn()) {
+d.menu = false;
+d.pager = false;
+}
+return (layersOn() ? "/* LAYERS */\n" + bdLayers.toString() + "\ndocument.addEventListener(\"DOMContentLoaded\", function () {\nbdLayers(document, !!window.BD_PREVIEW);\n});\n\n" : "") + "/* DATA */\nvar BD_DATA = " + JSON.stringify(d, null, 0).replace(/\},\{/g, "},\n{") + ";\n\n/* CHROME */\n" + bdChrome.toString() + "\n\n/* GALLERIES */\n" + bdGalleries.toString() + "\n\n/* START */\ndocument.addEventListener(\"DOMContentLoaded\", function () {\nvar data = Object.assign({}, BD_DATA, { current: document.body.getAttribute(\"data-bd-page\") || \"\" });\nbdChrome(document, data);\nbdGalleries(document);\n});\n";
 }
 function exportPage(page) {
 var s = S.project.site;
+if (layersOn() && page.kind !== "pin") return exportLayered(page, page.slug === "" && !page.h1 ? s.name : (page.title + " — " + s.name));
 var title = page.slug === "" && !page.h1 ? s.name : (page.title + " — " + s.name);
 return "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>" + esc(title) + "</title>\n" + (page.desc ? '<meta name="description" content="' + esc(page.desc) + '">\n' : "") + '<link rel="stylesheet" href="/assets/bd.css">\n' + (s.head && s.head.trim() ? "<!-- HEAD -->\n" + s.head.trim() + "\n" : "") + (!isSpread(s) && isSpreadPage(page) ? "<style>\n/* SPREAD */\n:root {\n--bd-w: 100%;\n}\n</style>\n" : "") + (page.css && page.css.trim() ? "<style>\n/* PAGE */\n" + page.css.trim() + "\n</style>\n" : "") + '<script src="/assets/bd.js" defer><\/script>\n</head>\n<body class="bd-site" data-bd-page="' + esc(page.slug) + '">\n' + pageHTML(page, "export") + "\n</body>\n</html>\n";
 }
+function exportLayered(page, title, noindex) {
+var s = S.project.site;
+var css = S.project.order.map(function (id) { return S.project.pages[id]; }).filter(function (q) { return q && q.css && q.css.trim(); }).map(function (q) { return "/* PAGE: " + (q.title || q.slug).toUpperCase().replace(/\*\//g, "") + " */\n" + q.css.trim(); }).join("\n");
+return "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\">\n<title>" + esc(title) + "</title>\n" + (page && page.desc ? '<meta name="description" content="' + esc(page.desc) + '">\n' : "") + (noindex ? '<meta name="robots" content="noindex">\n' : "") + '<link rel="stylesheet" href="/assets/bd.css">\n' + (s.head && s.head.trim() ? "<!-- HEAD -->\n" + s.head.trim() + "\n" : "") + (css ? "<style>\n" + css + "\n</style>\n" : "") + '<script src="/assets/bd.js" defer><\/script>\n</head>\n<body class="bd-site bd-layered" data-bd-page="' + esc(page ? page.slug : "404") + '">\n' + layerDoc(page, "export") + "\n</body>\n</html>\n";
+}
 function export404() {
 var s = S.project.site;
+if (layersOn()) return exportLayered(null, "Not found — " + s.name, true);
 return "<!doctype html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n<title>Not found — " + esc(s.name) + '</title>\n<meta name="robots" content="noindex">\n<link rel="stylesheet" href="/assets/bd.css">\n<script src="/assets/bd.js" defer><\/script>\n</head>\n<body class="bd-site" data-bd-page="404">\n<div class="bd-panel">\n<main class="bd-main">\n\n<!-- HEADER -->\n<header class="bd-head">\n<span class="bd-num">—</span>\n<h1>Not found</h1>\n</header>\n\n<!-- CONTENT -->\n<div class="bd-grid">\n<div class="bd-el bd-text" style="grid-column: 1 / -1;">\n<p><a href="/">Return to the beginning.</a></p>\n</div>\n</div>\n\n</main>\n</div>\n</body>\n</html>\n';
 }
 
@@ -3881,9 +4194,42 @@ h += '<div class="bd-ed-sec"><div class="bd-ed-actions">'
 if (S.confirm === "page") h += '<div class="bd-ed-confirm">Delete “' + esc(cp.title) + '” for good? <button class="bd-ed-btn is-danger" data-act="page-del-yes">Delete</button><button class="bd-ed-btn" data-act="confirm-no">Keep</button></div>';
 return h + "</div>";
 }
+function layersPanel() {
+var s = S.project.site;
+var Lz = s.layers;
+var h = '<div class="bd-ed-sec"><span class="bd-ed-label">Paper sheets</span>' + sw("Show the site as layers", "site.layers.on", Lz.on) + '<div class="bd-ed-hint">Menu sheet on top, an index sheet (journal above, library below) in the middle, pages and posts underneath. Each sheet blurs what’s under it. Edit every page as usual; Preview shows the sheets moving.</div>';
+if (!Lz.on) return h + "</div>";
+var r = layerRoles();
+var opts = [["", "Automatic"]].concat(S.project.order.map(function (id) { return S.project.pages[id]; }).filter(function (q) { return q && q.kind !== "pin" && !q.parent; }).map(function (q) { return [q.id, q.title]; }));
+h += row(field("Journal (top of index)", select("site.layers.journal", Lz.journal, opts)), field("Library (bottom)", select("site.layers.library", Lz.library, opts)))
++ field("About (on the menu sheet)", select("site.layers.about", Lz.about, opts))
++ '<div class="bd-ed-hint">Now: ' + esc([r.journal ? "journal = " + r.journal.title : "", r.library ? "library = " + r.library.title : "", r.about ? "about = " + r.about.title : ""].filter(Boolean).join(" · ")) + ". The menu lists the site menu; other pages open underneath like posts.</div>"
++ field("Mark on the menu sheet", input("site.layers.mark", Lz.mark, "", ' placeholder="' + esc(s.name) + '"')) + "</div>";
+h += '<div class="bd-ed-sec">' + adv("ly-menu", "Menu sheet", colorIn("Colour", "site.layers.menuColor", Lz.menuColor, "#D2CEC6")
++ row(numIn("See-through %", "site.layers.menuAlpha", Lz.menuAlpha), numIn("Blur below", "site.layers.menuBlur", Lz.menuBlur))
++ row(dpIn(S.mode === "phone" ? "Band height" : "Column width", "site.layers.menuW", "site.layers.menuBand", Lz.menuW, Lz.menuBand), dpIn("Side padding", "site.layers.menuPad", "site.layers.menuPadM", Lz.menuPad, Lz.menuPadM), dpIn("Between links", "site.layers.menuGap", "site.layers.menuGapM", Lz.menuGap, Lz.menuGapM))
++ row(field("Links sit", seg("site.layers.menuAlign", Lz.menuAlign, [["left", "Left"], ["right", "Right"]])), field("Current mark", input("site.layers.marker", Lz.marker)))
++ field("Text style", select("site.layers.menuStyle", Lz.menuStyle, BD_STYLES))
++ sw("Hairline edge", "site.layers.menuEdge", Lz.menuEdge)
++ '<span class="bd-ed-label">About on the sheet</span>' + row(numIn("Text width", "site.layers.aboutW", Lz.aboutW), dpIn("Side padding", "site.layers.aboutPad", "site.layers.aboutPadM", Lz.aboutPad, Lz.aboutPadM)), true) + "</div>";
+h += '<div class="bd-ed-sec">' + adv("ly-index", "Index sheet (tracing paper)", colorIn("Colour", "site.layers.indexColor", Lz.indexColor, "#E4E1DA")
++ row(numIn("See-through %", "site.layers.indexAlpha", Lz.indexAlpha), numIn("Blur below", "site.layers.indexBlur", Lz.indexBlur))
++ row(dpIn("Edge left showing", "site.layers.sliver", "site.layers.sliverM", Lz.sliver, Lz.sliverM))
++ sw("Hairline edge", "site.layers.indexEdge", Lz.indexEdge)
++ '<div class="bd-ed-hint">Cards and books are the Blog posts and Library blocks on those pages: style them there or in Styles → Blocks.</div>') + "</div>";
+h += '<div class="bd-ed-sec">' + adv("ly-motion", "Motion", '<span class="bd-ed-label">Presets</span><div class="bd-ed-actions">' + [["paper", "Paper"], ["drag", "Heavy drag"], ["stop", "Stop-motion"], ["quiet", "Quiet"], ["still", "Still"]].map(function (x) {
+return '<button class="bd-ed-btn" data-act="ly-preset" data-val="' + x[0] + '">' + x[1] + "</button>";
+}).join("") + "</div>"
++ field("Feel", select("site.layers.ease", Lz.ease, Object.keys(LAYER_EASE).map(function (k) { return [k, LAYER_EASE[k][0]]; })))
++ row(numIn("Index speed (ms)", "site.layers.dur", Lz.dur), numIn("Menu speed (ms)", "site.layers.menuDur", Lz.menuDur), numIn("Tilt while moving (°)", "site.layers.tilt", Lz.tilt))
++ sw("Hard shadow while moving", "site.layers.lift", Lz.lift)
++ row(field("Post appears", seg("site.layers.reveal", Lz.reveal, [["focus", "Focus"], ["rise", "Rises"], ["none", "As is"]])), numIn("Out-of-focus blur", "site.layers.focusBlur", Lz.focusBlur))
++ '<div class="bd-ed-hint">Card and book gestures (lift, swing, tracing paper) are in the Blog posts and Library blocks.</div>') + "</div>";
+return h;
+}
 function sitePanel() {
 var s = S.project.site;
-var h = '<div class="bd-ed-sec">' + field("Site name", input("site.name", s.name))
+var h = layersPanel() + '<div class="bd-ed-sec">' + field("Site name", input("site.name", s.name))
 + '<span class="bd-ed-label">Colour</span>' + row(
 field("Page", '<input type="color" class="bd-ed-input" data-bind="site.colors.page" value="' + esc(s.colors.page) + '">'),
 field("Panel", '<input type="color" class="bd-ed-input" data-bind="site.colors.panel" value="' + esc(s.colors.panel) + '">'),
@@ -4197,7 +4543,7 @@ R.innerHTML = h;
 }
 
 /* CODE DRAWER */
-var CODE_TABS = [["site", "Site CSS"], ["page", "Page CSS"], ["head", "Head"], ["el", "Block"], ["files", "Files"]];
+var CODE_TABS = [["site", "Site CSS"], ["page", "Page CSS"], ["head", "Head"], ["el", "Block"], ["out", "Full output"], ["files", "Files"]];
 function codeValue(tab) {
 var pg = curPage();
 var e = selEl();
@@ -4280,9 +4626,11 @@ if (tab === "out") side = 'Read-only. This is what Publish writes.<div class="bd
 return '<button data-act="out-tab" data-val="' + o[0] + '" class="' + (S.outTab === o[0] ? "is-on" : "") + '" style="justify-content:flex-start">' + esc(o[1]) + "</button>";
 }).join("") + '</div><button class="bd-ed-btn" data-act="copy-out">' + I.copy + "Copy</button>";
 var ro = codeReadOnly(tab);
-C.innerHTML = '<div style="display:flex;flex-direction:column;flex:1;min-width:0"><div class="bd-ed-tabs" role="tablist">' + CODE_TABS.concat(tab === "out" ? [["out", "Output"]] : []).map(function (t) {
+C.innerHTML = '<div style="display:flex;flex-direction:column;flex:1;min-width:0;min-height:0"><div class="bd-ed-tabs" role="tablist">' + CODE_TABS.map(function (t) {
 return '<button data-act="code-tab" data-val="' + t[0] + '" class="' + (tab === t[0] ? "is-on" : "") + '">' + t[1] + "</button>";
-}).join("") + '</div><div class="bd-ed-code-body" id="bd-code-host"></div></div>'
+}).join("") + "</div>" + (tab === "out" ? '<div class="bd-ed-seg bd-ed-narrow" style="margin:6px 8px;align-self:flex-start">' + [["page", curPage().slug ? curPage().slug + ".html" : "index.html"], ["css", "assets/bd.css"], ["js", "assets/bd.js"]].map(function (o) {
+return '<button data-act="out-tab" data-val="' + o[0] + '" class="' + (S.outTab === o[0] ? "is-on" : "") + '">' + esc(o[1]) + "</button>";
+}).join("") + "</div>" : "") + '<div class="bd-ed-code-body" id="bd-code-host"></div></div>'
 + '<div class="bd-ed-code-side bd-ed-hint">' + side + "</div>";
 var host = $("bd-code-host");
 var val = ro && tab !== "out" ? "" : codeValue(tab);
@@ -4297,6 +4645,7 @@ electricChars: false,
 indentUnit: 2,
 tabSize: 2,
 readOnly: ro,
+viewportMargin: 400,
 extraKeys: { "Cmd-S": function () { publish(); }, "Ctrl-S": function () { publish(); }, "Cmd-F": "findPersistent", "Ctrl-F": "findPersistent" }
 });
 S.cm = cm;
@@ -4306,10 +4655,12 @@ if (ch.origin === "setValue") return;
 clearTimeout(S.codeTimer);
 S.codeTimer = setTimeout(function () { applyCodeValue(tab, cm.getValue()); }, 220);
 });
+cm.setSize("100%", "100%");
 setTimeout(function () {
 cm.refresh();
 jumpCode();
 }, 0);
+setTimeout(function () { if (S.cm === cm) cm.refresh(); }, 250);
 } else {
 host.innerHTML = '<textarea id="bd-code-ta" spellcheck="false" aria-label="Code" data-code="' + tab + '"' + (ro ? " readonly" : "") + "></textarea>";
 $("bd-code-ta").value = val;
@@ -4890,6 +5241,16 @@ ruler.innerHTML = "<span>" + (S.inspect ? "Inspect · tap anything to style it �
 if (!shadow) {
 shadow = sheet.attachShadow({ mode: "open" });
 bindCanvas();
+}
+if (S.preview && !S.inspect && layersOn()) {
+shadow.innerHTML = '<style>:host{display:block}iframe{display:block;width:100%;border:0;background:#fff}</style><iframe title="Preview" style="height:' + (phone ? 844 : 820) + 'px"></iframe>';
+var fr = shadow.querySelector("iframe");
+ensurePhoneAll();
+var doc = exportLayered(page.kind === "pin" ? null : page, page.title + " — " + s.name);
+var body = layerDoc(page.kind === "pin" ? null : page, "view");
+fr.srcdoc = (doc.replace(/<link rel="stylesheet" href="\/assets\/bd.css">/, "<style>\n" + exportCSS().replace(/<\/style/gi, "<\\/style") + "\n</style>").replace(/<script src="\/assets\/bd.js" defer><\/script>/, "<script>window.BD_PREVIEW = true;<\/script>").replace(/<body([^>]*)>[\s\S]*<\/body>/, function (m, a) { return "<body" + a + ">\n" + body + "\n<script>\n" + exportJS().replace(/<\/script/gi, "<\\/script") + "\n<\/script>\n</body>"; }));
+requestAnimationFrame(fitSheet);
+return;
 }
 var shown = [page].concat(relatedPages(page));
 shown.forEach(function (p) {
@@ -6238,6 +6599,7 @@ var A = {
 "discard-yes": discardDraft,
 "sign-out": function () { closePop(); lock("Key forgotten on this device."); },
 "reload": loadSite,
+"ly-preset": function () { var v = b.getAttribute("data-val"); if (!LAYER_PRESETS[v]) return; snap(); Object.assign(S.project.site.layers, clone(LAYER_PRESETS[v])); changed(); },
 "confirm-no": function () { var was = S.confirm; S.confirm = null; if (was === "discard") openPop(); else renderLeft(); },
 "mode": function () { if (S.live) endEdit(); S.mode = val; render(); },
 "undo": doUndo,
