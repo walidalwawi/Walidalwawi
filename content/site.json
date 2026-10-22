@@ -369,7 +369,10 @@
     "imagePos": "top",
     "ratio": "auto",
     "hover": "dim",
-    "fTitleStyle": "heading"
+    "fTitleStyle": "heading",
+    "zine": "0",
+    "staple": "",
+    "pageBg": ""
    },
    "library": {
     "book": "1",
