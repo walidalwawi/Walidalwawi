@@ -655,7 +655,7 @@
     "pin": "wt3x1lay",
     "radius": 0,
     "vcM": 0,
-    "vrM": 0,
+    "vrM": 1,
     "mainM": "wt3x1lay",
     "axisM": "y"
    }
@@ -2718,7 +2718,12 @@
       "w": 12,
       "h": 6
      },
-     "m": null,
+     "m": {
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 6
+     },
      "props": {
       "menu": "main",
       "marker": "–––",
