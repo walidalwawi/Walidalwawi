@@ -2859,8 +2859,12 @@
     "gutterM": 20
    },
    "blog": true,
-   "box": {},
-   "mode": "sheet"
+   "box": {
+    "card": "#ffffff"
+   },
+   "mode": "sheet",
+   "pattern": "",
+   "postArrows": true
   },
   "blgcom01": {
    "id": "blgcom01",
@@ -2974,8 +2978,11 @@
     "gutterM": 20
    },
    "blog": true,
-   "box": {},
-   "mode": "sheet"
+   "box": {
+    "card": "#ffffff"
+   },
+   "mode": "sheet",
+   "postArrows": true
   },
   "wt3x1lay": {
    "id": "wt3x1lay",
