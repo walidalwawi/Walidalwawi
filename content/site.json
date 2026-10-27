@@ -646,7 +646,7 @@
      "mt": "",
      "mb": "92%",
      "mtM": "0",
-     "mbM": "90%",
+     "mbM": "95%",
      "mlM": "0",
      "mrM": "0"
     },
@@ -664,8 +664,8 @@
     "pin": "wt3x1lay",
     "radius": 0,
     "vcM": 0,
-    "vrM": 1,
-    "mainM": "wt3x1lay",
+    "vrM": 0,
+    "mainM": "mnu0sh01",
     "axisM": "y"
    }
   ],
@@ -2697,7 +2697,10 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {},
+   "box": {
+    "mbM": "0",
+    "mtM": "0"
+   },
    "ownLayout": false,
    "mode": "sheet",
    "css": "",
@@ -3007,7 +3010,9 @@
      "own": {}
     }
    ],
-   "box": {},
+   "box": {
+    "mbM": "0"
+   },
    "kind": "page",
    "stack": [],
    "pin": {
