@@ -644,7 +644,7 @@
      "ml": "",
      "mr": "",
      "mt": "",
-     "mb": "92%",
+     "mb": "90%",
      "mtM": "0",
      "mbM": "95%",
      "mlM": "0",
@@ -664,8 +664,8 @@
     "pin": "wt3x1lay",
     "radius": 0,
     "vcM": 0,
-    "vrM": 0,
-    "mainM": "mnu0sh01",
+    "vrM": 1,
+    "mainM": "wt3x1lay",
     "axisM": "y"
    }
   ],
@@ -3011,7 +3011,8 @@
     }
    ],
    "box": {
-    "mbM": "0"
+    "mbM": "0",
+    "mb": "0"
    },
    "kind": "page",
    "stack": [],
