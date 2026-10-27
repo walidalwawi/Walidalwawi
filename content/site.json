@@ -265,7 +265,7 @@
     "label": "e. external"
    }
   ],
-  "showNum": true,
+  "showNum": false,
   "styles": {
    "body": {
     "font": "sans",
