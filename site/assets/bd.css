@@ -1,4 +1,4 @@
-/* PUBLISHED mvr2linb */
+/* PUBLISHED mvr2n35o */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1454,12 +1454,12 @@ margin-top: 5px;
 --w: 12;
 }
 .bd-post-arrows {
-margin-top: 60px;
+margin-top: 50px;
 }
 .bd-post-arrows .bd-pagerbar {
 display: flex;
 align-items: center;
-justify-content: space-between;
+justify-content: flex-start;
 gap: 18px;
 }
 .bd-post-arrows .bd-pagerbar a {

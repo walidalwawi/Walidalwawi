@@ -712,15 +712,15 @@
   },
   "postArrows": {
    "on": true,
-   "look": "arrows",
+   "look": "text",
    "num": "count",
-   "align": "spread",
+   "align": "left",
    "style": "body",
    "prevLabel": "",
    "nextLabel": "Next, ",
    "loop": false,
    "line": false,
-   "space": 60,
+   "space": 50,
    "gap": 18,
    "size": 22,
    "ink": ""
