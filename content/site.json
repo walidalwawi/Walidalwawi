@@ -553,24 +553,24 @@
       "label": ""
      },
      {
+      "id": "yq9tz2c2",
+      "type": "link",
+      "label": "",
+      "url": "",
+      "newTab": false
+     },
+     {
       "id": "m5",
       "type": "page",
       "page": "qjwmrcrh",
       "label": ""
      },
      {
-      "id": "yq9tz2c2",
-      "type": "link",
-      "label": "Samt for Art and Research",
-      "url": "https://samt.co",
-      "newTab": true
-     },
-     {
       "id": "cfbgsjjj",
       "type": "link",
-      "label": "@walidalwawi",
-      "url": "https://www.instagram.com/walidalwawi/",
-      "newTab": true
+      "label": "@walidalwaw",
+      "url": "",
+      "newTab": false
      }
     ]
    }
@@ -654,10 +654,10 @@
     "out": "peek",
     "lv": "",
     "arrive": "slide",
-    "main": "wt3x1lay",
+    "main": "mnu0sh01",
     "hover": "",
     "vc": 1,
-    "vr": 1,
+    "vr": 0,
     "pin": "wt3x1lay",
     "radius": 0,
     "vcM": 0,
@@ -676,20 +676,20 @@
    "blur": 8
   },
   "postBox": {
-   "mt": "10%",
+   "mt": "",
    "card": "none",
    "sheetBg": "none",
-   "shadow": "soft",
+   "shadow": "none",
    "fit": false,
    "cardA": "",
-   "pt": "5%",
-   "pr": "5%",
-   "pl": "10%",
-   "mr": "5%",
-   "ml": "-5%",
+   "pt": "",
+   "pr": "",
+   "pl": "",
+   "mr": "",
+   "ml": "-",
    "plM": "30",
-   "mb": "4%",
-   "pb": "5%",
+   "mb": "",
+   "pb": "",
    "maxW": "",
    "ink": ""
   },
@@ -727,7 +727,6 @@
   }
  },
  "order": [
-  "flw46tjo",
   "mnu0sh01",
   "q7qvfbel",
   "eogqrkvs",
@@ -751,7 +750,6 @@
   "cgpa8ceq",
   "fecdj2r3",
   "m8sb43uz",
-  "pim1q0ai",
   "wt3x1lay"
  ],
  "pages": {
@@ -2674,153 +2672,6 @@
     "gutterM": 24
    }
   },
-  "flw46tjo": {
-   "id": "flw46tjo",
-   "title": "Header",
-   "h1": "",
-   "num": "",
-   "slug": "header",
-   "section": "",
-   "desc": "",
-   "header": false,
-   "layout": "master",
-   "css": "",
-   "els": [
-    {
-     "id": "x7sau0n0",
-     "type": "menubtn",
-     "col": 1,
-     "d": {
-      "x": 0,
-      "y": 0,
-      "w": 12,
-      "h": 3
-     },
-     "m": null,
-     "own": {},
-     "props": {
-      "corner": "right",
-      "mode": "button",
-      "brand": "none",
-      "brandText": "",
-      "brandPos": "before",
-      "brandStyle": "",
-      "brandSize": "",
-      "brandLh": "",
-      "brandGap": "",
-      "brandGapM": "",
-      "align": "start",
-      "dir": "vertical",
-      "group": "flat",
-      "style": "",
-      "size": "",
-      "sizeM": "",
-      "lh": "",
-      "lhM": "",
-      "textCase": "",
-      "tracking": "",
-      "itemGap": "",
-      "itemGapM": "",
-      "groupGap": "",
-      "groupGapM": "",
-      "headGap": "",
-      "current": "",
-      "hover": "",
-      "brandSizeM": "",
-      "brandLhM": "",
-      "menu": ""
-     }
-    }
-   ],
-   "kind": "pin",
-   "pin": {
-    "place": "top",
-    "fixed": false,
-    "show": "all",
-    "pages": [],
-    "h": "",
-    "hM": "",
-    "gap": 60,
-    "gapM": 40
-   },
-   "colset": {
-    "cols": 1,
-    "align": "center",
-    "spans": [
-     12
-    ],
-    "colsM": 1,
-    "gutter": 30,
-    "gutterM": 20
-   },
-   "stack": [],
-   "box": {}
-  },
-  "pim1q0ai": {
-   "id": "pim1q0ai",
-   "title": "Footer",
-   "h1": "",
-   "num": "",
-   "slug": "footer",
-   "section": "",
-   "desc": "",
-   "header": false,
-   "layout": "master",
-   "css": "",
-   "els": [
-    {
-     "id": "38zgm8ea",
-     "type": "pager",
-     "col": 1,
-     "d": {
-      "x": 0,
-      "y": 0,
-      "w": 12,
-      "h": 3
-     },
-     "m": null,
-     "own": {},
-     "props": {
-      "num": "num",
-      "line": true,
-      "loop": false,
-      "scope": "site",
-      "look": "arrows",
-      "nextLabel": "Next, ",
-      "prevLabel": "",
-      "align": "",
-      "style": "",
-      "size": "",
-      "sizeM": "",
-      "lh": "",
-      "lhM": ""
-     }
-    }
-   ],
-   "kind": "pin",
-   "pin": {
-    "place": "bottom",
-    "fixed": false,
-    "show": "all",
-    "pages": [],
-    "h": "",
-    "hM": "",
-    "gap": 120,
-    "gapM": 80
-   },
-   "colset": {
-    "cols": 1,
-    "align": "center",
-    "spans": [
-     12
-    ],
-    "colsM": 1,
-    "gutter": 30,
-    "gutterM": 20
-   },
-   "stack": [],
-   "box": {}
-  },
   "mnu0sh01": {
    "id": "mnu0sh01",
    "title": "Menu",
@@ -2842,20 +2693,10 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "0",
-    "shadow": "none",
-    "mrM": "0",
-    "mtM": "0",
-    "mbM": "0",
-    "ptM": "0",
-    "pbM": "0",
-    "pl": "0"
-   },
+   "box": {},
    "ownLayout": false,
    "mode": "sheet",
    "css": "",
-   "header": false,
    "els": [
     {
      "id": "mnu0el01",
@@ -3144,7 +2985,6 @@
    "slug": "sheet-3",
    "section": "",
    "desc": "",
-   "header": true,
    "layout": "master",
    "css": "",
    "els": [
@@ -3175,9 +3015,7 @@
      }
     }
    ],
-   "box": {
-    "mb": "0"
-   },
+   "box": {},
    "kind": "page",
    "stack": [],
    "pin": {
@@ -3189,7 +3027,8 @@
     "hM": "",
     "gap": "",
     "gapM": ""
-   }
+   },
+   "mode": "sheet"
   }
  }
 }
