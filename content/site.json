@@ -138,6 +138,14 @@
      "space": "",
      "spaceM": ""
     },
+    "sheetmenu": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
+    },
     "pager": {
      "x": 0,
      "w": 12,
@@ -249,7 +257,7 @@
     "label": "e. external"
    }
   ],
-  "showNum": false,
+  "showNum": true,
   "styles": {
    "body": {
     "font": "sans",
@@ -398,7 +406,9 @@
     "spineW": 10,
     "shadow": "1",
     "radius": 2,
-    "hover": "tilt"
+    "hover": "tilt",
+    "blend": "normal",
+    "backdrop": ""
    },
    "toggle": {
     "style": "body",
@@ -459,6 +469,58 @@
    "ptitle": {
     "style": "body",
     "align": "left"
+   },
+   "text": {
+    "size": "body",
+    "sizeM": "",
+    "lh": "",
+    "lhM": "",
+    "ink": "",
+    "tracking": "",
+    "measure": ""
+   },
+   "image": {
+    "blend": "normal",
+    "backdrop": "",
+    "tone": "color",
+    "opacity": 100,
+    "radius": 0,
+    "hard": "0"
+   },
+   "gallery": {
+    "blend": "normal",
+    "backdrop": "",
+    "tone": "color",
+    "opacity": 100,
+    "radius": 0
+   },
+   "notes": {
+    "size": "",
+    "sizeM": "",
+    "lh": "",
+    "lhM": "",
+    "ink": ""
+   },
+   "list": {
+    "size": "",
+    "sizeM": "",
+    "lh": "",
+    "lhM": "",
+    "ink": ""
+   },
+   "link": {
+    "size": "",
+    "sizeM": "",
+    "lh": "",
+    "lhM": "",
+    "ink": ""
+   },
+   "embed": {
+    "radius": 0
+   },
+   "rule": {
+    "ink": "",
+    "weight": 1
    }
   },
   "menus": [
@@ -555,8 +617,8 @@
     "id": "menu",
     "name": "Cover",
     "pages": [
-     "hnb4ahmi",
-     "mnu0sh01"
+     "mnu0sh01",
+     "wt3x1lay"
     ],
     "restPage": "",
     "edge": "left",
@@ -566,7 +628,7 @@
     "peekM": 52,
     "sliver": 44,
     "sliverM": 14,
-    "axis": "x",
+    "axis": "y",
     "covers": "all",
     "coverPages": [],
     "color": "#ffffff",
@@ -577,9 +639,9 @@
     "dur": "",
     "box": {
      "ml": "",
-     "mr": "75%",
+     "mr": "",
      "mt": "",
-     "mb": "",
+     "mb": "80%",
      "mtM": "0",
      "mbM": "85%",
      "mlM": "0",
@@ -592,16 +654,50 @@
     "out": "peek",
     "lv": "",
     "arrive": "slide",
-    "main": "mnu0sh01",
+    "main": "wt3x1lay",
     "hover": "",
     "vc": 1,
-    "vr": 0,
-    "pin": "mnu0sh01",
+    "vr": 1,
+    "pin": "wt3x1lay",
     "radius": 0,
     "vcM": 0,
     "vrM": 0,
-    "mainM": "hnb4ahmi",
+    "mainM": "",
     "axisM": "y"
+   },
+   {
+    "id": "0h3gkc96",
+    "name": "Sheet 3",
+    "pages": [
+     "hnb4ahmi"
+    ],
+    "restPage": "",
+    "edge": "left",
+    "edgeM": "top",
+    "rest": "open",
+    "peek": 200,
+    "peekM": 52,
+    "sliver": 44,
+    "sliverM": 14,
+    "axis": "y",
+    "covers": "all",
+    "coverPages": [],
+    "color": "#E4E1DA",
+    "alpha": 55,
+    "blur": 9,
+    "shadow": "soft",
+    "nudge": 0,
+    "dur": "",
+    "box": {},
+    "pattern": "",
+    "patColor": "#000000",
+    "patSize": 28,
+    "patAlpha": 14,
+    "out": "peek",
+    "lv": "",
+    "arrive": "slide",
+    "main": "",
+    "hover": ""
    },
    {
     "id": "glg17d2m",
@@ -631,7 +727,7 @@
     "dur": "",
     "box": {
      "mt": "",
-     "mb": "",
+     "mb": "0",
      "ml": "",
      "mr": "15%",
      "mtM": "0",
@@ -697,6 +793,23 @@
    "colsM": 1,
    "gutter": 50,
    "gutterM": 24
+  },
+  "editor": {
+   "layout": {},
+   "hidden": [],
+   "order": {},
+   "moved": {},
+   "custom": []
+  },
+  "layOrderV1": true,
+  "unparkV1": true,
+  "glassV1": true,
+  "oneV1": true,
+  "motion": {
+   "gDur": 450,
+   "gEase": "ease",
+   "tease": 8,
+   "open": 24
   }
  },
  "order": [
@@ -725,7 +838,8 @@
   "cgpa8ceq",
   "fecdj2r3",
   "m8sb43uz",
-  "pim1q0ai"
+  "pim1q0ai",
+  "wt3x1lay"
  ],
  "pages": {
   "fecdj2r3": {
@@ -770,7 +884,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -860,7 +974,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -945,7 +1059,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -1030,7 +1144,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -1120,31 +1234,9 @@
       "font": "sans",
       "html": "<p>Paper Architecture / Installation. Commissioned by The Qattan Art Foundation for YAYA 2018.</p><p>Proposes a hypothetical organisation that works on providing relief for Palestinian Refugees residing outside of the PLO mandates or UNRWA jurisdiction.<sup>1</sup> Hosted within a structure that mixes the iconography of the Dome of the Rock with the mechanism of parachuting in an architectural image that identifies its purpose as a body of aid to Palestinians.<sup>2</sup></p>",
       "indent": true,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
-    },
-    {
-     "d": {
-      "h": 1,
-      "w": 7,
-      "x": 5,
-      "y": 2
-     },
-     "id": "yv074djn",
-     "m": {
-      "h": 2,
-      "w": 6,
-      "x": 0,
-      "y": 5
-     },
-     "props": {
-      "items": [
-       "<a href=\"/files/EOUP-Charter.pdf\">EOUP-Charter.pdf</a>",
-       "<a href=\"/files/Negotiation_Affairs_Department_PLO-Excerpt.pdf\">Negotiation_Affairs_Department_PLO-Excerpt</a>"
-      ]
-     },
-     "type": "notes"
     },
     {
      "d": {
@@ -1168,27 +1260,6 @@
       "fit": "contain"
      },
      "type": "image"
-    },
-    {
-     "d": {
-      "h": 1,
-      "w": 7,
-      "x": 5,
-      "y": 6
-     },
-     "id": "qy5c52kx",
-     "m": {
-      "h": 2,
-      "w": 6,
-      "x": 0,
-      "y": 17
-     },
-     "props": {
-      "items": [
-       "Library Circles, James Art Center, Dubai."
-      ]
-     },
-     "type": "notes"
     }
    ],
    "h1": "EOUP, 2018",
@@ -1253,34 +1324,9 @@
       "font": "sans",
       "html": "<p>In 2024, Al Wawi initiated Resignation, a performance that frames his daily existence as a Palestinian as an ongoing work, one that began at birth and will continue until the end of his mortal journey. In affirmation of this, all work on this website and any future works added will be exhibited with no financial compensation to the artist, under specific conditions.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
-    },
-    {
-     "d": {
-      "h": 2,
-      "w": 9,
-      "x": 3,
-      "y": 3
-     },
-     "id": "rmmj6mda",
-     "m": {
-      "h": 2,
-      "w": 6,
-      "x": 0,
-      "y": 5
-     },
-     "own": {},
-     "props": {
-      "items": [
-       "Approval is granted by the artist.",
-       "Art production costs are covered if needed.",
-       "Artwork delivery to the exhibition space and back to the artist is covered.",
-       "<a href=\"/files/Resignation-Letter.pdf\">Resignation-Letter</a>"
-      ]
-     },
-     "type": "notes"
     },
     {
      "d": {
@@ -1324,7 +1370,7 @@
     "gapM": ""
    },
    "section": "",
-   "slug": "",
+   "slug": "resignation",
    "stack": [],
    "title": "Resignation",
    "box": {}
@@ -1371,7 +1417,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -1456,7 +1502,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -1541,7 +1587,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -1626,7 +1672,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -1711,7 +1757,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -1796,7 +1842,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -2157,7 +2203,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -2242,7 +2288,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -2327,7 +2373,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -2412,7 +2458,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -2497,7 +2543,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -2582,7 +2628,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -2667,7 +2713,7 @@
       "font": "sans",
       "html": "<p>Text to come.</p>",
       "indent": false,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -2732,7 +2778,7 @@
       "font": "sans",
       "html": "<p>Walid Al Wawi is a Palestinian artist, writer, and cultural practitioner whose work moves between painting, performance, video, installation, and text. Rooted in more than a decade of engagement in the SWANA region, his practice interrogates the conditions of art in times of crisis, exposing sentimentalism as a mechanism through which institutional frameworks reduce Arab identity to tragedy.</p><p>Al Wawi’s practice unfolds at the intersection of performance, installation, and object-based intervention, where material is weaponised against the infrastructures that seek to contain it. His works dismantle the symbols through which authority, nationalism, and capital reproduce themselves. Rather than documenting identity, his practice performs its impossibility, staging Palestinian existence as both a refusal of imposed categories and an insistence on continuity beyond them.</p><p>Among his projects, <a href=\"/eoup\">EOUP</a> (Embassy of Unofficial Palestine) proposes an architectural installation imagining a hypothetical organisation that provides relief for Palestinian refugees outside the mandates of the PLO or UNRWA. The work combines the iconography of the Dome of the Rock with the mechanics of parachuting, creating an architectural image that identifies itself as a body of aid. Through video, audio, text, and constructed form, EOUP opens an inquiry into jurisdiction, exile, and the possibilities of unofficial spaces.</p><p>Al Wawi has been welcomed by institutions including Darat al Funun, Jameel Arts Centre, Tate Exchange, the Museum of Modern and Contemporary Art South Korea, and FIAC Art Fair, though his work insists on the limits of such spaces.</p><p>Building on this trajectory, in 2017 Al Wawi founded Samt, a virtual platform for art and research that exists primarily online through <a href=\"https://samt.co\" target=\"_blank\" rel=\"noopener\">samt.co</a>. Conceived as both a critique and an alternative to the Western-centered art educational canon, Samt challenges the political economy and hierarchical structures of the art system. By shifting the site of discourse from fixed geographies to a fluid techno-digital approach, it expands the terrain of art beyond its physical confinements.</p><p>In 2022, Samt advanced this mission with the creation of the Samt Alternative Art School (SAAS), directly confronting the Eurocentric academy, capitalist frameworks, and patriarchal dominance embedded in the historical and contemporary art canon, fostering instead a pedagogy of insurgent practice.</p>",
       "indent": true,
-      "size": "body"
+      "size": ""
      },
      "type": "text"
     }
@@ -2754,7 +2800,7 @@
     "gapM": ""
    },
    "section": "",
-   "slug": "biography",
+   "slug": "",
    "stack": [],
    "title": "Biography",
    "box": {
@@ -2768,12 +2814,14 @@
     "ml": "0",
     "maxWM": "",
     "ptM": "",
-    "prM": "",
-    "pbM": "",
+    "prM": "0",
+    "pbM": "0",
     "plM": "",
     "mlM": "0",
     "mrM": "0",
-    "shadow": "none"
+    "shadow": "none",
+    "pt": "0",
+    "pb": "0"
    },
    "mode": "card",
    "colset": {
@@ -2800,29 +2848,6 @@
    "layout": "master",
    "css": "",
    "els": [
-    {
-     "id": "rsizcy1y",
-     "type": "ptitle",
-     "col": 1,
-     "d": {
-      "x": 0,
-      "y": 0,
-      "w": 12,
-      "h": 3
-     },
-     "m": null,
-     "own": {
-      "x": 2,
-      "w": 10,
-      "xm": 1,
-      "wm": 5
-     },
-     "props": {
-      "style": "",
-      "align": "",
-      "num": false
-     }
-    },
     {
      "id": "x7sau0n0",
      "type": "menubtn",
@@ -2890,7 +2915,8 @@
     "gutter": 30,
     "gutterM": 20
    },
-   "stack": []
+   "stack": [],
+   "box": {}
   },
   "pim1q0ai": {
    "id": "pim1q0ai",
@@ -2954,7 +2980,8 @@
     "gutter": 30,
     "gutterM": 20
    },
-   "stack": []
+   "stack": [],
+   "box": {}
   },
   "mnu0sh01": {
    "id": "mnu0sh01",
@@ -2982,7 +3009,10 @@
     "shadow": "none",
     "mrM": "0",
     "mtM": "0",
-    "mbM": "0"
+    "mbM": "0",
+    "ptM": "0",
+    "pbM": "0",
+    "pl": "0"
    },
    "ownLayout": false,
    "mode": "sheet",
@@ -3140,7 +3170,10 @@
    "box": {
     "mr": "0",
     "mb": "0",
-    "mrM": "0"
+    "mrM": "0",
+    "pr": "0",
+    "prM": "0",
+    "pb": "0"
    },
    "mode": "sheet"
   },
@@ -3259,9 +3292,66 @@
    "box": {
     "mr": "0",
     "mb": "0",
-    "mrM": "0"
+    "mrM": "0",
+    "pr": "0",
+    "prM": "0"
    },
    "mode": "sheet"
+  },
+  "wt3x1lay": {
+   "id": "wt3x1lay",
+   "title": "Men",
+   "h1": "",
+   "num": "",
+   "slug": "sheet-3",
+   "section": "",
+   "desc": "",
+   "header": true,
+   "layout": "master",
+   "css": "",
+   "els": [
+    {
+     "id": "6iuppl81",
+     "type": "link",
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 4
+     },
+     "m": null,
+     "props": {
+      "text": "Index;",
+      "href": "/menu",
+      "newTab": false,
+      "style": "underline",
+      "size": "",
+      "sizeM": "",
+      "lh": "",
+      "lhM": "",
+      "ink": ""
+     },
+     "own": {
+      "x": 0,
+      "w": 4
+     }
+    }
+   ],
+   "box": {
+    "mb": "0"
+   },
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
+   }
   }
  }
 }
