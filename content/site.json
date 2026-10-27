@@ -28,7 +28,7 @@
   "gap": 0,
   "gapM": 0,
   "header": false,
-  "indent": 100,
+  "indent": 50,
   "indentM": 0,
   "labelW": 100,
   "labelWM": 88,
@@ -198,7 +198,7 @@
    "libFix": 1
   },
   "menu": false,
-  "ml": 100,
+  "ml": 50,
   "mlM": 20,
   "mono": "IBM Plex Mono",
   "ms": 15,
@@ -325,18 +325,19 @@
   "zoom": true,
   "head": "",
   "layout": {
-   "cols": 1,
+   "cols": 2,
    "align": "spread",
    "spans": [
-    12
+    6,
+    6
    ],
    "colsM": 1,
    "gutter": 30,
    "gutterM": 20
   },
-  "mt": 100,
-  "mb": 100,
-  "mr": 100,
+  "mt": 50,
+  "mb": 50,
+  "mr": 50,
   "mtM": 24,
   "mbM": 24,
   "mrM": 20,
@@ -671,9 +672,9 @@
   },
   "postBox": {
    "mt": "",
-   "card": "none",
-   "sheetBg": "none",
-   "shadow": "none",
+   "card": "",
+   "sheetBg": "",
+   "shadow": "soft",
    "fit": false,
    "cardA": "",
    "pt": "",
@@ -688,14 +689,15 @@
    "ink": ""
   },
   "postGo": {
-   "side": "left",
+   "side": "top",
    "sideM": ""
   },
   "postLayout": {
-   "cols": 1,
-   "align": "spread",
+   "cols": 2,
+   "align": "center",
    "spans": [
-    12
+    6,
+    6
    ],
    "colsM": 1,
    "gutter": 50,
