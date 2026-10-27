@@ -27,7 +27,7 @@
   "fsM": 15,
   "gap": 0,
   "gapM": 0,
-  "header": false,
+  "header": true,
   "indent": 50,
   "indentM": 0,
   "labelW": 100,
@@ -346,8 +346,8 @@
   "mt": 40,
   "mb": 30,
   "mr": 50,
-  "mtM": 24,
-  "mbM": 24,
+  "mtM": 20,
+  "mbM": 4,
   "mrM": 20,
   "blockStyles": {
    "quote": {
