@@ -479,7 +479,7 @@ var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items"
 {"title":"Biography","slug":"biography"},
 {"title":"Resume","slug":"resume"},
 {"title":"","url":"#","ext":false},
-{"title":"@walidalwaw","url":"#","ext":false}]}],"pager":false,"nav":{"icon":"text","label":"index;","openLabel":"","corner":"right","headings":true,"accordion":true,"current":"dim","title":"hide"},"sections":[{"key":"a","label":"a. art"},
+{"title":"","url":"#","ext":false}]}],"pager":false,"nav":{"icon":"text","label":"index;","openLabel":"","corner":"right","headings":true,"accordion":true,"current":"dim","title":"hide"},"sections":[{"key":"a","label":"a. art"},
 {"key":"b","label":"b. biography"},
 {"key":"c","label":"c. commentary"},
 {"key":"e","label":"e. external"}],"pages":[{"section":"","slug":"menu","num":"","title":"Menu"},
