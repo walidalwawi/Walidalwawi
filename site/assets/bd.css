@@ -1,4 +1,4 @@
-/* PUBLISHED mvr59ubs */
+/* PUBLISHED mvr5eju0 */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1507,6 +1507,78 @@ grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
 column-gap: 30px;
 }
 
+/* PAGE: EOUP */
+
+.bd-e-piq7qvfb {
+padding-bottom: 30px;
+}
+
+/* PAGE: FORBIDDEN FRUIT */
+
+.bd-e-pieogqrk {
+padding-bottom: 30px;
+}
+
+/* PAGE: ETERNITY OF SILENCE */
+
+.bd-e-pifgw1xd {
+padding-bottom: 30px;
+}
+
+/* PAGE: INAUDIBLE DIALOGUE */
+
+.bd-e-pit5b76r {
+padding-bottom: 30px;
+}
+
+/* PAGE: QIBLA */
+
+.bd-e-pixr287b {
+padding-bottom: 30px;
+}
+
+/* PAGE: PASSPORT */
+
+.bd-e-pizrqd5g {
+padding-bottom: 30px;
+}
+
+/* PAGE: WHITE SOCKS */
+
+.bd-e-pihbyuk2 {
+padding-bottom: 30px;
+}
+
+/* PAGE: CHAIR OF SALADIN */
+
+.bd-e-pi5kqxmm {
+padding-bottom: 30px;
+}
+
+/* PAGE: COFFIN */
+
+.bd-e-pi70vxwo {
+padding-bottom: 30px;
+}
+
+/* PAGE: THOBE */
+
+.bd-e-pip5tfzr {
+padding-bottom: 30px;
+}
+
+/* PAGE: GRASSHOPPER */
+
+.bd-e-pitud4lp {
+padding-bottom: 30px;
+}
+
+/* PAGE: HIDING */
+
+.bd-e-piicrcf1 {
+padding-bottom: 30px;
+}
+
 /* PAGE: ART */
 .bd-flow > .bd-e-blgart01el {
 --x: 0;
@@ -1563,6 +1635,42 @@ mix-blend-mode: multiply;
 --pimg-gap: 0px;
 --pmgap: 10px;
 --pratio: 1;
+}
+
+/* PAGE: HOW TO DESEED A WATERMELON FOR SAFE CONSUMPTION */
+
+.bd-e-pi1aasbj {
+padding-bottom: 30px;
+}
+
+/* PAGE: MILITANT IMPROVISATION: THE MILITANT CULTURAL FRONT */
+
+.bd-e-pix5disw {
+padding-bottom: 30px;
+}
+
+/* PAGE: THE MANY AND THE ONES */
+
+.bd-e-pi7p91dc {
+padding-bottom: 30px;
+}
+
+/* PAGE: SOUTH, NORTH, PALESTINE */
+
+.bd-e-picgpa8c {
+padding-bottom: 30px;
+}
+
+/* PAGE: “ISRAEL’S” CO-OPTING OF INDIGENOUS STRUGGLE. */
+
+.bd-e-pifecdj2 {
+padding-bottom: 30px;
+}
+
+/* PAGE: AL THAWABIT */
+
+.bd-e-pim8sb43 {
+padding-bottom: 30px;
 }
 
 /* LAYERS */
@@ -2317,6 +2425,66 @@ column-gap: 20px;
 grid-template-columns: minmax(0, 1fr);
 column-gap: 20px;
 }
+/* PAGE: EOUP */
+
+.bd-e-piq7qvfb {
+padding-bottom: 30px;
+}
+/* PAGE: FORBIDDEN FRUIT */
+
+.bd-e-pieogqrk {
+padding-bottom: 30px;
+}
+/* PAGE: ETERNITY OF SILENCE */
+
+.bd-e-pifgw1xd {
+padding-bottom: 30px;
+}
+/* PAGE: INAUDIBLE DIALOGUE */
+
+.bd-e-pit5b76r {
+padding-bottom: 30px;
+}
+/* PAGE: QIBLA */
+
+.bd-e-pixr287b {
+padding-bottom: 30px;
+}
+/* PAGE: PASSPORT */
+
+.bd-e-pizrqd5g {
+padding-bottom: 30px;
+}
+/* PAGE: WHITE SOCKS */
+
+.bd-e-pihbyuk2 {
+padding-bottom: 30px;
+}
+/* PAGE: CHAIR OF SALADIN */
+
+.bd-e-pi5kqxmm {
+padding-bottom: 30px;
+}
+/* PAGE: COFFIN */
+
+.bd-e-pi70vxwo {
+padding-bottom: 30px;
+}
+/* PAGE: THOBE */
+
+.bd-e-pip5tfzr {
+padding-bottom: 30px;
+}
+/* PAGE: GRASSHOPPER */
+
+.bd-e-pitud4lp {
+padding-bottom: 30px;
+}
+/* PAGE: HIDING */
+
+.bd-e-piicrcf1 {
+padding-bottom: 30px;
+}
 /* PAGE: ART */
 .bd-flow > .bd-e-blgart01el {
 --x: 0;
@@ -2382,6 +2550,36 @@ line-height: 14px;
 .bd-flow > .bd-e-e8lk4mfv {
 --x: 0;
 --w: 6;
+}
+/* PAGE: HOW TO DESEED A WATERMELON FOR SAFE CONSUMPTION */
+
+.bd-e-pi1aasbj {
+padding-bottom: 30px;
+}
+/* PAGE: MILITANT IMPROVISATION: THE MILITANT CULTURAL FRONT */
+
+.bd-e-pix5disw {
+padding-bottom: 30px;
+}
+/* PAGE: THE MANY AND THE ONES */
+
+.bd-e-pi7p91dc {
+padding-bottom: 30px;
+}
+/* PAGE: SOUTH, NORTH, PALESTINE */
+
+.bd-e-picgpa8c {
+padding-bottom: 30px;
+}
+/* PAGE: “ISRAEL’S” CO-OPTING OF INDIGENOUS STRUGGLE. */
+
+.bd-e-pifecdj2 {
+padding-bottom: 30px;
+}
+/* PAGE: AL THAWABIT */
+
+.bd-e-pim8sb43 {
+padding-bottom: 30px;
 }
 /* LAYERS */
 .bd-ly-art > .bd-panel {
