@@ -719,7 +719,7 @@
    "style": "body",
    "prevLabel": "",
    "nextLabel": "Next, ",
-   "loop": false,
+   "loop": true,
    "line": false,
    "space": 50,
    "gap": 18,
@@ -779,7 +779,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -863,7 +878,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -952,7 +982,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -1036,7 +1081,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -1120,7 +1180,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -1232,7 +1307,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -1316,7 +1406,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -1436,7 +1541,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -1520,7 +1640,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -1604,7 +1739,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -1688,7 +1838,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -2048,7 +2213,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -2132,7 +2312,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -2217,7 +2412,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -2301,7 +2511,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -2385,7 +2610,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -2469,7 +2709,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {
@@ -2553,7 +2808,22 @@
       "size": "",
       "lh": "",
       "sizeM": "",
-      "lhM": ""
+      "lhM": "",
+      "align": "left",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "gap": "",
+      "sep": "",
+      "line": false,
+      "upper": false,
+      "tracking": "",
+      "ink": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
      }
     },
     {

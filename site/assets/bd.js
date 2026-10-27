@@ -332,7 +332,15 @@ a.classList.toggle("is-current", a.getAttribute("data-id") === on);
 document.querySelectorAll(".bd-ix-crumb").forEach(function (c) {
 if (!c.bdMap) { try { c.bdMap = JSON.parse(c.getAttribute("data-crumbs")); } catch (x) { c.bdMap = {}; } }
 var cr = c.bdMap[F];
-c.textContent = cr ? cr.join(c.getAttribute("data-sep")) : "";
+c.textContent = "";
+(cr || []).forEach(function (x, i) {
+if (i) c.appendChild(document.createTextNode(c.getAttribute("data-sep")));
+var l = document.createElement("a");
+l.className = "bd-ix-c";
+l.href = "/" + x.s;
+l.textContent = x.t;
+c.appendChild(l);
+});
 });
 }
 function go(id, pop) {

@@ -1,4 +1,4 @@
-/* PUBLISHED mvr4p671 */
+/* PUBLISHED mvr4xm0k */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -826,6 +826,21 @@ transition: none;
 /* POST INFO */
 .bd-postinfo-back {
 margin-right: 0.6em;
+text-decoration: none;
+}
+.bd-postinfo.is-al-center {
+text-align: center;
+}
+.bd-postinfo.is-al-right {
+text-align: right;
+}
+.bd-postinfo.is-al-spread {
+display: flex;
+justify-content: space-between;
+}
+.bd-postinfo.has-line {
+padding-bottom: 14px;
+border-bottom: 1px solid var(--bd-rule);
 }
 
 /* QUOTE */
@@ -939,6 +954,14 @@ text-decoration: none;
 }
 .bd-ix-crumb {
 opacity: var(--ix-dim);
+}
+.bd-ix-c {
+color: inherit;
+text-decoration: none;
+}
+.bd-ix-c:hover {
+text-decoration: underline;
+text-underline-offset: 3px;
 }
 .bd-pagerbar-next {
 grid-column: 3;
