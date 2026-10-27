@@ -1,4 +1,4 @@
-/* PUBLISHED mvr4dg5a */
+/* PUBLISHED mvr4kv9y */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2099,7 +2099,7 @@ transition-duration: 1ms;
 --bd-top: 0px;
 --bd-wt: 20px;
 --bd-wr: 20px;
---bd-wb: 4px;
+--bd-wb: 0px;
 --bd-wl: 20px;
 --bd-pad: 20px;
 --bd-cols: 6;

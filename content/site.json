@@ -347,7 +347,7 @@
   "mb": 30,
   "mr": 50,
   "mtM": 20,
-  "mbM": 4,
+  "mbM": 0,
   "mrM": 20,
   "blockStyles": {
    "quote": {
@@ -2864,7 +2864,9 @@
    },
    "mode": "sheet",
    "pattern": "",
-   "postArrows": true
+   "postArrows": true,
+   "header": true,
+   "postInfo": false
   },
   "blgcom01": {
    "id": "blgcom01",
