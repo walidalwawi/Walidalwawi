@@ -351,24 +351,24 @@
    },
    "posts": {
     "titleStyle": "body",
-    "titleSize": "",
+    "titleSize": 12,
     "titleSizeM": "",
-    "titleLh": "",
+    "titleLh": 18,
     "titleLhM": "",
-    "metaStyle": "small",
-    "metaSize": "",
+    "metaStyle": "mono",
+    "metaSize": 10,
     "metaSizeM": "",
-    "metaLh": "",
+    "metaLh": 14,
     "metaLhM": "",
-    "metaGap": 8,
+    "metaGap": 10,
     "cardBg": "",
     "cardPad": 0,
     "cardPadM": "",
-    "minH": "",
-    "imgGap": 12,
+    "minH": 80,
+    "imgGap": 0,
     "imagePos": "top",
-    "ratio": "auto",
-    "hover": "dim",
+    "ratio": "1",
+    "hover": "none",
     "fTitleStyle": "heading",
     "zine": "0",
     "staple": "",
@@ -384,11 +384,13 @@
     "paperLine": "",
     "paperTilt": 0,
     "textPos": "bottom",
-    "slideDir": "up",
+    "slideDir": "down",
     "slideHover": 12,
     "slideTap": 62,
     "imgBlur": 0,
-    "imgTone": "color"
+    "imgTone": "color",
+    "imgBlend": "ink",
+    "imgBackdrop": ""
    },
    "library": {
     "book": "1",
@@ -465,150 +467,34 @@
     "name": "Main menu",
     "items": [
      {
-      "id": "zd8c3lim",
-      "type": "heading",
-      "label": "a. art"
-     },
-     {
-      "id": "ex3l657e",
+      "id": "m1",
       "type": "page",
-      "page": "q7qvfbel",
+      "page": "blgart01",
       "label": ""
      },
      {
-      "id": "e7656myd",
+      "id": "m2",
       "type": "page",
-      "page": "eogqrkvs",
+      "page": "blgcom01",
       "label": ""
      },
      {
-      "id": "5mdcfyah",
-      "type": "page",
-      "page": "fgw1xddq",
-      "label": ""
-     },
-     {
-      "id": "33sshjlw",
-      "type": "page",
-      "page": "t5b76rf0",
-      "label": ""
-     },
-     {
-      "id": "o32ica91",
-      "type": "page",
-      "page": "xr287be3",
-      "label": ""
-     },
-     {
-      "id": "1jybxj8p",
-      "type": "page",
-      "page": "zrqd5ge3",
-      "label": ""
-     },
-     {
-      "id": "j1zjyifi",
-      "type": "page",
-      "page": "hbyuk2gw",
-      "label": ""
-     },
-     {
-      "id": "t78hh1q6",
-      "type": "page",
-      "page": "5kqxmmg6",
-      "label": ""
-     },
-     {
-      "id": "ewfdqjnd",
-      "type": "page",
-      "page": "70vxwodd",
-      "label": ""
-     },
-     {
-      "id": "2zj64g1i",
-      "type": "page",
-      "page": "p5tfzre8",
-      "label": ""
-     },
-     {
-      "id": "f5llqjdu",
-      "type": "page",
-      "page": "tud4lpid",
-      "label": ""
-     },
-     {
-      "id": "ykp0iisl",
-      "type": "page",
-      "page": "icrcf1kz",
-      "label": ""
-     },
-     {
-      "id": "5gomfy07",
-      "type": "heading",
-      "label": "b. biography"
-     },
-     {
-      "id": "v2brwi48",
+      "id": "m3",
       "type": "page",
       "page": "hnb4ahmi",
       "label": ""
      },
      {
-      "id": "3y3pp237",
+      "id": "m4",
       "type": "page",
       "page": "6nqav62x",
       "label": ""
      },
      {
-      "id": "eobpedy2",
+      "id": "m5",
       "type": "page",
       "page": "qjwmrcrh",
       "label": ""
-     },
-     {
-      "id": "2no1iqp1",
-      "type": "heading",
-      "label": "c. commentary"
-     },
-     {
-      "id": "c4m992p3",
-      "type": "page",
-      "page": "1aasbjv9",
-      "label": ""
-     },
-     {
-      "id": "4rqwiz07",
-      "type": "page",
-      "page": "x5diswj0",
-      "label": ""
-     },
-     {
-      "id": "qixxmivn",
-      "type": "page",
-      "page": "7p91dczr",
-      "label": ""
-     },
-     {
-      "id": "ne3hk9s6",
-      "type": "page",
-      "page": "cgpa8ceq",
-      "label": ""
-     },
-     {
-      "id": "jb78b5zp",
-      "type": "page",
-      "page": "fecdj2r3",
-      "label": ""
-     },
-     {
-      "id": "weogixg7",
-      "type": "page",
-      "page": "m8sb43uz",
-      "label": ""
-     },
-     {
-      "id": "0e4041yq",
-      "type": "heading",
-      "label": "e. external"
      },
      {
       "id": "yq9tz2c2",
@@ -631,26 +517,29 @@
    "on": true,
    "journal": "",
    "library": "",
-   "about": "",
+   "about": "hnb4ahmi",
    "mark": "",
-   "menuColor": "#ffffff",
+   "menuColor": "#B9A27A",
    "menuAlpha": 100,
    "menuBlur": 0,
-   "menuW": 220,
+   "menuW": 200,
    "menuBand": 52,
    "menuPad": 40,
    "menuPadM": 16,
    "menuGap": 4,
    "menuGapM": 14,
    "menuAlign": "left",
-   "marker": "–",
+   "marker": ">",
    "menuEdge": false,
-   "menuStyle": "sans",
-   "indexColor": "#ffffff",
-   "indexAlpha": 100,
-   "indexBlur": 0,
-   "sliver": 0,
-   "sliverM": 0,
+   "menuStyle": "mono",
+   "aboutW": 600,
+   "aboutPad": 40,
+   "aboutPadM": 24,
+   "indexColor": "#ebebeb",
+   "indexAlpha": 30,
+   "indexBlur": 10,
+   "sliver": 130,
+   "sliverM": 14,
    "indexEdge": false,
    "ease": "paper",
    "dur": 460,
@@ -658,14 +547,15 @@
    "tilt": 0,
    "lift": true,
    "reveal": "focus",
-   "focusBlur": 0,
-   "trans": "slide"
+   "focusBlur": 5,
+   "trans": "push"
   },
   "sheets": [
    {
     "id": "menu",
-    "name": "Index",
+    "name": "Cover",
     "pages": [
+     "hnb4ahmi",
      "mnu0sh01"
     ],
     "restPage": "",
@@ -674,24 +564,24 @@
     "rest": "still",
     "peek": 200,
     "peekM": 52,
-    "sliver": 0,
-    "sliverM": 0,
-    "axis": "y",
+    "sliver": 44,
+    "sliverM": 14,
+    "axis": "x",
     "covers": "all",
     "coverPages": [],
     "color": "#ffffff",
-    "alpha": 100,
+    "alpha": 0,
     "blur": 0,
-    "shadow": "none",
+    "shadow": "soft",
     "nudge": 0,
     "dur": "",
     "box": {
      "ml": "",
-     "mr": "80%",
+     "mr": "75%",
      "mt": "",
      "mb": "",
      "mtM": "0",
-     "mbM": "86%",
+     "mbM": "85%",
      "mlM": "0",
      "mrM": "0"
     },
@@ -704,21 +594,116 @@
     "arrive": "slide",
     "main": "mnu0sh01",
     "hover": "",
-    "vc": 0,
+    "vc": 1,
     "vr": 0,
     "pin": "mnu0sh01",
     "radius": 0,
     "vcM": 0,
     "vrM": 0,
-    "mainM": "mnu0sh01"
+    "mainM": "hnb4ahmi",
+    "axisM": "y"
+   },
+   {
+    "id": "glg17d2m",
+    "name": "Sheet 3",
+    "pages": [
+     "blgart01",
+     "blgcom01"
+    ],
+    "restPage": "",
+    "edge": "left",
+    "edgeM": "top",
+    "rest": "still",
+    "peek": 200,
+    "peekM": 52,
+    "sliver": 44,
+    "sliverM": 14,
+    "axis": "y",
+    "covers": "all",
+    "coverPages": [
+     "mnu0sh01"
+    ],
+    "color": "none",
+    "alpha": 30,
+    "blur": 10,
+    "shadow": "none",
+    "nudge": 0,
+    "dur": "",
+    "box": {
+     "mt": "",
+     "mb": "",
+     "ml": "",
+     "mr": "15%",
+     "mtM": "0",
+     "mbM": "0",
+     "mlM": "0",
+     "mrM": "15%"
+    },
+    "pattern": "",
+    "patColor": "#000000",
+    "patSize": 28,
+    "patAlpha": 14,
+    "out": "peek",
+    "lv": "",
+    "arrive": "slide",
+    "main": "blgart01",
+    "hover": "",
+    "vc": 0,
+    "vr": 0,
+    "pin": "",
+    "vcM": 0,
+    "vrM": 0,
+    "mainM": "blgart01"
    }
   ],
   "pinV1": true,
-  "followV1": true
+  "followV1": true,
+  "glass": {
+   "menu": "",
+   "at": "bottom",
+   "color": "",
+   "alpha": 92,
+   "blur": 8
+  },
+  "postBox": {
+   "mt": "10%",
+   "card": "none",
+   "sheetBg": "none",
+   "shadow": "soft",
+   "fit": false,
+   "cardA": "",
+   "pt": "5%",
+   "pr": "5%",
+   "pl": "10%",
+   "mr": "5%",
+   "ml": "-5%",
+   "plM": "30",
+   "mb": "4%",
+   "pb": "5%",
+   "maxW": "",
+   "ink": ""
+  },
+  "postGo": {
+   "side": "left",
+   "sideM": ""
+  },
+  "postLayout": {
+   "cols": 2,
+   "align": "spread",
+   "spans": [
+    5,
+    7
+   ],
+   "colsM": 1,
+   "gutter": 50,
+   "gutterM": 24
+  }
  },
  "order": [
   "flw46tjo",
   "mnu0sh01",
+  "blgart01",
+  "blgcom01",
   "q7qvfbel",
   "eogqrkvs",
   "fgw1xddq",
@@ -748,6 +733,30 @@
    "desc": "",
    "els": [
     {
+     "id": "pifecdj2",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
+    {
      "d": {
       "h": 4,
       "w": 12,
@@ -769,8 +778,8 @@
    "h1": "",
    "header": true,
    "id": "fecdj2r3",
-   "num": "c.5",
-   "section": "c",
+   "num": "",
+   "section": "",
    "slug": "israels-co-opting",
    "title": "“Israel's” co opting of indigenous struggle.",
    "layout": "master",
@@ -786,18 +795,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgcom01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "hbyuk2gw": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pihbyuk2",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -825,8 +868,8 @@
    "h1": "",
    "header": true,
    "id": "hbyuk2gw",
-   "num": "a. 7",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "white-socks",
    "title": "White Socks",
    "layout": "master",
@@ -842,18 +885,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "icrcf1kz": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "piicrcf1",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -876,8 +953,8 @@
    "h1": "",
    "header": true,
    "id": "icrcf1kz",
-   "num": "a. 12",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "hiding",
    "title": "Hiding",
    "layout": "master",
@@ -893,18 +970,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "tud4lpid": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pitud4lp",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -927,8 +1038,8 @@
    "h1": "",
    "header": true,
    "id": "tud4lpid",
-   "num": "a. 11",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "grasshopper",
    "title": "Grasshopper",
    "layout": "master",
@@ -944,18 +1055,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "q7qvfbel": {
    "css": "",
    "desc": "EOUP. Paper Architecture / Installation. Commissioned by The Qattan Art Foundation for YAYA 2018.",
    "els": [
+    {
+     "id": "piq7qvfb",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 1,
@@ -1051,7 +1196,7 @@
    "id": "q7qvfbel",
    "kind": "page",
    "layout": "master",
-   "num": "a.1",
+   "num": "",
    "pin": {
     "place": "top",
     "fixed": false,
@@ -1062,16 +1207,26 @@
     "gap": "",
     "gapM": ""
    },
-   "section": "a",
+   "section": "",
    "slug": "eoup",
    "stack": [],
    "title": "EOUP",
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": true,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "qjwmrcrh": {
@@ -1157,7 +1312,7 @@
    "id": "qjwmrcrh",
    "kind": "page",
    "layout": "master",
-   "num": "b.3",
+   "num": "",
    "pin": {
     "place": "top",
     "fixed": false,
@@ -1168,22 +1323,40 @@
     "gap": "",
     "gapM": ""
    },
-   "section": "b",
+   "section": "",
    "slug": "",
    "stack": [],
    "title": "Resignation",
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
-   }
+   "box": {}
   },
   "p5tfzre8": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pip5tfzr",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1206,8 +1379,8 @@
    "h1": "",
    "header": true,
    "id": "p5tfzre8",
-   "num": "a. 10",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "thobe",
    "title": "Thobe",
    "layout": "master",
@@ -1223,18 +1396,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "x5diswj0": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pix5disw",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1257,8 +1464,8 @@
    "h1": "",
    "header": true,
    "id": "x5diswj0",
-   "num": "c.2",
-   "section": "c",
+   "num": "",
+   "section": "",
    "slug": "militant-improvisation",
    "title": "Militant Improvisation: The Militant Cultural Front",
    "layout": "master",
@@ -1274,18 +1481,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgcom01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "t5b76rf0": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pit5b76r",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1308,8 +1549,8 @@
    "h1": "",
    "header": true,
    "id": "t5b76rf0",
-   "num": "a. 4",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "inaudible-dialogue",
    "title": "Inaudible Dialogue",
    "layout": "master",
@@ -1325,18 +1566,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "xr287be3": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pixr287b",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1359,8 +1634,8 @@
    "h1": "",
    "header": true,
    "id": "xr287be3",
-   "num": "a. 5",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "qibla",
    "title": "Qibla",
    "layout": "master",
@@ -1376,18 +1651,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "70vxwodd": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pi70vxwo",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1410,8 +1719,8 @@
    "h1": "",
    "header": true,
    "id": "70vxwodd",
-   "num": "a. 9",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "coffin",
    "title": "Coffin",
    "layout": "master",
@@ -1427,18 +1736,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "1aasbjv9": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pi1aasbj",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1461,8 +1804,8 @@
    "h1": "",
    "header": true,
    "id": "1aasbjv9",
-   "num": "c.1",
-   "section": "c",
+   "num": "",
+   "section": "",
    "slug": "how-to-deseed-a-watermelon",
    "title": "How To Deseed A Watermelon For Safe Consumption",
    "layout": "master",
@@ -1478,12 +1821,22 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgcom01",
+   "date": "",
+   "excerpt": "",
+   "featured": true,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "6nqav62x": {
@@ -1745,7 +2098,7 @@
    "id": "6nqav62x",
    "kind": "page",
    "layout": "master",
-   "num": "b.2",
+   "num": "",
    "pin": {
     "place": "top",
     "fixed": false,
@@ -1756,22 +2109,40 @@
     "gap": "",
     "gapM": ""
    },
-   "section": "b",
+   "section": "",
    "slug": "resume",
    "stack": [],
    "title": "Resume",
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
-   }
+   "box": {}
   },
   "7p91dczr": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pi7p91dc",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1794,8 +2165,8 @@
    "h1": "",
    "header": true,
    "id": "7p91dczr",
-   "num": "c.3",
-   "section": "c",
+   "num": "",
+   "section": "",
    "slug": "the-many-and-the-ones",
    "title": "The Many And The Ones",
    "layout": "master",
@@ -1811,18 +2182,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgcom01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "cgpa8ceq": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "picgpa8c",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1845,8 +2250,8 @@
    "h1": "",
    "header": true,
    "id": "cgpa8ceq",
-   "num": "c.4",
-   "section": "c",
+   "num": "",
+   "section": "",
    "slug": "south-north-palestine",
    "title": "South, North, Palestine",
    "layout": "master",
@@ -1862,18 +2267,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgcom01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "zrqd5ge3": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pizrqd5g",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1896,8 +2335,8 @@
    "h1": "",
    "header": true,
    "id": "zrqd5ge3",
-   "num": "a. 6",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "passport",
    "title": "Passport",
    "layout": "master",
@@ -1913,18 +2352,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "fgw1xddq": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pifgw1xd",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1947,8 +2420,8 @@
    "h1": "",
    "header": true,
    "id": "fgw1xddq",
-   "num": "a. 3",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "eternity-of-silence",
    "title": "Eternity Of Silence",
    "layout": "master",
@@ -1964,18 +2437,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "eogqrkvs": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pieogqrk",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -1998,8 +2505,8 @@
    "h1": "",
    "header": true,
    "id": "eogqrkvs",
-   "num": "a. 2",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "forbidden-fruit",
    "title": "Forbidden Fruit",
    "layout": "master",
@@ -2015,18 +2522,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "m8sb43uz": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pim8sb43",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -2049,8 +2590,8 @@
    "h1": "",
    "header": true,
    "id": "m8sb43uz",
-   "num": "c.6",
-   "section": "c",
+   "num": "",
+   "section": "",
    "slug": "al-thawabit",
    "title": "Al Thawabit",
    "layout": "master",
@@ -2066,18 +2607,52 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgcom01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "5kqxmmg6": {
    "css": "",
    "desc": "",
    "els": [
+    {
+     "id": "pi5kqxmm",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
     {
      "d": {
       "h": 4,
@@ -2100,8 +2675,8 @@
    "h1": "",
    "header": true,
    "id": "5kqxmmg6",
-   "num": "a. 8",
-   "section": "a",
+   "num": "",
+   "section": "",
    "slug": "chair-of-saladin",
    "title": "Chair Of Saladin",
    "layout": "master",
@@ -2117,12 +2692,22 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {
-    "ml": "24%",
-    "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+   "box": {},
+   "parent": "blgart01",
+   "date": "",
+   "excerpt": "",
+   "featured": false,
+   "ownLayout": false,
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "hnb4ahmi": {
@@ -2157,7 +2742,7 @@
    "id": "hnb4ahmi",
    "kind": "page",
    "layout": "master",
-   "num": "b.1",
+   "num": "",
    "pin": {
     "place": "top",
     "fixed": false,
@@ -2168,16 +2753,39 @@
     "gap": "",
     "gapM": ""
    },
-   "section": "b",
+   "section": "",
    "slug": "biography",
    "stack": [],
    "title": "Biography",
    "box": {
-    "ml": "24%",
+    "card": "",
+    "mt": "0",
+    "mb": "0",
+    "mbM": "0",
+    "mtM": "5%",
+    "mr": "5%",
+    "radius": 0,
+    "ml": "0",
+    "maxWM": "",
+    "ptM": "",
+    "prM": "",
+    "pbM": "",
+    "plM": "",
     "mlM": "0",
-    "mtM": "14%",
-    "mr": "6%",
-    "mrM": "5%"
+    "mrM": "0",
+    "shadow": "none"
+   },
+   "mode": "card",
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     4,
+     8
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
    }
   },
   "flw46tjo": {
@@ -2371,13 +2979,10 @@
    },
    "box": {
     "ml": "0",
-    "mt": "0",
-    "mb": "0",
     "shadow": "none",
     "mrM": "0",
     "mtM": "0",
-    "mbM": "0",
-    "mlM": "0"
+    "mbM": "0"
    },
    "ownLayout": false,
    "mode": "sheet",
@@ -2396,18 +3001,267 @@
      "m": null,
      "props": {
       "menu": "main",
-      "marker": "–",
+      "marker": "–––",
       "align": "left",
-      "style": "sans",
-      "gap": 6,
-      "gapM": 6,
+      "style": "mono",
+      "gap": 40,
+      "gapM": 14,
       "pad": 40,
-      "padM": 20,
+      "padM": 16,
       "mark": ""
      },
      "own": {}
     }
-   ]
+   ],
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     5,
+     7
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
+   }
+  },
+  "blgart01": {
+   "id": "blgart01",
+   "title": "Art",
+   "h1": "",
+   "num": "",
+   "slug": "art",
+   "section": "",
+   "desc": "Works.",
+   "layout": "master",
+   "css": "",
+   "els": [
+    {
+     "id": "blgart01el",
+     "type": "posts",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 30
+     },
+     "m": null,
+     "props": {
+      "blog": "",
+      "layout": "grid",
+      "cols": 3,
+      "colsM": 1,
+      "gap": 50,
+      "gapM": 24,
+      "rowGap": 50,
+      "rowGapM": 24,
+      "sort": "newest",
+      "limit": "",
+      "featured": "none",
+      "fLayout": "side",
+      "fTitleStyle": "",
+      "showImage": true,
+      "showTitle": true,
+      "showDate": false,
+      "showMeta": true,
+      "showExcerpt": false,
+      "imagePos": "top",
+      "ratio": "1",
+      "imgGap": "",
+      "cardBg": "",
+      "cardPad": "",
+      "cardPadM": "",
+      "minH": "",
+      "titleStyle": "",
+      "titleSize": "",
+      "titleLh": "",
+      "metaStyle": "",
+      "metaSize": "",
+      "metaLh": "",
+      "metaGap": "",
+      "hover": "dim",
+      "titleSizeM": "",
+      "titleLhM": "",
+      "metaSizeM": "",
+      "metaLhM": "",
+      "zine": "",
+      "staple": "",
+      "pageBg": "",
+      "look": "",
+      "paperBg": "#e3e4ec",
+      "paperInk": "",
+      "paperAlpha": "",
+      "paperFrost": "",
+      "paperPad": "",
+      "paperPadM": "",
+      "paperInset": "",
+      "paperLine": "",
+      "paperTilt": "",
+      "textPos": "top",
+      "slideDir": "down",
+      "slideHover": "",
+      "slideTap": "",
+      "imgBlur": "",
+      "imgTone": "",
+      "imgBlend": "ink",
+      "imgBackdrop": ""
+     },
+     "own": {
+      "x": 0,
+      "w": 12
+     }
+    }
+   ],
+   "ownLayout": true,
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
+   },
+   "colset": {
+    "cols": 1,
+    "align": "spread",
+    "spans": [
+     12
+    ],
+    "colsM": 1,
+    "gutter": 30,
+    "gutterM": 20
+   },
+   "blog": true,
+   "box": {
+    "mr": "0",
+    "mb": "0",
+    "mrM": "0"
+   },
+   "mode": "sheet"
+  },
+  "blgcom01": {
+   "id": "blgcom01",
+   "title": "Commentary",
+   "h1": "",
+   "num": "",
+   "slug": "commentary",
+   "section": "",
+   "desc": "Essays and commentary.",
+   "layout": "master",
+   "css": "",
+   "els": [
+    {
+     "id": "blgcom01el",
+     "type": "posts",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 30
+     },
+     "m": null,
+     "props": {
+      "blog": "",
+      "layout": "grid",
+      "cols": 3,
+      "colsM": 1,
+      "gap": 50,
+      "gapM": 24,
+      "rowGap": 50,
+      "rowGapM": 24,
+      "sort": "newest",
+      "limit": "",
+      "featured": "none",
+      "fLayout": "side",
+      "fTitleStyle": "",
+      "showImage": true,
+      "showTitle": true,
+      "showDate": false,
+      "showMeta": true,
+      "showExcerpt": false,
+      "imagePos": "top",
+      "ratio": "1",
+      "imgGap": "",
+      "cardBg": "",
+      "cardPad": "",
+      "cardPadM": "",
+      "minH": "",
+      "titleStyle": "",
+      "titleSize": "",
+      "titleLh": "",
+      "metaStyle": "",
+      "metaSize": "",
+      "metaLh": "",
+      "metaGap": "",
+      "hover": "dim",
+      "titleSizeM": "",
+      "titleLhM": "",
+      "metaSizeM": "",
+      "metaLhM": "",
+      "zine": "",
+      "staple": "",
+      "pageBg": "",
+      "look": "",
+      "paperBg": "#e3e4ec",
+      "paperInk": "",
+      "paperAlpha": "",
+      "paperFrost": "",
+      "paperPad": "",
+      "paperPadM": "",
+      "paperInset": "",
+      "paperLine": "",
+      "paperTilt": "",
+      "textPos": "top",
+      "slideDir": "down",
+      "slideHover": "",
+      "slideTap": "",
+      "imgBlur": "",
+      "imgTone": "",
+      "imgBlend": "ink",
+      "imgBackdrop": ""
+     },
+     "own": {
+      "x": 0,
+      "w": 12
+     }
+    }
+   ],
+   "ownLayout": true,
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
+   },
+   "colset": {
+    "cols": 1,
+    "align": "spread",
+    "spans": [
+     12
+    ],
+    "colsM": 1,
+    "gutter": 30,
+    "gutterM": 20
+   },
+   "blog": true,
+   "box": {
+    "mr": "0",
+    "mb": "0",
+    "mrM": "0"
+   },
+   "mode": "sheet"
   }
  }
 }
