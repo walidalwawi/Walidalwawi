@@ -1,4 +1,4 @@
-/* PUBLISHED mvr2n35o */
+/* PUBLISHED mvr2o32q */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1479,6 +1479,10 @@ height: 22px;
 grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
 column-gap: 30px;
 }
+.bd-cols.bd-cl-posts {
+grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
+column-gap: 30px;
+}
 
 /* PAGE: ART */
 .bd-flow > .bd-e-blgart01el {
@@ -2273,6 +2277,10 @@ margin-top: 5px;
 }
 /* COLUMNS */
 .bd-main .bd-cols {
+grid-template-columns: minmax(0, 1fr);
+column-gap: 20px;
+}
+.bd-cols.bd-cl-posts {
 grid-template-columns: minmax(0, 1fr);
 column-gap: 20px;
 }
