@@ -10,7 +10,7 @@
   },
   "cols": 12,
   "colsM": 6,
-  "css": "",
+  "css": ".bd-e-pi1aasbj span {\ntext-align: left;\n}\n.bd-e-pi1aasbj {\ntext-align: right;\n}\n",
   "externals": [
    {
     "section": "e",

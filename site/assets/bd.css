@@ -1,4 +1,4 @@
-/* PUBLISHED mvr5eju0 */
+/* PUBLISHED mvr5gwnw */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2219,6 +2219,14 @@ transform: none;
 .bd-ly-track {
 transition-duration: 1ms;
 }
+}
+
+/* CUSTOM */
+.bd-e-pi1aasbj span {
+text-align: left;
+}
+.bd-e-pi1aasbj {
+text-align: right;
 }
 
 /* MOBILE */
