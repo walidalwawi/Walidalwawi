@@ -506,7 +506,7 @@ var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items"
 {"title":"","url":"#","ext":false}]}],"pager":false,"nav":{"icon":"text","label":"index;","openLabel":"","corner":"right","headings":true,"accordion":true,"current":"dim","title":"hide"},"sections":[{"key":"a","label":"a. art"},
 {"key":"b","label":"b. biography"},
 {"key":"c","label":"c. commentary"},
-{"key":"e","label":"e. external"}],"pages":[{"section":"","slug":"menu","num":"","title":"Menu"},
+{"key":"e","label":"e. external"}],"pages":[{"section":"","slug":"menu","num":"","title":"–"},
 {"section":"","slug":"eoup","num":"","title":"EOUP"},
 {"section":"","slug":"forbidden-fruit","num":"","title":"Forbidden Fruit"},
 {"section":"","slug":"eternity-of-silence","num":"","title":"Eternity Of Silence"},
@@ -530,7 +530,7 @@ var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items"
 {"section":"","slug":"south-north-palestine","num":"","title":"South, North, Palestine"},
 {"section":"","slug":"israels-co-opting","num":"","title":"“Israel’s” Co-Opting Of Indigenous Struggle."},
 {"section":"","slug":"al-thawabit","num":"","title":"Al Thawabit"},
-{"section":"","slug":"sheet-3","num":"","title":"Index"}],"externals":[{"section":"e","title":"Samt for Art and Research","url":"https://samt.co"},
+{"section":"","slug":"sheet-3","num":"","title":"Walid Al Wawi"}],"externals":[{"section":"e","title":"Samt for Art and Research","url":"https://samt.co"},
 {"section":"e","title":"@walidalwawi","url":"https://www.instagram.com/walidalwawi/"}],"gDur":450};
 
 /* CHROME */
