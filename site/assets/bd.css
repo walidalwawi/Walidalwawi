@@ -1,4 +1,4 @@
-/* PUBLISHED mvr3t8vq */
+/* PUBLISHED mvr3u1js */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -11,12 +11,12 @@
 --bd-sans: "Arial", "Helvetica Neue", Arial, sans-serif;
 --bd-mono: "IBM Plex Mono", Menlo, Consolas, monospace;
 --bd-w: 100%;
---bd-wt: 50px;
+--bd-wt: 40px;
 --bd-wr: 50px;
---bd-wb: 50px;
+--bd-wb: 30px;
 --bd-wl: 50px;
 --bd-pad: 50px;
---bd-top: 25px;
+--bd-top: 20px;
 --bd-cols: 12;
 --bd-row: 50px;
 --bd-gap: 0px;
