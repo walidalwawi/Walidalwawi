@@ -326,7 +326,7 @@
   "head": "",
   "layout": {
    "cols": 1,
-   "align": "center",
+   "align": "spread",
    "spans": [
     12
    ],
@@ -654,10 +654,10 @@
     "out": "peek",
     "lv": "",
     "arrive": "slide",
-    "main": "mnu0sh01",
+    "main": "wt3x1lay",
     "hover": "",
     "vc": 1,
-    "vr": 0,
+    "vr": 1,
     "pin": "wt3x1lay",
     "radius": 0,
     "vcM": 0,
@@ -698,11 +698,10 @@
    "sideM": ""
   },
   "postLayout": {
-   "cols": 2,
+   "cols": 1,
    "align": "spread",
    "spans": [
-    5,
-    7
+    12
    ],
    "colsM": 1,
    "gutter": 50,

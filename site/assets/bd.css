@@ -1,4 +1,4 @@
-/* PUBLISHED mvqzt7sh */
+/* PUBLISHED mvqzwkh1 */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -10,7 +10,7 @@
 --bd-rule: #ffffff;
 --bd-sans: "Arial", "Helvetica Neue", Arial, sans-serif;
 --bd-mono: "IBM Plex Mono", Menlo, Consolas, monospace;
---bd-w: 750px;
+--bd-w: 100%;
 --bd-wt: 100px;
 --bd-wr: 100px;
 --bd-wb: 100px;
@@ -1439,10 +1439,6 @@ margin-top: 5px;
 grid-template-columns: minmax(0, 12fr);
 column-gap: 30px;
 }
-.bd-cols.bd-cl-posts {
-grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
-column-gap: 50px;
-}
 
 /* PAGE: ART */
 .bd-flow > .bd-e-blgart01el {
@@ -2271,10 +2267,6 @@ margin-top: 5px;
 .bd-main .bd-cols {
 grid-template-columns: minmax(0, 1fr);
 column-gap: 20px;
-}
-.bd-cols.bd-cl-posts {
-grid-template-columns: minmax(0, 1fr);
-column-gap: 24px;
 }
 /* PAGE: ART */
 .bd-flow > .bd-e-blgart01el {
