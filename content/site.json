@@ -650,7 +650,7 @@
     "color": "#ffffff",
     "alpha": 60,
     "blur": 10,
-    "shadow": "soft",
+    "shadow": "none",
     "nudge": 0,
     "dur": "",
     "box": {
@@ -694,7 +694,7 @@
   "postBox": {},
   "postGo": {
    "side": "top",
-   "sideM": ""
+   "sideM": "top"
   },
   "postLayout": {
    "cols": 2,
@@ -734,7 +734,7 @@
    "nextLabel": "Next, ",
    "loop": true,
    "line": false,
-   "space": 50,
+   "space": 30,
    "gap": 18,
    "size": 22,
    "ink": ""
