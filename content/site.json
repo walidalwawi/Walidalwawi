@@ -2122,7 +2122,8 @@
       "indent": true,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "col": 2
     }
    ],
    "h1": "",
@@ -2612,7 +2613,8 @@
       "indent": true,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "col": 2
     }
    ],
    "h1": "",
