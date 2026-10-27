@@ -310,6 +310,11 @@ break;
 root.querySelectorAll(".bd-ly-a[data-id]").forEach(function (a) {
 a.classList.toggle("is-current", a.getAttribute("data-id") === on);
 });
+document.querySelectorAll(".bd-ix-crumb").forEach(function (c) {
+if (!c.bdMap) { try { c.bdMap = JSON.parse(c.getAttribute("data-crumbs")); } catch (x) { c.bdMap = {}; } }
+var cr = c.bdMap[F];
+c.textContent = cr ? cr.join(c.getAttribute("data-sep")) : "";
+});
 }
 function go(id, pop) {
 var f = where(id);
@@ -498,13 +503,13 @@ var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items"
 {"section":"","slug":"new-post","num":"","title":"New post"},
 {"section":"","slug":"","num":"","title":"Art"},
 {"section":"","slug":"commentary","num":"","title":"Commentary"},
-{"section":"","slug":"biography","num":"","title":"Biography"},
-{"section":"","slug":"resume","num":"","title":"Resume"},
+{"section":"b","slug":"biography","num":"","title":"Biography"},
+{"section":"b","slug":"resume","num":"","title":"Resume"},
 {"section":"","slug":"how-to-deseed-a-watermelon","num":"","title":"How To Deseed A Watermelon For Safe Consumption"},
 {"section":"","slug":"militant-improvisation","num":"","title":"Militant Improvisation: The Militant Cultural Front"},
 {"section":"","slug":"the-many-and-the-ones","num":"","title":"The Many And The Ones"},
 {"section":"","slug":"south-north-palestine","num":"","title":"South, North, Palestine"},
-{"section":"","slug":"israels-co-opting","num":"","title":"“Israel's” co opting of indigenous struggle."},
+{"section":"","slug":"israels-co-opting","num":"","title":"“Israel’s” Co-Opting Of Indigenous Struggle."},
 {"section":"","slug":"al-thawabit","num":"","title":"Al Thawabit"},
 {"section":"","slug":"sheet-3","num":"","title":"Index"}],"externals":[{"section":"e","title":"Samt for Art and Research","url":"https://samt.co"},
 {"section":"e","title":"@walidalwawi","url":"https://www.instagram.com/walidalwawi/"}],"gDur":450};

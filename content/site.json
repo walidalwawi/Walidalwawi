@@ -146,6 +146,14 @@
      "space": "",
      "spaceM": ""
     },
+    "indexlink": {
+     "x": 0,
+     "w": 12,
+     "xm": 0,
+     "wm": 6,
+     "space": "",
+     "spaceM": ""
+    },
     "pager": {
      "x": 0,
      "w": 12,
@@ -2009,7 +2017,7 @@
     "gap": "",
     "gapM": ""
    },
-   "section": "",
+   "section": "b",
    "slug": "resume",
    "stack": [],
    "title": "Resume",
@@ -2648,7 +2656,7 @@
     "gap": "",
     "gapM": ""
    },
-   "section": "",
+   "section": "b",
    "slug": "biography",
    "stack": [],
    "title": "Biography",
