@@ -325,10 +325,11 @@
   "zoom": true,
   "head": "",
   "layout": {
-   "cols": 1,
+   "cols": 2,
    "align": "spread",
    "spans": [
-    12
+    6,
+    6
    ],
    "colsM": 1,
    "gutter": 30,
