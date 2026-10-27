@@ -23,7 +23,7 @@
     "url": "https://www.instagram.com/walidalwawi/"
    }
   ],
-  "fs": 15,
+  "fs": 12,
   "fsM": 15,
   "gap": 0,
   "gapM": 0,
@@ -230,7 +230,7 @@
   "pad": 100,
   "pager": false,
   "row": 50,
-  "sans": "Hanken Grotesk",
+  "sans": "Arial",
   "sections": [
    {
     "key": "a",
@@ -253,10 +253,10 @@
   "styles": {
    "body": {
     "font": "sans",
-    "size": 15,
-    "lh": 20,
-    "sizeM": 15,
-    "lhM": 20,
+    "size": 12,
+    "lh": 18,
+    "sizeM": 12,
+    "lhM": 18,
     "weight": "400",
     "italic": false,
     "textCase": "none",
@@ -264,11 +264,11 @@
     "color": ""
    },
    "caption": {
-    "font": "mono",
-    "size": 15,
-    "lh": 20,
-    "sizeM": 15,
-    "lhM": 20,
+    "font": "sans",
+    "size": 12,
+    "lh": 18,
+    "sizeM": 12,
+    "lhM": 18,
     "weight": 400,
     "italic": false,
     "textCase": "none",
@@ -277,10 +277,10 @@
    },
    "heading": {
     "font": "sans",
-    "size": 21.8,
-    "lh": 26,
-    "sizeM": 21.8,
-    "lhM": 26,
+    "size": 12,
+    "lh": 18,
+    "sizeM": 12,
+    "lhM": 18,
     "weight": 400,
     "italic": false,
     "textCase": "none",
@@ -314,7 +314,7 @@
   },
   "top": 50,
   "w": 750,
-  "zoom": false,
+  "zoom": true,
   "head": "",
   "layout": {
    "cols": 1,
@@ -626,10 +626,99 @@
      }
     ]
    }
-  ]
+  ],
+  "layers": {
+   "on": true,
+   "journal": "",
+   "library": "",
+   "about": "",
+   "mark": "",
+   "menuColor": "#ffffff",
+   "menuAlpha": 100,
+   "menuBlur": 0,
+   "menuW": 220,
+   "menuBand": 52,
+   "menuPad": 40,
+   "menuPadM": 16,
+   "menuGap": 4,
+   "menuGapM": 14,
+   "menuAlign": "left",
+   "marker": "–",
+   "menuEdge": false,
+   "menuStyle": "sans",
+   "indexColor": "#ffffff",
+   "indexAlpha": 100,
+   "indexBlur": 0,
+   "sliver": 0,
+   "sliverM": 0,
+   "indexEdge": false,
+   "ease": "paper",
+   "dur": 460,
+   "menuDur": 460,
+   "tilt": 0,
+   "lift": true,
+   "reveal": "focus",
+   "focusBlur": 0,
+   "trans": "slide"
+  },
+  "sheets": [
+   {
+    "id": "menu",
+    "name": "Index",
+    "pages": [
+     "mnu0sh01"
+    ],
+    "restPage": "",
+    "edge": "left",
+    "edgeM": "top",
+    "rest": "still",
+    "peek": 200,
+    "peekM": 52,
+    "sliver": 0,
+    "sliverM": 0,
+    "axis": "y",
+    "covers": "all",
+    "coverPages": [],
+    "color": "#ffffff",
+    "alpha": 100,
+    "blur": 0,
+    "shadow": "none",
+    "nudge": 0,
+    "dur": "",
+    "box": {
+     "ml": "",
+     "mr": "80%",
+     "mt": "",
+     "mb": "",
+     "mtM": "0",
+     "mbM": "86%",
+     "mlM": "0",
+     "mrM": "0"
+    },
+    "pattern": "",
+    "patColor": "#000000",
+    "patSize": 28,
+    "patAlpha": 14,
+    "out": "peek",
+    "lv": "",
+    "arrive": "slide",
+    "main": "mnu0sh01",
+    "hover": "",
+    "vc": 0,
+    "vr": 0,
+    "pin": "mnu0sh01",
+    "radius": 0,
+    "vcM": 0,
+    "vrM": 0,
+    "mainM": "mnu0sh01"
+   }
+  ],
+  "pinV1": true,
+  "followV1": true
  },
  "order": [
   "flw46tjo",
+  "mnu0sh01",
   "q7qvfbel",
   "eogqrkvs",
   "fgw1xddq",
@@ -696,6 +785,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "hbyuk2gw": {
@@ -745,6 +841,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "icrcf1kz": {
@@ -789,6 +892,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "tud4lpid": {
@@ -833,6 +943,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "q7qvfbel": {
@@ -948,7 +1065,14 @@
    "section": "a",
    "slug": "eoup",
    "stack": [],
-   "title": "EOUP"
+   "title": "EOUP",
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
+   }
   },
   "qjwmrcrh": {
    "css": "",
@@ -1047,7 +1171,14 @@
    "section": "b",
    "slug": "",
    "stack": [],
-   "title": "Resignation"
+   "title": "Resignation",
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
+   }
   },
   "p5tfzre8": {
    "css": "",
@@ -1091,6 +1222,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "x5diswj0": {
@@ -1135,6 +1273,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "t5b76rf0": {
@@ -1179,6 +1324,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "xr287be3": {
@@ -1223,6 +1375,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "70vxwodd": {
@@ -1267,6 +1426,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "1aasbjv9": {
@@ -1311,6 +1477,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "6nqav62x": {
@@ -1586,7 +1759,14 @@
    "section": "b",
    "slug": "resume",
    "stack": [],
-   "title": "Resume"
+   "title": "Resume",
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
+   }
   },
   "7p91dczr": {
    "css": "",
@@ -1630,6 +1810,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "cgpa8ceq": {
@@ -1674,6 +1861,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "zrqd5ge3": {
@@ -1718,6 +1912,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "fgw1xddq": {
@@ -1762,6 +1963,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "eogqrkvs": {
@@ -1806,6 +2014,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "m8sb43uz": {
@@ -1850,6 +2065,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "5kqxmmg6": {
@@ -1894,6 +2116,13 @@
     "hM": "",
     "gap": "",
     "gapM": ""
+   },
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
    }
   },
   "hnb4ahmi": {
@@ -1942,7 +2171,14 @@
    "section": "b",
    "slug": "biography",
    "stack": [],
-   "title": "Biography"
+   "title": "Biography",
+   "box": {
+    "ml": "24%",
+    "mlM": "0",
+    "mtM": "14%",
+    "mr": "6%",
+    "mrM": "5%"
+   }
   },
   "flw46tjo": {
    "id": "flw46tjo",
@@ -2111,6 +2347,67 @@
     "gutterM": 20
    },
    "stack": []
+  },
+  "mnu0sh01": {
+   "id": "mnu0sh01",
+   "title": "Menu",
+   "h1": "",
+   "num": "",
+   "slug": "menu",
+   "section": "",
+   "desc": "",
+   "layout": "master",
+   "kind": "page",
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
+   },
+   "box": {
+    "ml": "0",
+    "mt": "0",
+    "mb": "0",
+    "shadow": "none",
+    "mrM": "0",
+    "mtM": "0",
+    "mbM": "0",
+    "mlM": "0"
+   },
+   "ownLayout": false,
+   "mode": "sheet",
+   "css": "",
+   "header": false,
+   "els": [
+    {
+     "id": "mnu0el01",
+     "type": "sheetmenu",
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 6
+     },
+     "m": null,
+     "props": {
+      "menu": "main",
+      "marker": "–",
+      "align": "left",
+      "style": "sans",
+      "gap": 6,
+      "gapM": 6,
+      "pad": 40,
+      "padM": 20,
+      "mark": ""
+     },
+     "own": {}
+    }
+   ]
   }
  }
 }
