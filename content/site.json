@@ -3135,7 +3135,9 @@
    "pattern": "",
    "postArrows": true,
    "header": true,
-   "postInfo": false
+   "postInfo": false,
+   "titleMode": "num",
+   "postTitleMode": "both"
   },
   "blgcom01": {
    "id": "blgcom01",
@@ -3253,7 +3255,9 @@
     "card": "#ffffff"
    },
    "mode": "sheet",
-   "postArrows": true
+   "postArrows": true,
+   "titleMode": "num",
+   "postTitleMode": "both"
   },
   "wt3x1lay": {
    "id": "wt3x1lay",
