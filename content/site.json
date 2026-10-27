@@ -317,8 +317,8 @@
    },
    "small": {
     "font": "sans",
-    "size": 15,
-    "lh": 20,
+    "size": 12,
+    "lh": 18,
     "sizeM": 15,
     "lhM": 20,
     "weight": 400,
@@ -741,7 +741,6 @@
   "p5tfzre8",
   "tud4lpid",
   "icrcf1kz",
-  "axu2zvbx",
   "blgart01",
   "blgcom01",
   "hnb4ahmi",
@@ -3036,123 +3035,6 @@
     "gapM": ""
    },
    "mode": "sheet"
-  },
-  "axu2zvbx": {
-   "id": "axu2zvbx",
-   "title": "New post",
-   "h1": "",
-   "num": "",
-   "slug": "new-post",
-   "section": "",
-   "desc": "",
-   "header": true,
-   "layout": "master",
-   "css": "",
-   "els": [
-    {
-     "id": "9vycy8zw",
-     "type": "postinfo",
-     "col": 1,
-     "d": {
-      "x": 0,
-      "y": 0,
-      "w": 12,
-      "h": 3
-     },
-     "m": null,
-     "props": {
-      "back": true,
-      "backLabel": "<",
-      "date": false,
-      "words": true,
-      "time": true,
-      "style": "",
-      "size": "",
-      "lh": "",
-      "sizeM": "",
-      "lhM": ""
-     }
-    },
-    {
-     "id": "rzqflxfx",
-     "type": "text",
-     "col": 1,
-     "d": {
-      "x": 0,
-      "y": 0,
-      "w": 12,
-      "h": 8
-     },
-     "m": null,
-     "props": {
-      "html": "<p>Write here.</p>",
-      "style": "body",
-      "indent": false,
-      "align": "left",
-      "size": "",
-      "sizeM": "",
-      "lh": "",
-      "lhM": "",
-      "ink": "",
-      "tracking": "",
-      "measure": ""
-     }
-    },
-    {
-     "id": "pla30des",
-     "type": "pager",
-     "col": 1,
-     "d": {
-      "x": 0,
-      "y": 0,
-      "w": 12,
-      "h": 3
-     },
-     "m": null,
-     "props": {
-      "num": "num",
-      "line": false,
-      "loop": false,
-      "scope": "blog",
-      "look": "text",
-      "nextLabel": "Next, ",
-      "prevLabel": "",
-      "align": "center",
-      "style": "",
-      "size": "",
-      "sizeM": "",
-      "lh": "",
-      "lhM": ""
-     }
-    }
-   ],
-   "kind": "page",
-   "parent": "blgart01",
-   "date": "2026-10-27",
-   "excerpt": "",
-   "featured": false,
-   "stack": [],
-   "pin": {
-    "place": "top",
-    "fixed": false,
-    "show": "all",
-    "pages": [],
-    "h": "",
-    "hM": "",
-    "gap": "",
-    "gapM": ""
-   },
-   "box": {},
-   "colset": {
-    "cols": 1,
-    "align": "spread",
-    "spans": [
-     12
-    ],
-    "colsM": 1,
-    "gutter": 30,
-    "gutterM": 20
-   }
   }
  }
 }

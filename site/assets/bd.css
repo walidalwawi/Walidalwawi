@@ -1,4 +1,4 @@
-/* PUBLISHED mvr4kv9y */
+/* PUBLISHED mvr4p671 */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1276,8 +1276,8 @@ font-weight: 400;
 font-style: normal;
 text-transform: none;
 letter-spacing: 0em;
-font-size: 15px;
-line-height: 20px;
+font-size: 12px;
+line-height: 18px;
 }
 .bd-text.is-caption,
 .bd-ptitle.is-caption,
@@ -1990,9 +1990,6 @@ padding-top: calc(80px + var(--bd-wt));
 .bd-ly-art[data-id="icrcf1kz"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
 }
-.bd-ly-art[data-id="axu2zvbx"] > .bd-panel {
-padding-top: calc(80px + var(--bd-wt));
-}
 .bd-ly-art[data-id="blgart01"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
 background: rgba(255, 255, 255, 1);
@@ -2624,9 +2621,6 @@ padding-top: calc(39px + var(--bd-wt));
 padding-top: calc(39px + var(--bd-wt));
 }
 .bd-ly-art[data-id="icrcf1kz"] > .bd-panel {
-padding-top: calc(39px + var(--bd-wt));
-}
-.bd-ly-art[data-id="axu2zvbx"] > .bd-panel {
 padding-top: calc(39px + var(--bd-wt));
 }
 .bd-ly-art[data-id="blgart01"] > .bd-panel {
