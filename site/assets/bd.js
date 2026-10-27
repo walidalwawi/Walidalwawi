@@ -505,7 +505,7 @@ var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items"
 {"section":"","slug":"south-north-palestine","num":"","title":"South, North, Palestine"},
 {"section":"","slug":"israels-co-opting","num":"","title":"“Israel's” co opting of indigenous struggle."},
 {"section":"","slug":"al-thawabit","num":"","title":"Al Thawabit"},
-{"section":"","slug":"sheet-3","num":"","title":"Men"}],"externals":[{"section":"e","title":"Samt for Art and Research","url":"https://samt.co"},
+{"section":"","slug":"sheet-3","num":"","title":"Index"}],"externals":[{"section":"e","title":"Samt for Art and Research","url":"https://samt.co"},
 {"section":"e","title":"@walidalwawi","url":"https://www.instagram.com/walidalwawi/"}],"gDur":450};
 
 /* CHROME */
