@@ -450,12 +450,12 @@
     "lh": "",
     "lhM": "",
     "textCase": "none",
-    "tracking": "",
+    "tracking": 0,
     "itemGap": 0,
     "itemGapM": "",
-    "groupGap": 20,
+    "groupGap": 0,
     "groupGapM": "",
-    "headGap": 4,
+    "headGap": 0,
     "current": "underline",
     "hover": "underline",
     "brandStyle": "body",
@@ -463,7 +463,7 @@
     "brandSizeM": "",
     "brandLh": "",
     "brandLhM": "",
-    "brandGap": 16,
+    "brandGap": 0,
     "brandGapM": ""
    },
    "ptitle": {
@@ -632,8 +632,8 @@
     "covers": "all",
     "coverPages": [],
     "color": "#ffffff",
-    "alpha": 0,
-    "blur": 0,
+    "alpha": 60,
+    "blur": 10,
     "shadow": "soft",
     "nudge": 0,
     "dur": "",
@@ -654,10 +654,10 @@
     "out": "peek",
     "lv": "",
     "arrive": "slide",
-    "main": "wt3x1lay",
+    "main": "mnu0sh01",
     "hover": "",
     "vc": 1,
-    "vr": 1,
+    "vr": 0,
     "pin": "wt3x1lay",
     "radius": 0,
     "vcM": 0,
@@ -739,6 +739,7 @@
   "p5tfzre8",
   "tud4lpid",
   "icrcf1kz",
+  "axu2zvbx",
   "blgart01",
   "blgcom01",
   "hnb4ahmi",
@@ -2655,8 +2656,10 @@
     "mlM": "0",
     "mrM": "0",
     "shadow": "none",
-    "pt": "0",
-    "pb": "0"
+    "pt": "",
+    "pb": "",
+    "pr": "",
+    "pl": ""
    },
    "mode": "card",
    "colset": {
@@ -2693,7 +2696,9 @@
     "gap": "",
     "gapM": ""
    },
-   "box": {},
+   "box": {
+    "mt": "0"
+   },
    "ownLayout": false,
    "mode": "sheet",
    "css": "",
@@ -2732,7 +2737,8 @@
     "colsM": 1,
     "gutter": 40,
     "gutterM": 24
-   }
+   },
+   "pattern": ""
   },
   "blgart01": {
    "id": "blgart01",
@@ -3029,6 +3035,108 @@
     "gapM": ""
    },
    "mode": "sheet"
+  },
+  "axu2zvbx": {
+   "id": "axu2zvbx",
+   "title": "New post",
+   "h1": "",
+   "num": "",
+   "slug": "new-post",
+   "section": "",
+   "desc": "",
+   "header": true,
+   "layout": "master",
+   "css": "",
+   "els": [
+    {
+     "id": "9vycy8zw",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": ""
+     }
+    },
+    {
+     "id": "rzqflxfx",
+     "type": "text",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 8
+     },
+     "m": null,
+     "props": {
+      "html": "<p>Write here.</p>",
+      "style": "body",
+      "indent": false,
+      "align": "left",
+      "size": "",
+      "sizeM": "",
+      "lh": "",
+      "lhM": "",
+      "ink": "",
+      "tracking": "",
+      "measure": ""
+     }
+    },
+    {
+     "id": "pla30des",
+     "type": "pager",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "num": "num",
+      "line": false,
+      "loop": false,
+      "scope": "blog",
+      "look": "text",
+      "nextLabel": "Next, ",
+      "prevLabel": "",
+      "align": "center",
+      "style": "",
+      "size": "",
+      "sizeM": "",
+      "lh": "",
+      "lhM": ""
+     }
+    }
+   ],
+   "kind": "page",
+   "parent": "blgart01",
+   "date": "2026-10-27",
+   "excerpt": "",
+   "featured": false,
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": []
+   }
   }
  }
 }

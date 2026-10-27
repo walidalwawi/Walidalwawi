@@ -495,6 +495,7 @@ var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items"
 {"section":"","slug":"thobe","num":"","title":"Thobe"},
 {"section":"","slug":"grasshopper","num":"","title":"Grasshopper"},
 {"section":"","slug":"hiding","num":"","title":"Hiding"},
+{"section":"","slug":"new-post","num":"","title":"New post"},
 {"section":"","slug":"","num":"","title":"Art"},
 {"section":"","slug":"commentary","num":"","title":"Commentary"},
 {"section":"","slug":"biography","num":"","title":"Biography"},
