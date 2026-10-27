@@ -664,92 +664,6 @@
     "vrM": 0,
     "mainM": "",
     "axisM": "y"
-   },
-   {
-    "id": "0h3gkc96",
-    "name": "Sheet 3",
-    "pages": [
-     "hnb4ahmi"
-    ],
-    "restPage": "",
-    "edge": "left",
-    "edgeM": "top",
-    "rest": "open",
-    "peek": 200,
-    "peekM": 52,
-    "sliver": 44,
-    "sliverM": 14,
-    "axis": "y",
-    "covers": "all",
-    "coverPages": [],
-    "color": "#E4E1DA",
-    "alpha": 55,
-    "blur": 9,
-    "shadow": "soft",
-    "nudge": 0,
-    "dur": "",
-    "box": {},
-    "pattern": "",
-    "patColor": "#000000",
-    "patSize": 28,
-    "patAlpha": 14,
-    "out": "peek",
-    "lv": "",
-    "arrive": "slide",
-    "main": "",
-    "hover": ""
-   },
-   {
-    "id": "glg17d2m",
-    "name": "Sheet 3",
-    "pages": [
-     "blgart01",
-     "blgcom01"
-    ],
-    "restPage": "",
-    "edge": "left",
-    "edgeM": "top",
-    "rest": "still",
-    "peek": 200,
-    "peekM": 52,
-    "sliver": 44,
-    "sliverM": 14,
-    "axis": "y",
-    "covers": "all",
-    "coverPages": [
-     "mnu0sh01"
-    ],
-    "color": "none",
-    "alpha": 30,
-    "blur": 10,
-    "shadow": "none",
-    "nudge": 0,
-    "dur": "",
-    "box": {
-     "mt": "",
-     "mb": "0",
-     "ml": "",
-     "mr": "15%",
-     "mtM": "0",
-     "mbM": "0",
-     "mlM": "0",
-     "mrM": "15%"
-    },
-    "pattern": "",
-    "patColor": "#000000",
-    "patSize": 28,
-    "patAlpha": 14,
-    "out": "peek",
-    "lv": "",
-    "arrive": "slide",
-    "main": "blgart01",
-    "hover": "",
-    "vc": 0,
-    "vr": 0,
-    "pin": "",
-    "vcM": 0,
-    "vrM": 0,
-    "mainM": "blgart01"
    }
   ],
   "pinV1": true,
@@ -815,8 +729,6 @@
  "order": [
   "flw46tjo",
   "mnu0sh01",
-  "blgart01",
-  "blgcom01",
   "q7qvfbel",
   "eogqrkvs",
   "fgw1xddq",
@@ -829,9 +741,10 @@
   "p5tfzre8",
   "tud4lpid",
   "icrcf1kz",
+  "blgart01",
+  "blgcom01",
   "hnb4ahmi",
   "6nqav62x",
-  "qjwmrcrh",
   "1aasbjv9",
   "x5diswj0",
   "7p91dczr",
@@ -1299,81 +1212,6 @@
     "gutter": 40,
     "gutterM": 24
    }
-  },
-  "qjwmrcrh": {
-   "css": "",
-   "desc": "In 2024, Al Wawi initiated Resignation, a performance that frames his daily existence as a Palestinian as an ongoing work.",
-   "els": [
-    {
-     "d": {
-      "h": 2,
-      "w": 12,
-      "x": 0,
-      "y": 0
-     },
-     "id": "kenr0qvk",
-     "m": {
-      "h": 2,
-      "w": 6,
-      "x": 0,
-      "y": 0
-     },
-     "own": {},
-     "props": {
-      "align": "left",
-      "font": "sans",
-      "html": "<p>In 2024, Al Wawi initiated Resignation, a performance that frames his daily existence as a Palestinian as an ongoing work, one that began at birth and will continue until the end of his mortal journey. In affirmation of this, all work on this website and any future works added will be exhibited with no financial compensation to the artist, under specific conditions.</p>",
-      "indent": false,
-      "size": ""
-     },
-     "type": "text"
-    },
-    {
-     "d": {
-      "h": 13,
-      "w": 10,
-      "x": 1,
-      "y": 6
-     },
-     "id": "xu2h9qc8",
-     "m": {
-      "h": 9,
-      "w": 6,
-      "x": 0,
-      "y": 10
-     },
-     "own": {},
-     "props": {
-      "alt": "Handwritten resignation letter by Walid Al Wawi",
-      "assetId": "live",
-      "caption": "",
-      "file": "resignation-letter.webp",
-      "fit": "contain"
-     },
-     "type": "image"
-    }
-   ],
-   "h1": "1988/2024 – ?, Resignation",
-   "header": true,
-   "id": "qjwmrcrh",
-   "kind": "page",
-   "layout": "master",
-   "num": "",
-   "pin": {
-    "place": "top",
-    "fixed": false,
-    "show": "all",
-    "pages": [],
-    "h": "",
-    "hM": "",
-    "gap": "",
-    "gapM": ""
-   },
-   "section": "",
-   "slug": "resignation",
-   "stack": [],
-   "title": "Resignation",
-   "box": {}
   },
   "p5tfzre8": {
    "css": "",
@@ -2800,7 +2638,7 @@
     "gapM": ""
    },
    "section": "",
-   "slug": "",
+   "slug": "biography",
    "stack": [],
    "title": "Biography",
    "box": {
@@ -3060,7 +2898,7 @@
    "title": "Art",
    "h1": "",
    "num": "",
-   "slug": "art",
+   "slug": "",
    "section": "",
    "desc": "Works.",
    "layout": "master",

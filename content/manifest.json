@@ -1,8 +1,6 @@
 {
  "pages": [
   "site/menu.html",
-  "site/art.html",
-  "site/commentary.html",
   "site/eoup.html",
   "site/forbidden-fruit.html",
   "site/eternity-of-silence.html",
@@ -16,8 +14,9 @@
   "site/grasshopper.html",
   "site/hiding.html",
   "site/index.html",
+  "site/commentary.html",
+  "site/biography.html",
   "site/resume.html",
-  "site/resignation.html",
   "site/how-to-deseed-a-watermelon.html",
   "site/militant-improvisation.html",
   "site/the-many-and-the-ones.html",
@@ -27,5 +26,5 @@
   "site/sheet-3.html",
   "site/404.html"
  ],
- "published": "2026-10-27T17:52:11.901Z"
+ "published": "2026-10-27T17:54:13.502Z"
 }
