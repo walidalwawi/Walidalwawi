@@ -10,7 +10,7 @@
   },
   "cols": 12,
   "colsM": 6,
-  "css": ".bd-e-pi1aasbj span {\ntext-align: left;\n}\n.bd-e-pi1aasbj {\ntext-align: right;\n}\n.bd-site img, .bd-site video, .bd-site iframe {\nmax-width: 100%;\nheight: auto;\n}\n.bd-site, .bd-ts-body, .bd-list.is-body ul {\nletter-spacing: 0em;\n}\n.bd-pagerbar a {\nwidth: 24px;\n}\n.bd-pagerbar-next {\ngrid-column: 3;\nmargin-bottom: 50px;\n}\n.bd-flow {\nflex-direction: column;\n}\n.bd-col {\nmin-width: 0;\n}\n.bd-e-blgart01el .bd-post:not(.is-featured) .bd-post-t {\nfont-size: 12px;\nline-height: 18px;\n}\n.bd-post-txt, .bd-post-t, .bd-post-d, .bd-post-m, .bd-post-x {\ndisplay: block;\n}\n.bd-text.has-indent p + p {\nmargin-top: 15px;\n}\n.bd-flow > .bd-el + .bd-text {\nmargin-top: 0px;\n}\n\n/* MOBILE */\n@media (max-width: 760px) {\n:root {\n--bd-indent: 25px;\n}\n}\n",
+  "css": ".bd-e-pi1aasbj span {\ntext-align: left;\n}\n.bd-e-pi1aasbj {\ntext-align: right;\n}\n.bd-site img, .bd-site video, .bd-site iframe {\nmax-width: 100%;\nheight: auto;\n}\n.bd-site, .bd-ts-body, .bd-list.is-body ul {\nletter-spacing: 0em;\n}\n.bd-pagerbar a {\nwidth: 24px;\n}\n.bd-pagerbar-next {\ngrid-column: 3;\nmargin-bottom: 50px;\n}\n.bd-flow {\nflex-direction: column;\n}\n.bd-col {\nmin-width: 0;\n}\n.bd-e-blgart01el .bd-post:not(.is-featured) .bd-post-t {\nfont-size: 12px;\nline-height: 18px;\n}\n.bd-post-txt, .bd-post-t, .bd-post-d, .bd-post-m, .bd-post-x {\ndisplay: block;\n}\n.bd-text.has-indent p + p {\nmargin-top: 15px;\n}\n.bd-flow > .bd-el + .bd-text {\nmargin-top: 0px;\n}\n.bd-menu {\nleft: calc(50% - var(--bd-w) / 2 + var(--bd-pad));\n}\n.bd-menu-items {\npadding: 4px 0 10px var(--bd-nav-indent);\n}\n.bd-menu.is-cur-underline a.is-current {\ntext-decoration-thickness: 1px;\n}\n.bd-menu.is-title-left .bd-menu-title {\nmargin: 0 16px 0 0;\n}\n\n/* MOBILE */\n@media (max-width: 760px) {\n:root {\n--bd-indent: 25px;\n}\n.bd-flow > .bd-html {\n--w: 4;\n}\n}\n",
   "externals": [
    {
     "section": "e",
@@ -3992,24 +3992,27 @@
    "css": "",
    "els": [
     {
-     "id": "mnu0el01",
-     "type": "html",
+     "id": "d69pkg91",
+     "type": "sheetmenu",
      "d": {
       "x": 0,
-      "y": 0,
+      "y": 9,
       "w": 12,
       "h": 6
      },
-     "m": {
-      "x": 0,
-      "y": 0,
-      "w": 6,
-      "h": 6
-     },
+     "m": null,
      "props": {
-      "code": "<nav class=\"bd-sheetmenu is-al-left\" aria-label=\"Menu\">\n<ul class=\"bd-ly-list bd-ts-body\">\n<li>\n<a class=\"bd-ly-a\" href=\"/\" data-id=\"blgart01\">\n<span class=\"bd-ly-mk\" aria-hidden=\"true\">–</span>Art</a>\n</li>\n<li>\n<a class=\"bd-ly-a\" href=\"/commentary\" data-id=\"blgcom01\">\n<span class=\"bd-ly-mk\" aria-hidden=\"true\">–</span>Commentary</a>\n</li>\n<li>\n<a class=\"bd-ly-a\" href=\"/biography\" data-id=\"hnb4ahmi\">\n<span class=\"bd-ly-mk\" aria-hidden=\"true\">–</span>Biography</a>\n</li>\n<li>\n<a class=\"bd-ly-a\" href=\"/resume\" data-id=\"6nqav62x\">\n<span class=\"bd-ly-mk\" aria-hidden=\"true\">–</span>Resume</a>\n</li>\n</ul>\n</nav>"
+      "menu": "",
+      "marker": ">",
+      "align": "right",
+      "style": "heading",
+      "gap": 0,
+      "gapM": 14,
+      "pad": 40,
+      "padM": 16,
+      "mark": "|"
      },
-     "own": {}
+     "col": 1
     }
    ],
    "colset": {

@@ -1,4 +1,4 @@
-/* PUBLISHED mvrykdu4 */
+/* PUBLISHED mvrysvqy */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2405,6 +2405,18 @@ margin-top: 15px;
 .bd-flow > .bd-el + .bd-text {
 margin-top: 0px;
 }
+.bd-menu {
+left: calc(50% - var(--bd-w) / 2 + var(--bd-pad));
+}
+.bd-menu-items {
+padding: 4px 0 10px var(--bd-nav-indent);
+}
+.bd-menu.is-cur-underline a.is-current {
+text-decoration-thickness: 1px;
+}
+.bd-menu.is-title-left .bd-menu-title {
+margin: 0 16px 0 0;
+}
 
 /* MOBILE */
 @media (max-width: 760px) {
@@ -3231,5 +3243,8 @@ padding-left: var(--bd-wl);
 /* CUSTOM */
 :root {
 --bd-indent: 25px;
+}
+.bd-flow > .bd-html {
+--w: 4;
 }
 }
