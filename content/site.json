@@ -1540,13 +1540,27 @@
       "items": [
        {
         "id": "3x413j9j",
-        "assetId": "",
-        "file": "",
+        "assetId": "live",
+        "file": "img-9288-2.webp",
         "title": "EOUP-Charter.pdf",
         "author": "",
         "topics": [],
         "href": "https://drive.google.com/file/d/1oFmlcGYdrd6LeHm1a87lGMpnTgJGkFQ5/view?usp=share_link",
-        "spine": ""
+        "spine": "",
+        "w": 750,
+        "h": 750
+       },
+       {
+        "id": "5yudyvov",
+        "assetId": "live",
+        "file": "img-9289-2.webp",
+        "title": "Negotiation_Affairs_Department_PLO-Excerpt",
+        "author": "",
+        "topics": [],
+        "href": "https://static1.squarespace.com/static/68b99da112b2b902dc382b59/t/68d2474894b5fa135ea84816/1758611272489/Excerpt+.pdf",
+        "spine": "",
+        "w": 750,
+        "h": 749
        }
       ],
       "cols": 5,
