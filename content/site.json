@@ -1493,6 +1493,27 @@
      }
     },
     {
+     "id": "k3yj4bgg",
+     "type": "embed",
+     "d": {
+      "x": 0,
+      "y": 41,
+      "w": 12,
+      "h": 40
+     },
+     "m": null,
+     "props": {
+      "url": "https://vimeo.com/940811280",
+      "title": "EOUP Media 1",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
      "id": "5rwizp7d",
      "type": "gallery",
      "d": {
