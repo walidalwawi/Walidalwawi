@@ -1,15 +1,15 @@
 /* EDITOR TOKENS */
 /* Look: pill. Charcoal or warm panes, every control a pill, sections as solid pastel cards (yellow sheet, lime page, coral blog and post, stone master), black pills for what is available, yellow for what is on */
 :root {
---e-bg: #fff; 
---e-surface: #fff;
---e-raise: #fff;
+--e-bg: #fff!important; 
+--e-surface: #fff!important; 
+--e-raise: #eee!important;
 --e-tint: #EFEDE6;
 --e-well: #fff;
 --e-ink: #fff;
 --e-mute: #6E6B64;
 --e-line: #fff;
---e-accent: #141416;
+--e-accent: #ddd!important; 
 --e-accent-ink: #F4F2EC;
 --e-pill: #fff;
 --e-pill-ink: #fff;
@@ -158,8 +158,8 @@ padding: 0 10px;
 display: inline-flex;
 align-items: center;
 gap: 6px;
-border: 0px solid var(--e-line);
-border-radius: 4px;
+border: 1px solid var(--e-line);
+border-radius: 10px!important;
 background: var(--e-surface);
 white-space: nowrap;
 }
@@ -208,7 +208,7 @@ align-items: center;
 gap: 6px;
 }
 .bd-ed-seg button + button {
-border-left: 1px solid var(--e-line);
+border-left: 1px solid red!Important;
 }
 .bd-ed-seg svg {
 width: 16px;
@@ -240,10 +240,10 @@ display: none;
 /* PANELS */
 .bd-ed-panel {
 background: var(--e-surface);
-border: 0px solid var(--e-line);
-border-radius: 5px;
+border: 1px solid var(--e-line)!important;
+border-radius: 10px!important;
 min-height: 0;
-overflow: auto;
+overflow: auto;padding:10px!important;
 display: flex;
 flex-direction: column;
 }
@@ -255,10 +255,10 @@ grid-area: right;
 }
 .bd-ed-tabs {
 display: flex;
-border-bottom: 0px solid var(--e-line);
+border-bottom: 0px solid var(--e-line)!important;
 position: sticky;
 top: 0;
-background: var(--e-surface);
+background: #eee!important;
 z-index: 2;
 }
 .bd-ed-tabs {
@@ -267,9 +267,9 @@ padding: 4px;
 }
 .bd-ed-tabs button {
 flex: 1;
-height: 30px;
+height: 40px!important;
 border: 0;
-border-radius: 4px;
+border-radius: 10px!important;
 background: none;
 font-family: var(--e-mono);
 font-size: 11.5px;
@@ -288,7 +288,7 @@ padding: 12px;
 display: flex;
 flex-direction: column;
 gap: 10px;
-border-bottom: 1px solid var(--e-line);
+border-bottom: 0px solid var(--e-line)!important;
 }
 .bd-ed-sec:last-child {
 border-bottom: 0;
@@ -320,9 +320,9 @@ gap: 6px;
 .bd-ed-input {
 width: 100%;
 height: 30px;
-padding: 0 8px;
-border: 1px solid var(--e-line);
-border-radius: 3px;
+padding: 0 5px!important;
+border: 1px solid var(--e-line)!important;
+border-radius: 5px!important;
 background: var(--e-raise);
 min-width: 0;
 }
@@ -367,9 +367,9 @@ min-height: 26px;
 .bd-ed-switch {
 width: 34px;
 height: 20px;
-border-radius: 10px;
-border: 1px solid var(--e-line);
-background: var(--e-raise);
+border-radius: 5px!important;
+border: 1px solid var(--e-line)!important;
+background: none!important;
 position: relative;
 flex: none;
 }
@@ -509,7 +509,7 @@ grid-area: canvas;
 position: relative;
 min-height: 0;
 min-width: 0;
-border: 1px solid var(--e-line);
+border: 0px solid var(--e-line);
 border-radius: 4px;
 background: var(--e-bg);
 background-image: radial-gradient(var(--e-line) 1px, transparent 1px);
@@ -563,7 +563,7 @@ flex-direction: column;
 gap: 2px;
 padding: 4px;
 background: var(--e-surface);
-border: 1px solid var(--e-line);
+border: 1px solid var(--e-line)!important;
 border-radius: 4px;
 z-index: 5;
 }
@@ -774,7 +774,7 @@ max-width: calc(100vw - 32px);
 max-height: 70vh;
 overflow: auto;
 background: var(--e-surface);
-border: 1px solid var(--e-line);
+border: 1px solid var(--e-line)!important;
 border-radius: 4px;
 box-shadow: 0 16px 48px rgba(10, 12, 20, 0.2);
 z-index: 50;
@@ -826,7 +826,7 @@ padding: 24px;
 width: 420px;
 max-width: 100%;
 background: var(--e-surface);
-border: 1px solid var(--e-line);
+border: 1px solid var(--e-line)!important;
 border-radius: 4px;
 padding: 22px;
 display: flex;
@@ -979,9 +979,9 @@ background: var(--e-bg);
 }
 .bd-ed-panel > .bd-ed-sec,
 .bd-ed-pop.is-tools > .bd-ed-sec {
-margin: 8px 8px 0;
+margin: 8px 8px 0!important;
 background: var(--e-surface);
-border: 1px solid var(--e-line);
+border: 1px solid var(--e-line)!important;
 border-radius: 4px;
 }
 .bd-ed-panel > .bd-ed-sec:last-child,
@@ -1032,7 +1032,7 @@ align-items: center;
 gap: 8px;
 width: 100%;
 padding: 8px 10px;
-border: 1px solid var(--e-line);
+border: 1px solid var(--e-line)!important;
 border-radius: 6px;
 background: var(--e-surface);
 font: inherit;
@@ -1135,7 +1135,7 @@ gap: 2px;
 padding: 8px;
 margin-top: 10px;
 background: var(--e-tint);
-border: 1px solid var(--e-line);
+border: 1px solid var(--e-line)!important;
 border-radius: 10px;
 }
 .bd-ed-sec .bd-ed-group.is-sheet {
@@ -1260,7 +1260,7 @@ font-size: 10px;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #7b5ea7;
-border: 1px solid currentColor;
+border: 1px solid currentColor!important;
 border-radius: 4px;
 padding: 1px 5px;
 }
@@ -1496,7 +1496,7 @@ gap: 6px;
 width: 12px;
 height: 12px;
 border-radius: 2px;
-border: 1.5px solid currentColor;
+border: 1.5px solid currentColor!important;
 display: inline-block;
 }
 .bd-ed-desk-legend i.is-glass {
