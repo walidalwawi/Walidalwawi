@@ -1111,8 +1111,8 @@
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
-      "indent": false,
+      "html": "<p>An ongoing series of mostly video works beginning in 2013 curated either as supportive material to other works or as stand alone pieces.</p>\n<p>2017, Palestinian Handstands</p>\n<p>2015, Chair</p>\n<p>2013, Hiding</p>",
+      "indent": true,
       "size": ""
      },
      "type": "text"
