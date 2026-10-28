@@ -1232,7 +1232,11 @@
       "indent": true,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
     },
     {
      "id": "5rwizp7d",
@@ -2651,11 +2655,95 @@
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
+      "html": "<p>Pastel on Paper. 2x1.7m. Barjeel Art Foundation Collection. Created under MMCA South Korea Residency Program.</p><p>Depicts the historical signing of the U.N. Charter with all national flags removed from the scene. The redaction renders the event absurd, visualizing the silence within international legal frameworks.</p>",
       "indent": false,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "87tr9g0z",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 30
+     },
+     "m": null,
+     "props": {
+      "layout": "columns",
+      "items": [
+       {
+        "id": "sh6hki18",
+        "assetId": "live",
+        "file": "img-9297.webp",
+        "alt": "IMG 9297",
+        "caption": "",
+        "w": 1123,
+        "h": 749,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "x2bgjrlg",
+        "assetId": "live",
+        "file": "img-3958.webp",
+        "alt": "IMG 3958",
+        "caption": "",
+        "w": 1123,
+        "h": 749,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       },
+       {
+        "id": "9x4m8lro",
+        "assetId": "live",
+        "file": "img-9295.webp",
+        "alt": "IMG 9295",
+        "caption": "",
+        "w": 1123,
+        "h": 749,
+        "fx": 16,
+        "fy": 12,
+        "fw": 32
+       }
+      ],
+      "cols": 1,
+      "colsM": 1,
+      "gutter": 16,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11,
+      "xm": 0,
+      "wm": 6
+     }
     }
    ],
    "h1": "",
@@ -2754,7 +2842,11 @@
       "indent": false,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
     },
     {
      "id": "j6v9e7gc",
