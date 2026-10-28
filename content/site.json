@@ -647,7 +647,7 @@
     "axis": "y",
     "covers": "all",
     "coverPages": [],
-    "color": "linear-gradient(180deg, #adadad, #ffffff)",
+    "color": "linear-gradient(180deg, #d6d6d6, #ffffff)",
     "alpha": 80,
     "blur": 0,
     "shadow": "none",
