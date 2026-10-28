@@ -1,4 +1,4 @@
-/* PUBLISHED mvru5nor */
+/* PUBLISHED mvrurnrb */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1594,18 +1594,20 @@ font-size: 10px;
 line-height: 14px;
 }
 .bd-e-blgart01el.bd-posts .bd-post-img img {
-mix-blend-mode: multiply;
---bd-ink-img: 1;
+mix-blend-mode: lighten;
+}
+.bd-e-blgart01el .bd-post-cover,
+.bd-e-blgart01el .bd-post-img {
+background-color: #474747;
 }
 .bd-e-blgart01el {
---pcols: 3;
---pgap: 50px;
---prow: 50px;
---ppad: 0px;
---pminh: 80px;
---pimg-gap: 0px;
+--pcols: 4;
+--pgap: 30px;
+--prow: 30px;
+--ppad: 20px;
+--pminh: 0px;
+--pimg-gap: 20px;
 --pmgap: 10px;
---pratio: 1;
 }
 
 /* PAGE: COMMENTARY */
@@ -2129,7 +2131,9 @@ padding-top: calc(80px + var(--bd-wt));
 }
 .bd-ly-art[data-id="blgart01"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
-background: rgba(255, 255, 255, 1);
+background: transparent;
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
 }
 .bd-ly-art[data-id="blgcom01"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
@@ -2515,7 +2519,7 @@ line-height: 14px;
 --pcols: 1;
 --pgap: 24px;
 --prow: 24px;
---ppad: 0px;
+--ppad: 20px;
 }
 /* PAGE: COMMENTARY */
 .bd-flow > .bd-e-blgcom01el {
