@@ -1,4 +1,4 @@
-/* PUBLISHED mvs47aai */
+/* PUBLISHED mvs4gr6i */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2447,6 +2447,9 @@ text-decoration-thickness: 1px;
 }
 .bd-menu.is-title-left .bd-menu-title {
 margin: 0 16px 0 0;
+}
+.bd-embed {
+background: #000000;
 }
 
 /* MOBILE */
