@@ -691,9 +691,11 @@
    "alpha": 92,
    "blur": 8
   },
-  "postBox": {},
+  "postBox": {
+   "shadow": "none"
+  },
   "postGo": {
-   "side": "top",
+   "side": "left",
    "sideM": "top"
   },
   "postLayout": {
@@ -1685,11 +1687,107 @@
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
+      "html": "<p>Durational Performance / Participatory Installation. 4 hours.</p><p>The artist attempts to sit still for the duration of the performance. Participants trace the projected video feed, documenting every involuntary movement as a visible deviation from the ideal form, while the artist struggles to remain within the boundaries of his own shape.</p>",
       "indent": false,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "r18rgmyj",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 30
+     },
+     "m": null,
+     "props": {
+      "layout": "columns",
+      "items": [
+       {
+        "id": "wgf2i7bz",
+        "assetId": "live",
+        "file": "img-9298.webp",
+        "alt": "IMG 9298",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "cpqea1q9",
+        "assetId": "live",
+        "file": "img-6206.webp",
+        "alt": "IMG 6206",
+        "caption": "",
+        "w": 2000,
+        "h": 1500,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       },
+       {
+        "id": "hl5v9v8x",
+        "assetId": "live",
+        "file": "img-9300.webp",
+        "alt": "IMG 9300",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 16,
+        "fy": 12,
+        "fw": 32
+       },
+       {
+        "id": "53pp1g80",
+        "assetId": "live",
+        "file": "img-9301.webp",
+        "alt": "IMG 9301",
+        "caption": "Grey Noise, Dubai",
+        "w": 2500,
+        "h": 1875,
+        "fx": 24,
+        "fy": 18,
+        "fw": 32
+       }
+      ],
+      "cols": 1,
+      "colsM": 1,
+      "gutter": 16,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11,
+      "xm": 0,
+      "wm": 6
+     }
     }
    ],
    "h1": "",
