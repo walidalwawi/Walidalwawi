@@ -649,7 +649,7 @@
     "coverPages": [],
     "color": "#adadad",
     "alpha": 80,
-    "blur": 10,
+    "blur": 0,
     "shadow": "none",
     "nudge": 0,
     "dur": "",
