@@ -10,7 +10,7 @@
   },
   "cols": 12,
   "colsM": 6,
-  "css": ".bd-e-pi1aasbj span {\ntext-align: left;\n}\n.bd-e-pi1aasbj {\ntext-align: right;\n}\n.bd-site img, .bd-site video, .bd-site iframe {\nmax-width: 100%;\nheight: auto;\n}\n.bd-site, .bd-ts-body, .bd-list.is-body ul {\nletter-spacing: 0em;\n}\n",
+  "css": ".bd-e-pi1aasbj span {\ntext-align: left;\n}\n.bd-e-pi1aasbj {\ntext-align: right;\n}\n.bd-site img, .bd-site video, .bd-site iframe {\nmax-width: 100%;\nheight: auto;\n}\n.bd-site, .bd-ts-body, .bd-list.is-body ul {\nletter-spacing: 0em;\n}\n.bd-pagerbar a {\nwidth: 24px;\n}\n.bd-pagerbar-next {\ngrid-column: 3;\nmargin-bottom: 50px;\n}\n",
   "externals": [
    {
     "section": "e",
