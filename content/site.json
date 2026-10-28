@@ -1169,7 +1169,12 @@
       "w": 12,
       "h": 3
      },
-     "m": null,
+     "m": {
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 3
+     },
      "props": {
       "back": true,
       "backLabel": "<",
@@ -1206,15 +1211,109 @@
       "y": 0
      },
      "id": "zqx39yhc",
-     "m": null,
+     "m": {
+      "x": 0,
+      "y": 6,
+      "w": 6,
+      "h": 4
+     },
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
-      "indent": false,
+      "html": "<p>Performance. 40 minutes. Commissioned for FIAC.</p>\n<p>A physical enactment referencing the biological phase change of the grasshopper into the locust. The performance explores the tipping point where the solitary individual is consumed by the collective, investigating the destructive potential of the swarm.</p>",
+      "indent": true,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "fegvorql",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 30
+     },
+     "m": {
+      "x": 0,
+      "y": 13,
+      "w": 6,
+      "h": 30
+     },
+     "props": {
+      "layout": "columns",
+      "items": [
+       {
+        "id": "x59cegwp",
+        "assetId": "live",
+        "file": "img-9319.webp",
+        "alt": "IMG 9319",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "igd1wi52",
+        "assetId": "live",
+        "file": "img-9320.webp",
+        "alt": "IMG 9320",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       },
+       {
+        "id": "owvde1q3",
+        "assetId": "live",
+        "file": "img-9321.webp",
+        "alt": "IMG 9321",
+        "caption": "FIAC, Paris",
+        "w": 2500,
+        "h": 1875,
+        "fx": 16,
+        "fy": 12,
+        "fw": 32
+       }
+      ],
+      "cols": 1,
+      "colsM": 1,
+      "gutter": 10,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "xm": 0,
+      "wm": 6,
+      "x": 0,
+      "w": 11
+     }
     }
    ],
    "h1": "",
