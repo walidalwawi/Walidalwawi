@@ -1,4 +1,4 @@
-/* PUBLISHED mvrxtldb */
+/* PUBLISHED mvrxx1v2 */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2343,6 +2343,13 @@ flex-direction: column;
 }
 .bd-col {
 min-width: 0;
+}
+.bd-e-blgart01el .bd-post:not(.is-featured) .bd-post-t {
+font-size: 12px;
+line-height: 18px;
+}
+.bd-post-txt, .bd-post-t, .bd-post-d, .bd-post-m, .bd-post-x {
+display: block;
 }
 
 /* MOBILE */
