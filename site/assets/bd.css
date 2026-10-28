@@ -1,4 +1,4 @@
-/* PUBLISHED mvrxnh9d */
+/* PUBLISHED mvrxpfu1 */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1620,7 +1620,19 @@ padding-bottom: 30px;
 }
 
 /* PAGE: WHITE SOCKS */
-
+.bd-flow > .bd-e-g6durzc5 {
+--x: 0;
+--w: 11;
+}
+.bd-flow > .bd-e-4xz6nbyw {
+--x: 0;
+--w: 11;
+}
+.bd-e-4xz6nbyw .bd-gi {
+--cols: 1;
+--gut: 10px;
+--rowh: 220px;
+}
 .bd-e-pihbyuk2 {
 padding-bottom: 30px;
 }
@@ -2631,7 +2643,19 @@ padding-bottom: 30px;
 padding-bottom: 30px;
 }
 /* PAGE: WHITE SOCKS */
-
+.bd-flow > .bd-e-g6durzc5 {
+--x: 0;
+--w: 6;
+}
+.bd-flow > .bd-e-4xz6nbyw {
+--x: 0;
+--w: 6;
+}
+.bd-e-4xz6nbyw .bd-gi {
+--cols: 1;
+--gut: 10px;
+--rowh: 140px;
+}
 .bd-e-pihbyuk2 {
 padding-bottom: 30px;
 }

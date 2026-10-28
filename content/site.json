@@ -928,11 +928,95 @@
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
+      "html": "<p>Pastel on Paper. Series of portraits based on official press photographs. Variable dimensions.</p><p>Depicts political leaders in formal attire, disrupted by the inclusion of white athletic socks. A critique of the fragility and banality of authoritarian image-making.</p>",
       "indent": false,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "4xz6nbyw",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 30
+     },
+     "m": null,
+     "props": {
+      "layout": "columns",
+      "items": [
+       {
+        "id": "1o3e361n",
+        "assetId": "live",
+        "file": "img-9308.webp",
+        "alt": "IMG 9308",
+        "caption": "",
+        "w": 2500,
+        "h": 1667,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "d9t6k6r1",
+        "assetId": "live",
+        "file": "img-9309.webp",
+        "alt": "IMG 9309",
+        "caption": "",
+        "w": 2246,
+        "h": 1498,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       },
+       {
+        "id": "3ale1na9",
+        "assetId": "live",
+        "file": "img-9310.webp",
+        "alt": "IMG 9310",
+        "caption": "MMCA South Korea, Seoul",
+        "w": 2246,
+        "h": 1498,
+        "fx": 16,
+        "fy": 12,
+        "fw": 32
+       }
+      ],
+      "cols": 1,
+      "colsM": 1,
+      "gutter": 10,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11,
+      "xm": 0,
+      "wm": 6
+     }
     }
    ],
    "h1": "",
