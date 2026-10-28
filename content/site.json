@@ -333,11 +333,10 @@
   "zoom": true,
   "head": "",
   "layout": {
-   "cols": 2,
-   "align": "spread",
+   "cols": 1,
+   "align": "center",
    "spans": [
-    6,
-    6
+    12
    ],
    "colsM": 1,
    "gutter": 30,
@@ -699,11 +698,10 @@
    "sideM": "top"
   },
   "postLayout": {
-   "cols": 2,
-   "align": "spread",
+   "cols": 1,
+   "align": "center",
    "spans": [
-    6,
-    6
+    12
    ],
    "colsM": 1,
    "gutter": 30,
@@ -4347,7 +4345,7 @@
    },
    "colset": {
     "cols": 1,
-    "align": "spread",
+    "align": "center",
     "spans": [
      12
     ],
@@ -4473,7 +4471,7 @@
    },
    "colset": {
     "cols": 1,
-    "align": "spread",
+    "align": "center",
     "spans": [
      12
     ],
