@@ -1,4 +1,4 @@
-/* PUBLISHED mvr5ovj2 */
+/* PUBLISHED mvru5nor */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1635,6 +1635,12 @@ mix-blend-mode: multiply;
 --pimg-gap: 0px;
 --pmgap: 10px;
 --pratio: 1;
+}
+
+/* PAGE: BIOGRAPHY */
+.bd-flow > .bd-e-ze3b6f4v {
+--x: 0;
+--w: 10;
 }
 
 /* PAGE: HOW TO DESEED A WATERMELON FOR SAFE CONSUMPTION */
