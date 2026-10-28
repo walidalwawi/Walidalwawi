@@ -2816,9 +2816,9 @@
         "fw": 32
        }
       ],
-      "cols": 3,
+      "cols": 1,
       "colsM": 2,
-      "gutter": 16,
+      "gutter": 20,
       "gutterM": 10,
       "ratio": "auto",
       "align": "start",
