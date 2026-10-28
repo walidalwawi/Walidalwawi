@@ -1,4 +1,4 @@
-/* PUBLISHED mvrzj0pk */
+/* PUBLISHED mvrzlnzk */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1650,6 +1650,10 @@ padding-bottom: 30px;
 --x: 0;
 --w: 11;
 }
+.bd-flow > .bd-e-jyawuqxx {
+--x: 0;
+--w: 11;
+}
 .bd-flow > .bd-e-z4q5yf2e {
 --x: 0;
 --w: 11;
@@ -2781,12 +2785,16 @@ padding-bottom: 30px;
 --x: 0;
 --w: 6;
 }
-.bd-flow > .bd-e-z4q5yf2e {
+.bd-flow > .bd-e-jyawuqxx {
 --x: 0;
 --w: 4;
 }
+.bd-flow > .bd-e-z4q5yf2e {
+--x: 0;
+--w: 6;
+}
 .bd-e-z4q5yf2e .bd-gi {
---cols: 2;
+--cols: 1;
 --gut: 10px;
 --rowh: 140px;
 }

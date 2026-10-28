@@ -3899,6 +3899,27 @@
      }
     },
     {
+     "id": "jyawuqxx",
+     "type": "embed",
+     "d": {
+      "x": 0,
+      "y": 40,
+      "w": 12,
+      "h": 40
+     },
+     "m": null,
+     "props": {
+      "url": "https://vimeo.com/231972333",
+      "title": "Chair Of Saladin",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
      "id": "z4q5yf2e",
      "type": "gallery",
      "d": {
@@ -3909,7 +3930,7 @@
      },
      "m": null,
      "props": {
-      "layout": "grid",
+      "layout": "columns",
       "items": [
        {
         "id": "c4nskkpp",
@@ -3949,7 +3970,7 @@
        }
       ],
       "cols": 1,
-      "colsM": 2,
+      "colsM": 1,
       "gutter": 10,
       "gutterM": 10,
       "ratio": "auto",
@@ -3973,7 +3994,9 @@
      "col": 1,
      "own": {
       "x": 0,
-      "w": 11
+      "w": 11,
+      "xm": 0,
+      "wm": 6
      }
     }
    ],
