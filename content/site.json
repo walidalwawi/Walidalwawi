@@ -2166,11 +2166,83 @@
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
-      "indent": false,
+      "html": "<p>Wooden Structure / Performance Object. Wooden coffin with a triangular front cutout and three circular bottom apertures.</p><p>Designed to be worn over the heads of the pallbearers. The carriers' heads are locked inside the box, rendering them blind to the path ahead while the public views the flag through the cutout. The work enforces a collective blindness on those who shoulder the burden of national martyrdom.</p>",
+      "indent": true,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "89g6e9it",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 30
+     },
+     "m": null,
+     "props": {
+      "layout": "columns",
+      "items": [
+       {
+        "id": "ze95kylx",
+        "assetId": "live",
+        "file": "img-9314.webp",
+        "alt": "IMG 9314",
+        "caption": "",
+        "w": 2048,
+        "h": 2731,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "sezuo1wi",
+        "assetId": "live",
+        "file": "img-9315.webp",
+        "alt": "IMG 9315",
+        "caption": "",
+        "w": 2500,
+        "h": 3333,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       }
+      ],
+      "cols": 1,
+      "colsM": 1,
+      "gutter": 10,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11,
+      "xm": 0,
+      "wm": 6
+     }
     }
    ],
    "h1": "",
