@@ -1537,11 +1537,95 @@
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
+      "html": "<p>Textile / Garment. Traditional Palestinian dress pattern.</p><p>The cross-stitch embroidery pattern is generated from high-resolution scans of a Palestinian refugee travel document. This transposition stitches the cold, bureaucratic borders of the state directly onto the warm, gendered heritage of the body.</p>",
       "indent": false,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "jccqhn4r",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 30
+     },
+     "m": null,
+     "props": {
+      "layout": "columns",
+      "items": [
+       {
+        "id": "3ygk4zpc",
+        "assetId": "live",
+        "file": "img-9316.webp",
+        "alt": "IMG 9316",
+        "caption": "",
+        "w": 2500,
+        "h": 3333,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "sxzmx934",
+        "assetId": "live",
+        "file": "img-9317.webp",
+        "alt": "IMG 9317",
+        "caption": "",
+        "w": 2500,
+        "h": 3333,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       },
+       {
+        "id": "7hvjfc6h",
+        "assetId": "live",
+        "file": "img-9318.webp",
+        "alt": "IMG 9318",
+        "caption": "Warehouse 421, Abudhabi",
+        "w": 2500,
+        "h": 3333,
+        "fx": 16,
+        "fy": 12,
+        "fw": 32
+       }
+      ],
+      "cols": 1,
+      "colsM": 1,
+      "gutter": 16,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11,
+      "xm": 0,
+      "wm": 6
+     }
     }
    ],
    "h1": "",
