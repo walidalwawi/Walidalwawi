@@ -1,4 +1,4 @@
-/* PUBLISHED mvs604m5 */
+/* PUBLISHED mvs653ev */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2364,7 +2364,7 @@ margin-left: 0px;
 margin-right: 0px;
 }
 .bd-ly-pane[data-page="mnu0sh01"] > .bd-ly-paper {
-background: linear-gradient(180deg, rgba(214, 214, 214, 0.8), rgba(255, 255, 255, 0.8)) 0 0% / 100% 200% local;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)) 0 0% / 100% 200% local;
 }
 .bd-ly-pane[data-page="mnu0sh01"] > .bd-ly-paper > .bd-panel {
 padding-top: var(--bd-wt);
@@ -2381,7 +2381,7 @@ box-shadow: none;
 --pm-b: 90vh;
 }
 .bd-ly-pane[data-page="wt3x1lay"] > .bd-ly-paper {
-background: linear-gradient(180deg, rgba(214, 214, 214, 0.8), rgba(255, 255, 255, 0.8)) 0 100% / 100% 200% local;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)) 0 100% / 100% 200% local;
 }
 .bd-ly-pane[data-page="wt3x1lay"] > .bd-ly-paper > .bd-panel {
 padding-top: var(--bd-wt);
