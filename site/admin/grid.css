@@ -1,18 +1,18 @@
 /* EDITOR TOKENS */
 /* Look: pill. Charcoal or warm panes, every control a pill, sections as solid pastel cards (yellow sheet, lime page, coral blog and post, stone master), black pills for what is available, yellow for what is on */
 :root {
---e-bg: #ECEAE4;
---e-surface: #F6F4EE;
---e-raise: #FFFFFF;
+--e-bg: #fff; 
+--e-surface: #fff;
+--e-raise: #fff;
 --e-tint: #EFEDE6;
---e-well: #DEDBD2;
---e-ink: #17171A;
+--e-well: #fff;
+--e-ink: #fff;
 --e-mute: #6E6B64;
---e-line: #DAD7CE;
+--e-line: #fff;
 --e-accent: #141416;
 --e-accent-ink: #F4F2EC;
---e-pill: #141416;
---e-pill-ink: #F4F2EC;
+--e-pill: #fff;
+--e-pill-ink: #fff;
 --e-pill-mute: #9A9890;
 --e-tpill: #141416;
 --e-on: #F2CF6B;
@@ -22,6 +22,8 @@
 --e-sans: "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
 --e-mono: "IBM Plex Mono", Menlo, Consolas, monospace;
 }
+
+
 @media (prefers-color-scheme: dark) {
 :root:not([data-theme="light"]) {
 --e-bg: #0E0E10;
@@ -156,7 +158,7 @@ padding: 0 10px;
 display: inline-flex;
 align-items: center;
 gap: 6px;
-border: 1px solid var(--e-line);
+border: 0px solid var(--e-line);
 border-radius: 4px;
 background: var(--e-surface);
 white-space: nowrap;
@@ -192,7 +194,7 @@ flex: none;
 .bd-ed-seg {
 display: inline-flex;
 border: 1px solid var(--e-line);
-border-radius: 3px;
+border-radius: 5px;
 overflow: hidden;
 background: var(--e-surface);
 }
@@ -238,8 +240,8 @@ display: none;
 /* PANELS */
 .bd-ed-panel {
 background: var(--e-surface);
-border: 1px solid var(--e-line);
-border-radius: 4px;
+border: 0px solid var(--e-line);
+border-radius: 5px;
 min-height: 0;
 overflow: auto;
 display: flex;
@@ -253,7 +255,7 @@ grid-area: right;
 }
 .bd-ed-tabs {
 display: flex;
-border-bottom: 1px solid var(--e-line);
+border-bottom: 0px solid var(--e-line);
 position: sticky;
 top: 0;
 background: var(--e-surface);
