@@ -1115,7 +1115,76 @@
       "indent": true,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "npro3nk3",
+     "type": "embed",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 40
+     },
+     "m": null,
+     "props": {
+      "url": "https://vimeo.com/236143891",
+      "title": "Palestinian Hand Stands",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11,
+      "xm": 0,
+      "wm": 6
+     }
+    },
+    {
+     "id": "q6vvqwg3",
+     "type": "embed",
+     "d": {
+      "x": 0,
+      "y": 50,
+      "w": 12,
+      "h": 40
+     },
+     "m": null,
+     "props": {
+      "url": "https://vimeo.com/80350144",
+      "title": "Chair",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "xvv0md24",
+     "type": "embed",
+     "d": {
+      "x": 0,
+      "y": 93,
+      "w": 12,
+      "h": 40
+     },
+     "m": null,
+     "props": {
+      "url": "https://vimeo.com/68912541",
+      "title": "Hiding 1",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11
+     }
     }
    ],
    "h1": "",
@@ -4004,7 +4073,7 @@
      "props": {
       "menu": "",
       "marker": ">",
-      "align": "right",
+      "align": "left",
       "style": "heading",
       "gap": 0,
       "gapM": 14,
