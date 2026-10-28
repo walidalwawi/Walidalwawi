@@ -2714,7 +2714,12 @@
       "w": 12,
       "h": 3
      },
-     "m": null,
+     "m": {
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 3
+     },
      "props": {
       "back": true,
       "backLabel": "<",
@@ -2751,15 +2756,109 @@
       "y": 0
      },
      "id": "mbqrhzpb",
-     "m": null,
+     "m": {
+      "x": 0,
+      "y": 6,
+      "w": 6,
+      "h": 4
+     },
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
+      "html": "<p>Manipulated passport and sealing wax. Barjeel Art Foundation Collection.</p><p>The binding thread was surgically removed from the passport's spine and used to sew the document permanently shut. The cover is drowned in sealing wax to redact the document’s identity.</p>",
       "indent": false,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "1w9bcmc1",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 30
+     },
+     "m": {
+      "x": 0,
+      "y": 13,
+      "w": 6,
+      "h": 30
+     },
+     "props": {
+      "layout": "columns",
+      "items": [
+       {
+        "id": "ytjdasce",
+        "assetId": "live",
+        "file": "img-9305.webp",
+        "alt": "IMG 9305",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "1zwt3nr7",
+        "assetId": "live",
+        "file": "img-9306.webp",
+        "alt": "IMG 9306",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       },
+       {
+        "id": "dnvs58w6",
+        "assetId": "live",
+        "file": "img-9307.webp",
+        "alt": "IMG 9307",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 16,
+        "fy": 12,
+        "fw": 32
+       }
+      ],
+      "cols": 1,
+      "colsM": 1,
+      "gutter": 16,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "xm": 0,
+      "wm": 6,
+      "x": 0,
+      "w": 11
+     }
     }
    ],
    "h1": "",
