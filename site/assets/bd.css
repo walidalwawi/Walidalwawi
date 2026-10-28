@@ -1,4 +1,4 @@
-/* PUBLISHED mvs551yb */
+/* PUBLISHED mvs58epm */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1525,8 +1525,8 @@ column-gap: 30px;
 --w: 11;
 }
 .bd-e-1w1wwgvu {
---cols: 5;
---gut: 30px;
+--cols: 3;
+--gut: 0px;
 --ratio: 2 / 3;
 }
 .bd-e-5rwizp7d .bd-gi {
@@ -2466,6 +2466,13 @@ background: #000000;
 }
 .bd-text sup {
 font-size: 12px;
+}
+.bd-e-1w1wwgvu img {
+text-align: left;
+font-style: italic;
+}
+.bd-library .bd-lib-t {
+margin-top: 20px;
 }
 
 /* MOBILE */
