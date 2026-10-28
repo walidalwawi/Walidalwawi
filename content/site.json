@@ -1841,7 +1841,12 @@
       "w": 12,
       "h": 3
      },
-     "m": null,
+     "m": {
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 3
+     },
      "props": {
       "back": true,
       "backLabel": "<",
@@ -1878,15 +1883,111 @@
       "y": 0
      },
      "id": "79t4ppco",
-     "m": null,
+     "m": {
+      "x": 0,
+      "y": 6,
+      "w": 6,
+      "h": 4
+     },
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
+      "html": "<p>Brass Sculpture. Wearable object. Variable dimensions.</p><p>A wearable sculpture merging the form of a Jewish Kippah with the architecture of the Dome of the Rock. By collapsing these two contested symbols into a single object, the work physically places the geopolitical burden of the \"Holy Site\" directly onto the head of the individual.</p>",
       "indent": false,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "xm": 0,
+      "wm": 6,
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "errfcswy",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 30
+     },
+     "m": {
+      "x": 0,
+      "y": 13,
+      "w": 6,
+      "h": 30
+     },
+     "props": {
+      "layout": "columns",
+      "items": [
+       {
+        "id": "rgxmv412",
+        "assetId": "live",
+        "file": "img-9302.webp",
+        "alt": "IMG 9302",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "f1jv1t5t",
+        "assetId": "live",
+        "file": "img-9303.webp",
+        "alt": "IMG 9303",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       },
+       {
+        "id": "7vsbqxv3",
+        "assetId": "live",
+        "file": "img-9304.webp",
+        "alt": "IMG 9304",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 16,
+        "fy": 12,
+        "fw": 32
+       }
+      ],
+      "cols": 1,
+      "colsM": 1,
+      "gutter": 10,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "xm": 0,
+      "wm": 6,
+      "x": 0,
+      "w": 11
+     }
     }
    ],
    "h1": "",
