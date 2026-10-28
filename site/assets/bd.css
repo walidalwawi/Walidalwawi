@@ -1,4 +1,4 @@
-/* PUBLISHED mvs54o4y */
+/* PUBLISHED mvs551yb */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1536,6 +1536,9 @@ column-gap: 30px;
 }
 .bd-e-piq7qvfb {
 padding-bottom: 30px;
+}
+.bd-e-1w1wwgvu .bd-lib-item[data-k="3x413j9j"] {
+--spine: #ebebeb;
 }
 .bd-e-1w1wwgvu {
 --spine: #8a8a8a;

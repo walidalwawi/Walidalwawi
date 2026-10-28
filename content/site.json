@@ -1546,7 +1546,7 @@
         "author": "",
         "topics": [],
         "href": "https://drive.google.com/file/d/1oFmlcGYdrd6LeHm1a87lGMpnTgJGkFQ5/view?usp=share_link",
-        "spine": "",
+        "spine": "#ebebeb",
         "w": 750,
         "h": 750
        }
@@ -1561,7 +1561,7 @@
       "allLabel": "All",
       "blend": "",
       "backdrop": "",
-      "book": "0",
+      "book": "1",
       "spine": "",
       "spineW": "",
       "shadow": "",
