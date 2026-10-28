@@ -2748,11 +2748,101 @@
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
+      "html": "<p>Modified Object / Sound Installation. Refugee document, greeting card sound module, Yafa orange.</p><p>A sound module is embedded into the refugee document and wired directly to the fruit. The acidity of the orange powers the circuit. When the document is opened, the device plays a standard Hebrew birthday song, creating a parasitic loop between indigenous resources and the language of the occupier.</p>",
       "indent": false,
       "size": ""
      },
      "type": "text"
+    },
+    {
+     "id": "j6v9e7gc",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 30
+     },
+     "m": null,
+     "props": {
+      "layout": "grid",
+      "items": [
+       {
+        "id": "vcuvtahp",
+        "assetId": "live",
+        "file": "img-9291.webp",
+        "alt": "IMG 9291",
+        "caption": "",
+        "w": 1500,
+        "h": 1125,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "o0mpo264",
+        "assetId": "live",
+        "file": "img-9292.webp",
+        "alt": "IMG 9292",
+        "caption": "",
+        "w": 1500,
+        "h": 1125,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       },
+       {
+        "id": "iphmolo4",
+        "assetId": "live",
+        "file": "img-9293.webp",
+        "alt": "IMG 9293",
+        "caption": "",
+        "w": 1500,
+        "h": 1125,
+        "fx": 16,
+        "fy": 12,
+        "fw": 32
+       },
+       {
+        "id": "seay77sz",
+        "assetId": "live",
+        "file": "img-9294.webp",
+        "alt": "IMG 9294",
+        "caption": "",
+        "w": 1500,
+        "h": 1125,
+        "fx": 24,
+        "fy": 18,
+        "fw": 32
+       }
+      ],
+      "cols": 3,
+      "colsM": 2,
+      "gutter": 16,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 10
+     }
     }
    ],
    "h1": "",

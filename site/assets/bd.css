@@ -1,4 +1,4 @@
-/* PUBLISHED mvrx3vtd */
+/* PUBLISHED mvrx5k1h */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1526,7 +1526,15 @@ padding-bottom: 30px;
 }
 
 /* PAGE: FORBIDDEN FRUIT */
-
+.bd-flow > .bd-e-j6v9e7gc {
+--x: 0;
+--w: 10;
+}
+.bd-e-j6v9e7gc .bd-gi {
+--cols: 3;
+--gut: 16px;
+--rowh: 220px;
+}
 .bd-e-pieogqrk {
 padding-bottom: 30px;
 }
@@ -2478,7 +2486,15 @@ column-gap: 20px;
 padding-bottom: 30px;
 }
 /* PAGE: FORBIDDEN FRUIT */
-
+.bd-flow > .bd-e-j6v9e7gc {
+--x: 0;
+--w: 4;
+}
+.bd-e-j6v9e7gc .bd-gi {
+--cols: 2;
+--gut: 10px;
+--rowh: 140px;
+}
 .bd-e-pieogqrk {
 padding-bottom: 30px;
 }
