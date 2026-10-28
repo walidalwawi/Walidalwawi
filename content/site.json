@@ -1296,9 +1296,9 @@
         "fw": 32
        }
       ],
-      "cols": 3,
-      "colsM": 2,
-      "gutter": 16,
+      "cols": 1,
+      "colsM": 1,
+      "gutter": 10,
       "gutterM": 10,
       "ratio": "auto",
       "align": "start",
@@ -1321,7 +1321,9 @@
      "col": 1,
      "own": {
       "x": 0,
-      "w": 11
+      "w": 11,
+      "xm": 0,
+      "wm": 6
      }
     },
     {
