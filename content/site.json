@@ -1235,6 +1235,96 @@
      "type": "text"
     },
     {
+     "id": "5rwizp7d",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 8,
+      "w": 12,
+      "h": 30
+     },
+     "m": null,
+     "props": {
+      "layout": "columns",
+      "items": [
+       {
+        "id": "pghh9yo2",
+        "assetId": "live",
+        "file": "img-9287.webp",
+        "alt": "IMG 9287",
+        "caption": "",
+        "w": 750,
+        "h": 620,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "06ozl4sx",
+        "assetId": "live",
+        "file": "img-9288.webp",
+        "alt": "IMG 9288",
+        "caption": "",
+        "w": 750,
+        "h": 750,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       },
+       {
+        "id": "68c77vsr",
+        "assetId": "live",
+        "file": "img-9289.webp",
+        "alt": "IMG 9289",
+        "caption": "",
+        "w": 750,
+        "h": 749,
+        "fx": 16,
+        "fy": 12,
+        "fw": 32
+       },
+       {
+        "id": "6v70m1wj",
+        "assetId": "live",
+        "file": "img-9290.webp",
+        "alt": "IMG 9290",
+        "caption": "",
+        "w": 750,
+        "h": 749,
+        "fx": 24,
+        "fy": 18,
+        "fw": 32
+       }
+      ],
+      "cols": 3,
+      "colsM": 2,
+      "gutter": 16,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
      "d": {
       "h": 1,
       "w": 10,
@@ -1251,11 +1341,16 @@
      "props": {
       "alt": "EOUP installed at Library Circles, James Art Center, Dubai",
       "assetId": "live",
-      "caption": "",
+      "caption": "Library Circles, James Art Center, Dubai",
       "file": "eoup-library-circles.jpg",
       "fit": "contain"
      },
-     "type": "image"
+     "type": "image",
+     "own": {
+      "x": 0,
+      "w": 11
+     },
+     "col": 1
     }
    ],
    "h1": "EOUP, 2018",
