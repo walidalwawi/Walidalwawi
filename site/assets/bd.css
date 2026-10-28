@@ -1,4 +1,4 @@
-/* PUBLISHED mvshv292 */
+/* PUBLISHED mvshzvt8 */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -10,7 +10,7 @@
 --bd-rule: #ffffff;
 --bd-sans: "Arial", "Helvetica Neue", Arial, sans-serif;
 --bd-mono: "IBM Plex Mono", Menlo, Consolas, monospace;
---bd-w: 750px;
+--bd-w: 100%;
 --bd-wt: 40px;
 --bd-wr: 50px;
 --bd-wb: 30px;
@@ -1499,7 +1499,11 @@ height: 22px;
 
 /* COLUMNS */
 .bd-main .bd-cols {
-grid-template-columns: minmax(0, 12fr);
+grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
+column-gap: 30px;
+}
+.bd-cols.bd-cl-posts {
+grid-template-columns: minmax(0, 6fr) minmax(0, 6fr);
 column-gap: 30px;
 }
 
@@ -7327,6 +7331,10 @@ margin-top: 5px;
 }
 /* COLUMNS */
 .bd-main .bd-cols {
+grid-template-columns: minmax(0, 1fr);
+column-gap: 20px;
+}
+.bd-cols.bd-cl-posts {
 grid-template-columns: minmax(0, 1fr);
 column-gap: 20px;
 }

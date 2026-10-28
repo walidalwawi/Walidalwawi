@@ -333,10 +333,11 @@
   "zoom": true,
   "head": "",
   "layout": {
-   "cols": 1,
-   "align": "center",
+   "cols": 2,
+   "align": "spread",
    "spans": [
-    12
+    6,
+    6
    ],
    "colsM": 1,
    "gutter": 30,
@@ -698,10 +699,11 @@
    "sideM": "top"
   },
   "postLayout": {
-   "cols": 1,
+   "cols": 2,
    "align": "center",
    "spans": [
-    12
+    6,
+    6
    ],
    "colsM": 1,
    "gutter": 30,
