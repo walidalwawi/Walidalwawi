@@ -3296,9 +3296,9 @@
       "label": "Index;",
       "crumbs": true,
       "sep": " / ",
-      "gap": 12,
-      "dim": 60,
-      "line": true,
+      "gap": 5,
+      "dim": 100,
+      "line": false,
       "style": "body"
      },
      "own": {}
