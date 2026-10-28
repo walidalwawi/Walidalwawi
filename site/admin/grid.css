@@ -1,3 +1,67 @@
+/* SECTION CARDS & PANELS */
+.bd-ed-skin,
+:is(.bd-ed-pc-styles, .bd-ed-pc-motion, .bd-ed-pc-site, .bd-ed-pc-bm) > .bd-ed-sec:not(:first-child) {
+  background: #FFFFFF !important;
+  color: #000000;
+  border: 1px solid #000000;
+  border-top: 1px solid #000000;
+  box-shadow: none;
+  padding: 14px;
+}
+
+/* REMOVE LEFT ACCENT INDENT STYLING */
+.bd-ed-skin[style*="#f3f0e4"],
+.bd-ed-skin[style*="#f3f0e5"],
+.bd-ed-skin[style*="#f3f0e6"],
+.bd-ed-skin[style*="#f3f0e7"],
+:is(.bd-ed-pc-styles, .bd-ed-pc-motion, .bd-ed-pc-site, .bd-ed-pc-bm) > .bd-ed-sec:not(:first-child) {
+  box-shadow: none !important;
+}
+
+/* UNIVERSAL FULL 1PX BORDERS & WHITE BACKGROUND */
+.bd-ed-panel,
+.bd-ed-seg,
+.bd-ed-pins,
+.bd-ed-rail,
+.bd-ed-input,
+.bd-ed-btn,
+.bd-ed-master {
+  background: #FFFFFF !important;
+  color: #000000 !important;
+  border: 1px solid #000000 !important;
+  box-shadow: none !important;
+}
+
+/* ACTIVE / HOVER STATES */
+.bd-ed-btn.is-on,
+.bd-ed-seg button.is-on,
+.bd-ed-pinpill.is-on,
+.bd-ed-master.is-on,
+.bd-ed-tool.is-on,
+.bd-ed-btn.is-primary {
+  background: #000000 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #000000 !important;
+}
+
+.bd-ed-btn:hover,
+.bd-ed-master:hover,
+.bd-ed-tool:hover {
+  background: #000000 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #000000 !important;
+}
+
+/* CLEAN DIVIDERS */
+.bd-ed-sec .bd-ed-group {
+  background: #FFFFFF !important;
+  border: 1px solid #000000 !important;
+  box-shadow: none !important;
+}
+ 
+
+
+
 /* EDITOR TOKENS */
 /* Look: pill. Charcoal or warm panes, every control a pill, sections as solid pastel cards (yellow sheet, lime page, coral blog and post, stone master), black pills for what is available, yellow for what is on */
 :root {
