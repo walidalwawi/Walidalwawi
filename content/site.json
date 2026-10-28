@@ -1516,7 +1516,7 @@
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Paper Architecture / Installation. Commissioned by The Qattan Art Foundation for YAYA 2018.</p>\n<p>Proposes a hypothetical organisation that works on providing relief for Palestinian Refugees residing outside of the PLO mandates or UNRWA jurisdiction.<sup>1</sup> Hosted within a structure that mixes the iconography of the Dome of the Rock with the mechanism of parachuting in an architectural image that identifies its purpose as a body of aid to Palestinians.<sup>2</sup></p>\n<p><sup><br></sup></p>\n<p><sup><a href=\"bd-pending-link\">EOUP-Charter.pdf</a></sup></p>\n<p><sup><a href=\"bd-pending-link\">Negotiation_Affairs_Department_PLO-Excerpt</a></sup></p>",
+      "html": "<p>Paper Architecture / Installation. Commissioned by The Qattan Art Foundation for YAYA 2018.</p>\n<p>Proposes a hypothetical organisation that works on providing relief for Palestinian Refugees residing outside of the PLO mandates or UNRWA jurisdiction.<sup>1</sup> Hosted within a structure that mixes the iconography of the Dome of the Rock with the mechanism of parachuting in an architectural image that identifies its purpose as a body of aid to Palestinians.<sup>2</sup></p><p><sup></sup></p>",
       "indent": true,
       "size": ""
      },
@@ -1525,6 +1525,48 @@
       "x": 0,
       "w": 11
      }
+    },
+    {
+     "id": "1w1wwgvu",
+     "type": "library",
+     "d": {
+      "x": 0,
+      "y": 84,
+      "w": 12,
+      "h": 40
+     },
+     "m": null,
+     "props": {
+      "items": [
+       {
+        "id": "3x413j9j",
+        "assetId": "",
+        "file": "",
+        "title": "EOUP-Charter.pdf",
+        "author": "",
+        "topics": [],
+        "href": "https://drive.google.com/file/d/1oFmlcGYdrd6LeHm1a87lGMpnTgJGkFQ5/view?usp=share_link",
+        "spine": ""
+       }
+      ],
+      "cols": 5,
+      "colsM": 2,
+      "gutter": 30,
+      "gutterM": 16,
+      "ratio": "2/3",
+      "titles": true,
+      "filters": false,
+      "allLabel": "All",
+      "blend": "",
+      "backdrop": "",
+      "book": "0",
+      "spine": "",
+      "spineW": "",
+      "shadow": "",
+      "radius": "",
+      "hover": ""
+     },
+     "col": 1
     },
     {
      "id": "k3yj4bgg",
@@ -1666,48 +1708,6 @@
      "own": {
       "x": 0,
       "w": 11
-     },
-     "col": 1
-    },
-    {
-     "id": "1w1wwgvu",
-     "type": "library",
-     "d": {
-      "x": 0,
-      "y": 84,
-      "w": 12,
-      "h": 40
-     },
-     "m": null,
-     "props": {
-      "items": [
-       {
-        "id": "3x413j9j",
-        "assetId": "",
-        "file": "",
-        "title": "EOUP-Charter.pdf",
-        "author": "",
-        "topics": [],
-        "href": "https://drive.google.com/file/d/1oFmlcGYdrd6LeHm1a87lGMpnTgJGkFQ5/view?usp=share_link",
-        "spine": ""
-       }
-      ],
-      "cols": 5,
-      "colsM": 2,
-      "gutter": 30,
-      "gutterM": 16,
-      "ratio": "2/3",
-      "titles": true,
-      "filters": false,
-      "allLabel": "All",
-      "blend": "",
-      "backdrop": "",
-      "book": "0",
-      "spine": "",
-      "spineW": "",
-      "shadow": "",
-      "radius": "",
-      "hover": ""
      },
      "col": 1
     }
