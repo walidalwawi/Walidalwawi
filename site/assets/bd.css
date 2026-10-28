@@ -1,4 +1,4 @@
-/* PUBLISHED mvsi8ozc */
+/* PUBLISHED mvsiakrd */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -3942,6 +3942,7 @@ background: #000000;
 }
 .bd-embed {
 width: 100%;
+text-align: center;
 }
 .bd-embed iframe {
 position: absolute;
@@ -7132,6 +7133,9 @@ font-style: italic;
 }
 .bd-library .bd-lib-t {
 margin-top: 20px;
+}
+.bd-e-npro3nk3 {
+text-align: center;
 }
 
 /* MOBILE */
