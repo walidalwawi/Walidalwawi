@@ -929,7 +929,7 @@
       "align": "left",
       "font": "sans",
       "html": "<p>Pastel on Paper. Series of portraits based on official press photographs. Variable dimensions.</p><p>Depicts political leaders in formal attire, disrupted by the inclusion of white athletic socks. A critique of the fragility and banality of authoritarian image-making.</p>",
-      "indent": false,
+      "indent": true,
       "size": ""
      },
      "type": "text",
@@ -1772,7 +1772,7 @@
       "align": "left",
       "font": "sans",
       "html": "<p>Durational Performance / Participatory Installation. 4 hours.</p><p>The artist attempts to sit still for the duration of the performance. Participants trace the projected video feed, documenting every involuntary movement as a visible deviation from the ideal form, while the artist struggles to remain within the boundaries of his own shape.</p>",
-      "indent": false,
+      "indent": true,
       "size": ""
      },
      "type": "text",
@@ -1977,7 +1977,7 @@
       "align": "left",
       "font": "sans",
       "html": "<p>Brass Sculpture. Wearable object. Variable dimensions.</p><p>A wearable sculpture merging the form of a Jewish Kippah with the architecture of the Dome of the Rock. By collapsing these two contested symbols into a single object, the work physically places the geopolitical burden of the \"Holy Site\" directly onto the head of the individual.</p>",
-      "indent": false,
+      "indent": true,
       "size": ""
      },
      "type": "text",
@@ -2850,7 +2850,7 @@
       "align": "left",
       "font": "sans",
       "html": "<p>Manipulated passport and sealing wax. Barjeel Art Foundation Collection.</p><p>The binding thread was surgically removed from the passport's spine and used to sew the document permanently shut. The cover is drowned in sealing wax to redact the document’s identity.</p>",
-      "indent": false,
+      "indent": true,
       "size": ""
      },
      "type": "text",
@@ -3037,8 +3037,8 @@
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Pastel on Paper. 2x1.7m. Barjeel Art Foundation Collection. Created under MMCA South Korea Residency Program.</p><p>Depicts the historical signing of the U.N. Charter with all national flags removed from the scene. The redaction renders the event absurd, visualizing the silence within international legal frameworks.</p>",
-      "indent": false,
+      "html": "<p>Pastel on Paper. 2x1.7m. Barjeel Art Foundation Collection. Created under MMCA South Korea Residency Program.</p>\n<p>Depicts the historical signing of the U.N. Charter with all national flags removed from the scene. The redaction renders the event absurd, visualizing the silence within international legal frameworks.</p>",
+      "indent": true,
       "size": ""
      },
      "type": "text",
@@ -3221,7 +3221,7 @@
       "align": "left",
       "font": "sans",
       "html": "<p>Modified Object / Sound Installation. Refugee document, greeting card sound module, Yafa orange.</p><p>A sound module is embedded into the refugee document and wired directly to the fruit. The acidity of the orange powers the circuit. When the document is opened, the device plays a standard Hebrew birthday song, creating a parasitic loop between indigenous resources and the language of the occupier.</p>",
-      "indent": false,
+      "indent": true,
       "size": ""
      },
      "type": "text",
@@ -3514,11 +3514,93 @@
      "props": {
       "align": "left",
       "font": "sans",
-      "html": "<p>Text to come.</p>",
-      "indent": false,
+      "html": "<p>Wooden object and performance/video. Created under MMCA South Korea Residency Program.</p><p>A wearable wooden sculpture designed as a chair, worn by the artist while performing the Islamic 'Salah' prayer. The work physically burdens the body with the empty seat of the historical liberator, critiquing the paralysis of leadership and the weight of past glory on the present.</p>",
+      "indent": true,
       "size": ""
      },
-     "type": "text"
+     "type": "text",
+     "own": {
+      "x": 0,
+      "w": 11
+     }
+    },
+    {
+     "id": "z4q5yf2e",
+     "type": "gallery",
+     "d": {
+      "x": 0,
+      "y": 7,
+      "w": 12,
+      "h": 30
+     },
+     "m": null,
+     "props": {
+      "layout": "grid",
+      "items": [
+       {
+        "id": "c4nskkpp",
+        "assetId": "live",
+        "file": "img-9311.webp",
+        "alt": "IMG 9311",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 0,
+        "fy": 0,
+        "fw": 32
+       },
+       {
+        "id": "g6nq2ux6",
+        "assetId": "live",
+        "file": "img-9312.webp",
+        "alt": "IMG 9312",
+        "caption": "",
+        "w": 2500,
+        "h": 1875,
+        "fx": 8,
+        "fy": 6,
+        "fw": 32
+       },
+       {
+        "id": "msglm2mc",
+        "assetId": "live",
+        "file": "img-9313.webp",
+        "alt": "IMG 9313",
+        "caption": "MMCA South Korea, Seoul",
+        "w": 2500,
+        "h": 1875,
+        "fx": 16,
+        "fy": 12,
+        "fw": 32
+       }
+      ],
+      "cols": 1,
+      "colsM": 2,
+      "gutter": 10,
+      "gutterM": 10,
+      "ratio": "auto",
+      "align": "start",
+      "rowH": 220,
+      "rowHM": 140,
+      "captions": true,
+      "zoom": true,
+      "transition": "fade",
+      "nav": "arrows",
+      "auto": 0,
+      "counter": true,
+      "snap": 2.5,
+      "freeM": "stack",
+      "blend": "",
+      "backdrop": "",
+      "tone": "",
+      "opacity": "",
+      "radius": ""
+     },
+     "col": 1,
+     "own": {
+      "x": 0,
+      "w": 11
+     }
     }
    ],
    "h1": "",

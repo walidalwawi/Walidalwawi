@@ -1,4 +1,4 @@
-/* PUBLISHED mvrxzuq3 */
+/* PUBLISHED mvry3z9r */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1638,7 +1638,19 @@ padding-bottom: 30px;
 }
 
 /* PAGE: CHAIR OF SALADIN */
-
+.bd-flow > .bd-e-hs00fzfs {
+--x: 0;
+--w: 11;
+}
+.bd-flow > .bd-e-z4q5yf2e {
+--x: 0;
+--w: 11;
+}
+.bd-e-z4q5yf2e .bd-gi {
+--cols: 1;
+--gut: 10px;
+--rowh: 220px;
+}
 .bd-e-pi5kqxmm {
 padding-bottom: 30px;
 }
@@ -2683,7 +2695,19 @@ padding-bottom: 30px;
 padding-bottom: 30px;
 }
 /* PAGE: CHAIR OF SALADIN */
-
+.bd-flow > .bd-e-hs00fzfs {
+--x: 0;
+--w: 6;
+}
+.bd-flow > .bd-e-z4q5yf2e {
+--x: 0;
+--w: 4;
+}
+.bd-e-z4q5yf2e .bd-gi {
+--cols: 2;
+--gut: 10px;
+--rowh: 140px;
+}
 .bd-e-pi5kqxmm {
 padding-bottom: 30px;
 }
