@@ -10,7 +10,7 @@
   },
   "cols": 12,
   "colsM": 6,
-  "css": ".bd-e-pi1aasbj span {\ntext-align: left;\n}\n.bd-e-pi1aasbj {\ntext-align: right;\n}\n",
+  "css": ".bd-e-pi1aasbj span {\ntext-align: left;\n}\n.bd-e-pi1aasbj {\ntext-align: right;\n}\n.bd-site img, .bd-site video, .bd-site iframe {\nmax-width: 100%;\nheight: auto;\n}\n.bd-site, .bd-ts-body, .bd-list.is-body ul {\nletter-spacing: 0em;\n}\n",
   "externals": [
    {
     "section": "e",
@@ -2993,7 +2993,7 @@
    "els": [
     {
      "id": "mnu0el01",
-     "type": "sheetmenu",
+     "type": "html",
      "d": {
       "x": 0,
       "y": 0,
@@ -3007,15 +3007,7 @@
       "h": 6
      },
      "props": {
-      "menu": "main",
-      "marker": "–",
-      "align": "left",
-      "style": "body",
-      "gap": 6,
-      "gapM": 6,
-      "pad": 0,
-      "padM": 0,
-      "mark": ""
+      "code": "<nav class=\"bd-sheetmenu is-al-left\" aria-label=\"Menu\">\n<ul class=\"bd-ly-list bd-ts-body\">\n<li>\n<a class=\"bd-ly-a\" href=\"/\" data-id=\"blgart01\">\n<span class=\"bd-ly-mk\" aria-hidden=\"true\">–</span>Art</a>\n</li>\n<li>\n<a class=\"bd-ly-a\" href=\"/commentary\" data-id=\"blgcom01\">\n<span class=\"bd-ly-mk\" aria-hidden=\"true\">–</span>Commentary</a>\n</li>\n<li>\n<a class=\"bd-ly-a\" href=\"/biography\" data-id=\"hnb4ahmi\">\n<span class=\"bd-ly-mk\" aria-hidden=\"true\">–</span>Biography</a>\n</li>\n<li>\n<a class=\"bd-ly-a\" href=\"/resume\" data-id=\"6nqav62x\">\n<span class=\"bd-ly-mk\" aria-hidden=\"true\">–</span>Resume</a>\n</li>\n</ul>\n</nav>"
      },
      "own": {}
     }

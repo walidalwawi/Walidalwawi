@@ -1,4 +1,4 @@
-/* PUBLISHED mvrv0a3q */
+/* PUBLISHED mvrvcnfj */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2235,6 +2235,13 @@ text-align: left;
 }
 .bd-e-pi1aasbj {
 text-align: right;
+}
+.bd-site img, .bd-site video, .bd-site iframe {
+max-width: 100%;
+height: auto;
+}
+.bd-site, .bd-ts-body, .bd-list.is-body ul {
+letter-spacing: 0em;
 }
 
 /* MOBILE */
