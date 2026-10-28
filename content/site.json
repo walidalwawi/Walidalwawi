@@ -4014,7 +4014,10 @@
    "mode": "sheet",
    "postArrows": true,
    "titleMode": "num",
-   "postTitleMode": "both"
+   "postTitleMode": "both",
+   "postInfo": true,
+   "header": true,
+   "pattern": ""
   },
   "wt3x1lay": {
    "id": "wt3x1lay",
