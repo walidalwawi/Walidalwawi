@@ -10,7 +10,7 @@
   },
   "cols": 12,
   "colsM": 6,
-  "css": ".bd-e-pi1aasbj span {\ntext-align: left;\n}\n.bd-e-pi1aasbj {\ntext-align: right;\n}\n.bd-site img, .bd-site video, .bd-site iframe {\nmax-width: 100%;\nheight: auto;\n}\n.bd-site, .bd-ts-body, .bd-list.is-body ul {\nletter-spacing: 0em;\n}\n.bd-pagerbar a {\nwidth: 24px;\n}\n.bd-pagerbar-next {\ngrid-column: 3;\nmargin-bottom: 50px;\n}\n.bd-flow {\nflex-direction: column;\n}\n.bd-col {\nmin-width: 0;\n}\n.bd-e-blgart01el .bd-post:not(.is-featured) .bd-post-t {\nfont-size: 12px;\nline-height: 18px;\n}\n.bd-post-txt, .bd-post-t, .bd-post-d, .bd-post-m, .bd-post-x {\ndisplay: block;\n}\n.bd-text.has-indent p + p {\nmargin-top: 15px;\n}\n.bd-flow > .bd-el + .bd-text {\nmargin-top: 0px;\n}\n\n/* MOBILE */\n@media (max-width: 760px) {\n:root {\n--bd-indent: 20px;\n}\n}\n",
+  "css": ".bd-e-pi1aasbj span {\ntext-align: left;\n}\n.bd-e-pi1aasbj {\ntext-align: right;\n}\n.bd-site img, .bd-site video, .bd-site iframe {\nmax-width: 100%;\nheight: auto;\n}\n.bd-site, .bd-ts-body, .bd-list.is-body ul {\nletter-spacing: 0em;\n}\n.bd-pagerbar a {\nwidth: 24px;\n}\n.bd-pagerbar-next {\ngrid-column: 3;\nmargin-bottom: 50px;\n}\n.bd-flow {\nflex-direction: column;\n}\n.bd-col {\nmin-width: 0;\n}\n.bd-e-blgart01el .bd-post:not(.is-featured) .bd-post-t {\nfont-size: 12px;\nline-height: 18px;\n}\n.bd-post-txt, .bd-post-t, .bd-post-d, .bd-post-m, .bd-post-x {\ndisplay: block;\n}\n.bd-text.has-indent p + p {\nmargin-top: 15px;\n}\n.bd-flow > .bd-el + .bd-text {\nmargin-top: 0px;\n}\n\n/* MOBILE */\n@media (max-width: 760px) {\n:root {\n--bd-indent: 25px;\n}\n}\n",
   "externals": [
    {
     "section": "e",
