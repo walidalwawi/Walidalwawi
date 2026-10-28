@@ -526,7 +526,7 @@ margin: 0 auto;
 .bd-ed-sheet {
 transform-origin: 0 0;
 transform: translateZ(0);
-box-shadow: 0 1px 0 var(--e-line), 0 12px 40px rgba(10, 12, 20, 0.12);
+box-shadow: 0 1px 0 var(--e-line), 0 12px 40px rgba(10, 12, 20, 0.12)!important;
 min-height: 640px;
 }
 .bd-ed-sheet.is-desk {
@@ -1700,7 +1700,7 @@ bottom: 12px;
 width: 300px;
 max-width: calc(100vw - 32px);
 z-index: 40;
-box-shadow: 0 16px 48px rgba(10, 12, 20, 0.25);
+box-shadow: none!important;
 display: none;
 }
 .bd-ed-left {
@@ -2568,7 +2568,7 @@ background: var(--e-tpill);
 /* LOOK · INSTRUMENT — MONO TYPE, HAIRLINE RULES, SQUARE CORNERS, CREAM PAPER, ONE ORANGE MARK (FROM WALID'S REFERENCES: STOW, DAILY STRUCTURE LOG, THE FILING DRAWER) */
 :root {
 --e-bg: #ECE9E0;
---e-surface: #F3F0E7;
+--e-surface: #fff!important;
 --e-raise: #FAF8F2;
 --e-tint: #E8E4D8;
 --e-well: #E4E0D4;
@@ -2576,13 +2576,13 @@ background: var(--e-tpill);
 --e-mute: #77736A;
 --e-line: #1B1A17;
 --e-accent: #1B1A17;
---e-accent-ink: #F3F0E7;
+--e-accent-ink: #fff!important;
 --e-pill: #1B1A17;
---e-pill-ink: #F3F0E7;
+--e-pill-ink: #fff!important;
 --e-pill-mute: #9A968B;
 --e-tpill: #1B1A17;
 --e-on: #1B1A17;
---e-on-ink: #F3F0E7;
+--e-on-ink: #fff!important;
 --e-orange: #C8502D;
 --e-warn: #C8502D;
 --e-sans: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
@@ -2785,7 +2785,7 @@ background: transparent !important;
 --e-raise: transparent;
 --e-surface: #FAF8F2;
 --e-tint: rgba(27, 26, 23, 0.06);
---e-bg: #F3F0E7;
+--e-bg: #fff!important;
 --e-warn: #C8502D;
 position: relative;
 padding: 14px 14px 14px 18px;
@@ -2793,27 +2793,27 @@ border: 0;
 border-top: 4px solid #1B1A17;
 border-left: 0;
 border-radius: 0;
-background: #F3F0E7 !important;
+background:#fff!important;
 color: #1B1A17;
-box-shadow: inset 4px 0 0 #1B1A17;
+box-shadow: none!important;
 }
 .bd-ed-skin[style*="#f3f0e4"],
 .bd-ed-skin[style*="#f3f0e5"] {
-box-shadow: inset 4px 0 0 #C8502D;
+box-shadow: none!important;
 }
 .bd-ed-skin[style*="#f3f0e6"],
 :is(.bd-ed-pc-styles, .bd-ed-pc-motion, .bd-ed-pc-site, .bd-ed-pc-bm) > .bd-ed-sec:not(:first-child) {
-box-shadow: inset 4px 0 0 #77736A;
+box-shadow: none;
 }
-.bd-ed-skin[style*="#f3f0e7"] {
+.bd-ed-skin[style*="#fff"] {
 border-top: 0;
 background: #1B1A17 !important;
-color: #F3F0E7;
-box-shadow: none;
+color: #fff!important;
+box-shadow: none!important;
 cursor: pointer;
 }
-.bd-ed-skin[style*="#f3f0e7"] > .bd-ed-title {
-color: #F3F0E7;
+.bd-ed-skin[style*="#fff"] > .bd-ed-title {
+color:#fff!important;
 }
 .bd-ed-skin[style*="#141416"] {
 --e-ink: #ECE9E0;
@@ -2827,7 +2827,7 @@ color: #F3F0E7;
 border-top: 4px solid #C8502D;
 background: #1B1A17 !important;
 color: #ECE9E0;
-box-shadow: none;
+box-shadow: none!important;
 }
 .bd-ed-skin > .bd-ed-title,
 :is(.bd-ed-pc-styles, .bd-ed-pc-motion, .bd-ed-pc-site, .bd-ed-pc-bm) > .bd-ed-sec:not(:first-child) > .bd-ed-title {
@@ -2848,7 +2848,7 @@ color: inherit;
 .bd-ed-skin .bd-ed-btn:hover,
 :is(.bd-ed-pc-styles, .bd-ed-pc-motion, .bd-ed-pc-site, .bd-ed-pc-bm) > .bd-ed-sec:not(:first-child) .bd-ed-btn:hover {
 background: #1B1A17;
-color: #F3F0E7;
+color: #fff!important;
 }
 .bd-ed-skin[style*="#141416"] .bd-ed-btn:hover {
 background: #ECE9E0;
@@ -2856,7 +2856,7 @@ color: #1B1A17;
 }
 .bd-ed-skin .bd-ed-btn.is-on {
 background: #1B1A17;
-color: #F3F0E7;
+color:#fff!important;
 }
 .bd-ed-skin .bd-ed-btn.is-danger,
 .bd-ed-skin .bd-ed-btn.bd-ed-inherit[data-act="inherit-yes"] {
@@ -2894,7 +2894,7 @@ border-left: 1px solid currentColor;
 .bd-ed-skin .bd-ed-seg button.is-on,
 :is(.bd-ed-pc-styles, .bd-ed-pc-motion, .bd-ed-pc-site, .bd-ed-pc-bm) > .bd-ed-sec:not(:first-child) .bd-ed-seg button.is-on {
 background: #1B1A17;
-color: #F3F0E7;
+color:#fff!important;
 }
 .bd-ed-skin[style*="#141416"] .bd-ed-seg button.is-on {
 background: #ECE9E0;
@@ -2916,7 +2916,7 @@ border-left: 1px solid currentColor;
 }
 .bd-ed-pinpill.is-on {
 background: #1B1A17;
-color: #F3F0E7;
+color:#fff!important;
 }
 .bd-ed-skinfold > summary::after {
 content: "[+]";
@@ -2947,7 +2947,7 @@ color: #1B1A17;
 }
 .bd-ed-padb.is-on {
 background: #1B1A17;
-color: #F3F0E7;
+color: #fff!important;
 }
 :is(.bd-ed-pc-styles, .bd-ed-pc-motion, .bd-ed-pc-site, .bd-ed-pc-bm) > .bd-ed-sec:first-child {
 border-top: 0;
@@ -3059,18 +3059,18 @@ border: 0;
 border-top: 1px solid var(--e-ink);
 border-radius: 0;
 background: transparent;
-box-shadow: inset 4px 0 0 var(--e-ink);
+box-shadow: none!important;
 color: var(--e-ink);
 }
 .bd-ed-sec .bd-ed-group.is-sheet {
 border: 0;
 border-top: 1px solid var(--e-ink);
 background: transparent;
-box-shadow: inset 4px 0 0 var(--e-ink);
+box-shadow: none!important;
 }
 .bd-ed-sec .bd-ed-group.is-sheet.is-blog {
 background: transparent;
-box-shadow: inset 4px 0 0 #C8502D;
+box-shadow: none!important;
 }
 .bd-ed-group-label {
 color: var(--e-mute);
