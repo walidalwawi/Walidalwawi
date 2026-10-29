@@ -563,12 +563,6 @@
       "label": ""
      },
      {
-      "id": "m3",
-      "type": "page",
-      "page": "hnb4ahmi",
-      "label": ""
-     },
-     {
       "id": "m4",
       "type": "page",
       "page": "6nqav62x",
@@ -681,39 +675,6 @@
     "vrM": 1,
     "mainM": "wt3x1lay",
     "axisM": "y"
-   },
-   {
-    "id": "t3wjdexf",
-    "name": "Sheet 2",
-    "pages": [],
-    "restPage": "",
-    "edge": "left",
-    "edgeM": "top",
-    "rest": "open",
-    "peek": 200,
-    "peekM": 52,
-    "sliver": 44,
-    "sliverM": 14,
-    "axis": "y",
-    "covers": "all",
-    "coverPages": [],
-    "color": "#E4E1DA",
-    "alpha": 45,
-    "blur": 9,
-    "shadow": "soft",
-    "grain": 0,
-    "nudge": 0,
-    "dur": "",
-    "box": {},
-    "pattern": "",
-    "patColor": "#000000",
-    "patSize": 28,
-    "patAlpha": 14,
-    "out": "peek",
-    "lv": "",
-    "arrive": "slide",
-    "main": "",
-    "hover": ""
    }
   ],
   "pinV1": true,

@@ -1,4 +1,4 @@
-/* PUBLISHED mvtz16rx */
+/* PUBLISHED mvtz2fiu */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2052,18 +2052,6 @@ left: 0px;
 --k-strip: 0px;
 --k-nudge: 0px;
 box-shadow: none;
-z-index: 3;
-}
-.bd-ly-k[data-k="t3wjdexf"] {
-top: 0px;
-right: 0px;
-bottom: 0px;
-left: 0px;
---k-peek: 200px;
---k-sliver: 44px;
---k-strip: 0px;
---k-nudge: 0px;
-box-shadow: none;
 z-index: 2;
 }
 #bd-ly .bd-ly-k[data-k="menu"] .bd-ly-track.is-ax-y {
@@ -2421,16 +2409,6 @@ padding-right: var(--bd-wr);
 margin-bottom: 0px;
 padding-bottom: var(--bd-wb);
 padding-left: var(--bd-wl);
-}
-.bd-ly-k[data-k="t3wjdexf"] > .bd-ly-blur {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-pointer-events: none;
--webkit-backdrop-filter: blur(10.3px);
-backdrop-filter: blur(10.3px);
 }
 .is-t-unfold .bd-ly-art.is-enter {
 transform-origin: 50% 0;
@@ -3096,17 +3074,6 @@ bottom: 0px;
 left: 0px;
 --k-peek: 52px;
 --k-sliver: 14px;
---k-strip: 0px;
---k-nudge: 0px;
-box-shadow: none;
-}
-.bd-ly-k[data-k="t3wjdexf"] {
-top: 0px;
-right: 0px;
-bottom: 0px;
-left: 0px;
---k-peek: 52px;
---k-sliver: 53px;
 --k-strip: 0px;
 --k-nudge: 0px;
 box-shadow: none;
