@@ -563,6 +563,12 @@
       "label": ""
      },
      {
+      "id": "m3",
+      "type": "page",
+      "page": "hnb4ahmi",
+      "label": ""
+     },
+     {
       "id": "m4",
       "type": "page",
       "page": "6nqav62x",
@@ -888,6 +894,7 @@
   "pg7bo61a",
   "blgart01",
   "blgcom01",
+  "hnb4ahmi",
   "6nqav62x",
   "1aasbjv9",
   "x5diswj0",
@@ -4729,6 +4736,73 @@
     "gapM": ""
    },
    "box": {}
+  },
+  "hnb4ahmi": {
+   "css": "",
+   "desc": "Walid Al Wawi is a Palestinian artist, writer, and cultural practitioner.",
+   "els": [
+    {
+     "d": {
+      "h": 60,
+      "w": 12,
+      "x": 0,
+      "y": 0
+     },
+     "id": "ze3b6f4v",
+     "m": null,
+     "own": {
+      "wm": 6,
+      "xm": 0,
+      "x": 0,
+      "w": 10
+     },
+     "props": {
+      "align": "left",
+      "font": "sans",
+      "html": "<p>Walid Al Wawi is a Palestinian artist, writer, and cultural practitioner whose work moves between painting, performance, video, installation, and text. Rooted in more than a decade of engagement in the SWANA region, his practice interrogates the conditions of art in times of crisis, exposing sentimentalism as a mechanism through which institutional frameworks reduce Arab identity to tragedy.</p>\n<p>Al Wawi’s practice unfolds at the intersection of performance, installation, and object-based intervention, where material is weaponised against the infrastructures that seek to contain it. His works dismantle the symbols through which authority, nationalism, and capital reproduce themselves. Rather than documenting identity, his practice performs its impossibility, staging Palestinian existence as both a refusal of imposed categories and an insistence on continuity beyond them.</p>\n<p>Among his projects, <a href=\"/eoup\">EOUP</a> (Embassy of Unofficial Palestine) proposes an architectural installation imagining a hypothetical organisation that provides relief for Palestinian refugees outside the mandates of the PLO or UNRWA. The work combines the iconography of the Dome of the Rock with the mechanics of parachuting, creating an architectural image that identifies itself as a body of aid. Through video, audio, text, and constructed form, EOUP opens an inquiry into jurisdiction, exile, and the possibilities of unofficial spaces.</p>\n<p>Al Wawi has been welcomed by institutions including Darat al Funun, Jameel Arts Centre, Tate Exchange, the Museum of Modern and Contemporary Art South Korea, and FIAC Art Fair, though his work insists on the limits of such spaces.</p>\n<p>Building on this trajectory, in 2017 Al Wawi founded Samt, a virtual platform for art and research that exists primarily online through <a href=\"https://samt.co\" target=\"_blank\" rel=\"noopener\">samt.co</a>. Conceived as both a critique and an alternative to the Western-centered art educational canon, Samt challenges the political economy and hierarchical structures of the art system. By shifting the site of discourse from fixed geographies to a fluid techno-digital approach, it expands the terrain of art beyond its physical confinements.</p>\n<p>In 2022, Samt advanced this mission with the creation of the Samt Alternative Art School (SAAS), directly confronting the Eurocentric academy, capitalist frameworks, and patriarchal dominance embedded in the historical and contemporary art canon, fostering instead a pedagogy of insurgent practice.</p>",
+      "indent": true,
+      "size": "",
+      "lh": "",
+      "tracking": ""
+     },
+     "type": "text",
+     "col": 1
+    }
+   ],
+   "h1": "",
+   "header": true,
+   "id": "hnb4ahmi",
+   "kind": "page",
+   "layout": "master",
+   "num": "",
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
+   },
+   "section": "b",
+   "slug": "biography",
+   "stack": [],
+   "title": "Biography",
+   "box": {},
+   "mode": "card",
+   "colset": {
+    "cols": 2,
+    "align": "spread",
+    "spans": [
+     4,
+     8
+    ],
+    "colsM": 1,
+    "gutter": 40,
+    "gutterM": 24
+   },
+   "pattern": ""
   }
  }
 }
