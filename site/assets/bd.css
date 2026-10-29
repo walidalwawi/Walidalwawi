@@ -1,4 +1,4 @@
-/* PUBLISHED mvtx0vc3 */
+/* PUBLISHED mvtz16rx */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1759,6 +1759,12 @@ padding-bottom: 30px;
 padding-bottom: 30px;
 }
 
+/* PAGE: NEW POST */
+
+.bd-e-65f5wbay {
+padding-bottom: 30px;
+}
+
 /* PAGE: ART */
 .bd-flow > .bd-e-blgart01el {
 --x: 0;
@@ -1818,12 +1824,6 @@ mix-blend-mode: multiply;
 --pimg-gap: 0px;
 --pmgap: 10px;
 --pratio: 1;
-}
-
-/* PAGE: BIOGRAPHY */
-.bd-flow > .bd-e-ze3b6f4v {
---x: 0;
---w: 10;
 }
 
 /* PAGE: HOW TO DESEED A WATERMELON FOR SAFE CONSUMPTION */
@@ -2043,6 +2043,18 @@ overflow-y: auto;
 overscroll-behavior: contain;
 }
 .bd-ly-k[data-k="menu"] {
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+--k-peek: 200px;
+--k-sliver: 44px;
+--k-strip: 0px;
+--k-nudge: 0px;
+box-shadow: none;
+z-index: 3;
+}
+.bd-ly-k[data-k="t3wjdexf"] {
 top: 0px;
 right: 0px;
 bottom: 0px;
@@ -2276,39 +2288,55 @@ visibility: visible;
 }
 .bd-ly-art[data-id="q7qvfbel"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="eogqrkvs"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="fgw1xddq"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="t5b76rf0"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="xr287be3"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="zrqd5ge3"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="hbyuk2gw"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="5kqxmmg6"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="70vxwodd"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="p5tfzre8"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="tud4lpid"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="icrcf1kz"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
+}
+.bd-ly-art[data-id="pg7bo61a"] > .bd-panel {
+padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="blgart01"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
@@ -2320,29 +2348,32 @@ backdrop-filter: blur(10px);
 padding-top: calc(80px + var(--bd-wt));
 background: rgba(255, 255, 255, 1);
 }
-.bd-ly-art[data-id="hnb4ahmi"] > .bd-panel {
-padding-top: calc(80px + var(--bd-wt));
-}
 .bd-ly-art[data-id="6nqav62x"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
 }
 .bd-ly-art[data-id="1aasbjv9"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="x5diswj0"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="7p91dczr"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="cgpa8ceq"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="fecdj2r3"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-art[data-id="m8sb43uz"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
+background: transparent;
 }
 .bd-ly-k[data-k="menu"] > .bd-ly-blur {
 position: absolute;
@@ -2390,6 +2421,16 @@ padding-right: var(--bd-wr);
 margin-bottom: 0px;
 padding-bottom: var(--bd-wb);
 padding-left: var(--bd-wl);
+}
+.bd-ly-k[data-k="t3wjdexf"] > .bd-ly-blur {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+-webkit-backdrop-filter: blur(10.3px);
+backdrop-filter: blur(10.3px);
 }
 .is-t-unfold .bd-ly-art.is-enter {
 transform-origin: 50% 0;
@@ -2925,6 +2966,11 @@ padding-bottom: 30px;
 .bd-e-piicrcf1 {
 padding-bottom: 30px;
 }
+/* PAGE: NEW POST */
+
+.bd-e-65f5wbay {
+padding-bottom: 30px;
+}
 /* PAGE: ART */
 .bd-flow > .bd-e-blgart01el {
 --x: 0;
@@ -2964,11 +3010,6 @@ line-height: 14px;
 --pgap: 24px;
 --prow: 24px;
 --ppad: 0px;
-}
-/* PAGE: BIOGRAPHY */
-.bd-flow > .bd-e-ze3b6f4v {
---x: 0;
---w: 6;
 }
 /* PAGE: RESUME */
 .bd-flow > .bd-e-to7rgcpx {
@@ -3055,6 +3096,17 @@ bottom: 0px;
 left: 0px;
 --k-peek: 52px;
 --k-sliver: 14px;
+--k-strip: 0px;
+--k-nudge: 0px;
+box-shadow: none;
+}
+.bd-ly-k[data-k="t3wjdexf"] {
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+--k-peek: 52px;
+--k-sliver: 53px;
 --k-strip: 0px;
 --k-nudge: 0px;
 box-shadow: none;
@@ -3284,13 +3336,13 @@ padding-top: calc(39px + var(--bd-wt));
 .bd-ly-art[data-id="icrcf1kz"] > .bd-panel {
 padding-top: calc(39px + var(--bd-wt));
 }
+.bd-ly-art[data-id="pg7bo61a"] > .bd-panel {
+padding-top: calc(39px + var(--bd-wt));
+}
 .bd-ly-art[data-id="blgart01"] > .bd-panel {
 padding-top: calc(39px + var(--bd-wt));
 }
 .bd-ly-art[data-id="blgcom01"] > .bd-panel {
-padding-top: calc(39px + var(--bd-wt));
-}
-.bd-ly-art[data-id="hnb4ahmi"] > .bd-panel {
 padding-top: calc(39px + var(--bd-wt));
 }
 .bd-ly-art[data-id="6nqav62x"] > .bd-panel {

@@ -681,6 +681,39 @@
     "vrM": 1,
     "mainM": "wt3x1lay",
     "axisM": "y"
+   },
+   {
+    "id": "t3wjdexf",
+    "name": "Sheet 2",
+    "pages": [],
+    "restPage": "",
+    "edge": "left",
+    "edgeM": "top",
+    "rest": "open",
+    "peek": 200,
+    "peekM": 52,
+    "sliver": 44,
+    "sliverM": 14,
+    "axis": "y",
+    "covers": "all",
+    "coverPages": [],
+    "color": "#E4E1DA",
+    "alpha": 45,
+    "blur": 9,
+    "shadow": "soft",
+    "grain": 0,
+    "nudge": 0,
+    "dur": "",
+    "box": {},
+    "pattern": "",
+    "patColor": "#000000",
+    "patSize": 28,
+    "patAlpha": 14,
+    "out": "peek",
+    "lv": "",
+    "arrive": "slide",
+    "main": "",
+    "hover": ""
    }
   ],
   "pinV1": true,
@@ -693,10 +726,12 @@
    "blur": 8
   },
   "postBox": {
-   "shadow": "none"
+   "shadow": "none",
+   "card": "none",
+   "sheetBg": "none"
   },
   "postGo": {
-   "side": "left",
+   "side": "top",
    "sideM": "top"
   },
   "postLayout": {
@@ -718,29 +753,132 @@
      "blogpage:details",
      "blogpage:layout",
      "blogpage:style"
+    ],
+    "blog": [
+     "blog:all-posts",
+     "blog:space-card-colour",
+     "blog:columns",
+     "blog:opening-a-post",
+     "blog:post-arrows"
     ]
    },
    "moved": {},
    "custom": [],
    "theme": {
-    "well": "#f9fff9",
+    "well": "#ffffff",
+    "ink": "#000000",
+    "mark": "#000000",
+    "onInk": "#ffffff",
+    "raise": "#d6d6d6",
+    "bg": "#d6d6d6",
+    "mute": "#000000",
+    "tint": "#ebebeb",
     "size": 13,
-    "lw": 0,
+    "hair": "#333333",
+    "row": 36,
     "pad": 10
    },
    "look": {
     "blogpage:details": {
-     "bg": "#d1ffd1",
+     "bg": "#01f800",
      "border": "none"
     },
     "blogpage:layout": {
-     "bg": "#01f800"
+     "bg": "#01f800",
+     "border": "top",
+     "bc": "#ebebeb"
     },
     "blogpage:style": {
-     "bg": "#00f203",
+     "bg": "#01f800",
      "border": "top",
-     "bw": 2,
-     "bc": "#fafff5"
+     "bc": "#ebebeb"
+    },
+    "post:post": {
+     "bg": "#01f800",
+     "border": "box",
+     "bw": 4,
+     "bc": "#ebebeb"
+    },
+    "post:details": {
+     "bg": "#d1ffd1"
+    },
+    "post:layout": {
+     "bg": "#d1ffd1",
+     "border": "top",
+     "bw": 8,
+     "bc": "#ebebeb"
+    },
+    "post:style": {
+     "bg": "#d1ffd1",
+     "border": "top",
+     "bw": 8,
+     "bc": "#ebebeb"
+    },
+    "blog:all-posts": {
+     "bg": "#01f800",
+     "pad": "tight",
+     "border": "none",
+     "ink": "#000000"
+    },
+    "blog:post-arrows": {
+     "bg": "#adadad",
+     "border": "top",
+     "bc": "#ebebeb"
+    },
+    "blog:opening-a-post": {
+     "bg": "#adadad",
+     "border": "top",
+     "bc": "#ebebeb"
+    },
+    "blog:columns": {
+     "bg": "#adadad",
+     "border": "top",
+     "bc": "#ebebeb"
+    },
+    "blog:space-card-colour": {
+     "bg": "#adadad",
+     "ink": "#0c0001",
+     "border": "top",
+     "bc": "#ebebeb"
+    },
+    "under:details": {
+     "bg": "#fff994"
+    },
+    "under:layout": {
+     "bg": "#fff994"
+    },
+    "under:style": {
+     "bg": "#fff994"
+    },
+    "sheet:details": {
+     "bg": "#f5ec00"
+    },
+    "sheet:layout": {
+     "bg": "#f5ec00"
+    },
+    "sheet:style": {
+     "bg": "#f5ec00"
+    },
+    "page:details": {
+     "bg": "#fff994"
+    },
+    "page:layout": {
+     "bg": "#fff994"
+    },
+    "page:style": {
+     "bg": "#fff994"
+    },
+    "styles:main-face": {
+     "bg": "#ff6250"
+    },
+    "styles:body": {
+     "bg": "#ff6250"
+    },
+    "motion:animation": {
+     "bg": "#00acfd"
+    },
+    "site:site-name": {
+     "bg": "#b18cfe"
     }
    }
   },
@@ -786,9 +924,9 @@
   "p5tfzre8",
   "tud4lpid",
   "icrcf1kz",
+  "pg7bo61a",
   "blgart01",
   "blgcom01",
-  "hnb4ahmi",
   "6nqav62x",
   "1aasbjv9",
   "x5diswj0",
@@ -1764,7 +1902,9 @@
    "slug": "eoup",
    "stack": [],
    "title": "EOUP",
-   "box": {},
+   "box": {
+    "shadow": "none"
+   },
    "parent": "blgart01",
    "date": "",
    "excerpt": "",
@@ -4141,79 +4281,12 @@
     "gutterM": 20
    }
   },
-  "hnb4ahmi": {
-   "css": "",
-   "desc": "Walid Al Wawi is a Palestinian artist, writer, and cultural practitioner.",
-   "els": [
-    {
-     "d": {
-      "h": 60,
-      "w": 12,
-      "x": 0,
-      "y": 0
-     },
-     "id": "ze3b6f4v",
-     "m": null,
-     "own": {
-      "wm": 6,
-      "xm": 0,
-      "x": 0,
-      "w": 10
-     },
-     "props": {
-      "align": "left",
-      "font": "sans",
-      "html": "<p>Walid Al Wawi is a Palestinian artist, writer, and cultural practitioner whose work moves between painting, performance, video, installation, and text. Rooted in more than a decade of engagement in the SWANA region, his practice interrogates the conditions of art in times of crisis, exposing sentimentalism as a mechanism through which institutional frameworks reduce Arab identity to tragedy.</p>\n<p>Al Wawi’s practice unfolds at the intersection of performance, installation, and object-based intervention, where material is weaponised against the infrastructures that seek to contain it. His works dismantle the symbols through which authority, nationalism, and capital reproduce themselves. Rather than documenting identity, his practice performs its impossibility, staging Palestinian existence as both a refusal of imposed categories and an insistence on continuity beyond them.</p>\n<p>Among his projects, <a href=\"/eoup\">EOUP</a> (Embassy of Unofficial Palestine) proposes an architectural installation imagining a hypothetical organisation that provides relief for Palestinian refugees outside the mandates of the PLO or UNRWA. The work combines the iconography of the Dome of the Rock with the mechanics of parachuting, creating an architectural image that identifies itself as a body of aid. Through video, audio, text, and constructed form, EOUP opens an inquiry into jurisdiction, exile, and the possibilities of unofficial spaces.</p>\n<p>Al Wawi has been welcomed by institutions including Darat al Funun, Jameel Arts Centre, Tate Exchange, the Museum of Modern and Contemporary Art South Korea, and FIAC Art Fair, though his work insists on the limits of such spaces.</p>\n<p>Building on this trajectory, in 2017 Al Wawi founded Samt, a virtual platform for art and research that exists primarily online through <a href=\"https://samt.co\" target=\"_blank\" rel=\"noopener\">samt.co</a>. Conceived as both a critique and an alternative to the Western-centered art educational canon, Samt challenges the political economy and hierarchical structures of the art system. By shifting the site of discourse from fixed geographies to a fluid techno-digital approach, it expands the terrain of art beyond its physical confinements.</p>\n<p>In 2022, Samt advanced this mission with the creation of the Samt Alternative Art School (SAAS), directly confronting the Eurocentric academy, capitalist frameworks, and patriarchal dominance embedded in the historical and contemporary art canon, fostering instead a pedagogy of insurgent practice.</p>",
-      "indent": true,
-      "size": "",
-      "lh": "",
-      "tracking": ""
-     },
-     "type": "text",
-     "col": 1
-    }
-   ],
-   "h1": "",
-   "header": true,
-   "id": "hnb4ahmi",
-   "kind": "page",
-   "layout": "master",
-   "num": "",
-   "pin": {
-    "place": "top",
-    "fixed": false,
-    "show": "all",
-    "pages": [],
-    "h": "",
-    "hM": "",
-    "gap": "",
-    "gapM": ""
-   },
-   "section": "b",
-   "slug": "biography",
-   "stack": [],
-   "title": "Biography",
-   "box": {},
-   "mode": "card",
-   "colset": {
-    "cols": 2,
-    "align": "spread",
-    "spans": [
-     4,
-     8
-    ],
-    "colsM": 1,
-    "gutter": 40,
-    "gutterM": 24
-   },
-   "pattern": ""
-  },
   "mnu0sh01": {
    "id": "mnu0sh01",
    "title": "–",
    "h1": "",
    "num": "",
-   "slug": "menu",
+   "slug": "",
    "section": "",
    "desc": "",
    "layout": "master",
@@ -4280,7 +4353,7 @@
    "title": "Art",
    "h1": "",
    "num": "",
-   "slug": "",
+   "slug": "art",
    "section": "",
    "desc": "Works.",
    "layout": "master",
@@ -4574,6 +4647,127 @@
     "gapM": ""
    },
    "mode": "sheet"
+  },
+  "pg7bo61a": {
+   "id": "pg7bo61a",
+   "title": "New post",
+   "h1": "",
+   "num": "",
+   "slug": "new-post",
+   "section": "",
+   "desc": "",
+   "header": true,
+   "layout": "master",
+   "css": "",
+   "els": [
+    {
+     "id": "65f5wbay",
+     "type": "postinfo",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "back": true,
+      "backLabel": "<",
+      "date": false,
+      "words": true,
+      "time": true,
+      "sep": "",
+      "style": "",
+      "size": "",
+      "lh": "",
+      "sizeM": "",
+      "lhM": "",
+      "upper": "",
+      "tracking": "",
+      "ink": "",
+      "align": "",
+      "padT": "",
+      "padTM": "",
+      "padB": "",
+      "padBM": "",
+      "line": "",
+      "backGap": "",
+      "backSize": "",
+      "backInk": "",
+      "backDim": ""
+     }
+    },
+    {
+     "id": "52fvctlc",
+     "type": "text",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 8
+     },
+     "m": null,
+     "props": {
+      "html": "<p>Write here.</p>",
+      "style": "body",
+      "indent": false,
+      "align": "left",
+      "size": "",
+      "sizeM": "",
+      "lh": "",
+      "lhM": "",
+      "ink": "",
+      "tracking": "",
+      "measure": ""
+     }
+    },
+    {
+     "id": "1tr5j3ac",
+     "type": "pager",
+     "col": 1,
+     "d": {
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 3
+     },
+     "m": null,
+     "props": {
+      "num": "num",
+      "line": false,
+      "loop": false,
+      "scope": "blog",
+      "look": "text",
+      "nextLabel": "Next, ",
+      "prevLabel": "",
+      "align": "center",
+      "style": "",
+      "size": "",
+      "sizeM": "",
+      "lh": "",
+      "lhM": ""
+     }
+    }
+   ],
+   "kind": "page",
+   "parent": "blgart01",
+   "date": "2026-10-29",
+   "excerpt": "",
+   "featured": false,
+   "stack": [],
+   "pin": {
+    "place": "top",
+    "fixed": false,
+    "show": "all",
+    "pages": [],
+    "h": "",
+    "hM": "",
+    "gap": "",
+    "gapM": ""
+   },
+   "box": {}
   }
  }
 }

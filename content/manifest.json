@@ -1,6 +1,6 @@
 {
  "pages": [
-  "site/menu.html",
+  "site/index.html",
   "site/eoup.html",
   "site/forbidden-fruit.html",
   "site/eternity-of-silence.html",
@@ -13,9 +13,9 @@
   "site/thobe.html",
   "site/grasshopper.html",
   "site/hiding.html",
-  "site/index.html",
+  "site/new-post.html",
+  "site/art.html",
   "site/commentary.html",
-  "site/biography.html",
   "site/resume.html",
   "site/how-to-deseed-a-watermelon.html",
   "site/militant-improvisation.html",
@@ -26,5 +26,5 @@
   "site/sheet-3.html",
   "site/404.html"
  ],
- "published": "2026-10-29T19:07:29.614Z"
+ "published": "2026-10-29T20:03:43.677Z"
 }
