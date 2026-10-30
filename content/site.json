@@ -726,6 +726,41 @@
     "main": "blgart01",
     "hover": "",
     "mainM": "blgart01"
+   },
+   {
+    "id": "0i0zpwz5",
+    "name": "Comment",
+    "pages": [
+     "blgcom01"
+    ],
+    "restPage": "",
+    "edge": "left",
+    "edgeM": "top",
+    "rest": "open",
+    "peek": 200,
+    "peekM": 52,
+    "sliver": 44,
+    "sliverM": 14,
+    "axis": "y",
+    "covers": "all",
+    "coverPages": [],
+    "color": "#ffffff",
+    "alpha": 45,
+    "blur": 9,
+    "shadow": "soft",
+    "grain": 0,
+    "nudge": 0,
+    "dur": "",
+    "box": {},
+    "pattern": "",
+    "patColor": "#000000",
+    "patSize": 28,
+    "patAlpha": 14,
+    "out": "peek",
+    "lv": "",
+    "arrive": "slide",
+    "main": "",
+    "hover": ""
    }
   ],
   "pinV1": true,
@@ -743,7 +778,7 @@
    "sheetBg": "none"
   },
   "postGo": {
-   "side": "top",
+   "side": "left",
    "sideM": "top"
   },
   "postLayout": {
@@ -766,7 +801,9 @@
      "pages:part-2"
     ]
    },
-   "moved": {},
+   "moved": {
+    "blocks:animation": "site"
+   },
    "custom": [],
    "look": {
     "sheet:details": {
