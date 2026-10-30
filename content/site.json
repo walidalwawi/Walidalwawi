@@ -807,28 +807,27 @@
    "custom": [],
    "look": {
     "sheet:details": {
-     "bg": "#f5ec00"
+     "bg": "#f2e500"
     }
    },
    "theme": {
-    "ink": "#000000",
-    "hair": "#000000",
-    "chip": "#d6d6d6",
-    "gchip": "#999999",
-    "mbar": "#0056d6",
-    "well": "#ffffff",
-    "mute": "#000000",
-    "onInk": "#ffffff",
-    "ground": "#ebebeb",
-    "z-top-bg": "#ffffff",
-    "z-left-line": "#0061fe",
-    "z-right-bg": "#ffffff",
-    "z-right-line": "#c2c2c2",
-    "z-stage-line": "#000000",
-    "z-stage-bg": "#ebebeb",
+    "mbar": "#0061fe",
+    "lbw": 32,
+    "size": 11,
+    "headCase": "caps",
     "z-rail-bg": "#ff6250",
-    "z-rail-line": "#e22400",
-    "z-rail-rad": 0
+    "z-rail-ink": "#000000",
+    "z-rail-line": "#000000",
+    "d-z-rail-bg": "#e22400",
+    "d-z-rail-rad": 4,
+    "d-z-rail-size": 13,
+    "d-z-rail-line": "#000000",
+    "d-z-rail-ink": "#ffffff",
+    "d-hair": "#000000",
+    "d-mute": "#ffffff",
+    "mute": "#000000",
+    "hair": "#333333",
+    "z-rail-rad": 8
    }
   },
   "layOrderV1": true,
