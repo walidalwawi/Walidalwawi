@@ -508,6 +508,7 @@ bdLayers(document, !!window.BD_PREVIEW);
 /* DATA */
 var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items":[{"title":"Art","slug":"art"},
 {"title":"Commentary","slug":"commentary"},
+{"title":"Biography","slug":"biography"},
 {"title":"Resume","slug":"resume"},
 {"title":"","url":"#","ext":false},
 {"title":"","url":"#","ext":false}]}],"pager":false,"nav":{"icon":"text","label":"index;","openLabel":"","corner":"right","headings":true,"accordion":true,"current":"dim","title":"hide"},"sections":[{"key":"a","label":"a. art"},
@@ -529,6 +530,7 @@ var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items"
 {"section":"","slug":"new-post","num":"","title":"New post"},
 {"section":"","slug":"art","num":"","title":"Art"},
 {"section":"","slug":"commentary","num":"","title":"Commentary"},
+{"section":"b","slug":"biography","num":"","title":"Biography"},
 {"section":"b","slug":"resume","num":"","title":"Resume"},
 {"section":"","slug":"how-to-deseed-a-watermelon","num":"","title":"How To Deseed A Watermelon For Safe Consumption"},
 {"section":"","slug":"militant-improvisation","num":"","title":"Militant Improvisation: The Militant Cultural Front"},

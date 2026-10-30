@@ -1,4 +1,4 @@
-/* PUBLISHED mvtz2fiu */
+/* PUBLISHED mvuyvb5z */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1826,6 +1826,12 @@ mix-blend-mode: multiply;
 --pratio: 1;
 }
 
+/* PAGE: BIOGRAPHY */
+.bd-flow > .bd-e-ze3b6f4v {
+--x: 0;
+--w: 10;
+}
+
 /* PAGE: HOW TO DESEED A WATERMELON FOR SAFE CONSUMPTION */
 
 .bd-e-pi1aasbj {
@@ -2335,6 +2341,9 @@ backdrop-filter: blur(10px);
 .bd-ly-art[data-id="blgcom01"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
 background: rgba(255, 255, 255, 1);
+}
+.bd-ly-art[data-id="hnb4ahmi"] > .bd-panel {
+padding-top: calc(80px + var(--bd-wt));
 }
 .bd-ly-art[data-id="6nqav62x"] > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
@@ -2989,6 +2998,11 @@ line-height: 14px;
 --prow: 24px;
 --ppad: 0px;
 }
+/* PAGE: BIOGRAPHY */
+.bd-flow > .bd-e-ze3b6f4v {
+--x: 0;
+--w: 6;
+}
 /* PAGE: RESUME */
 .bd-flow > .bd-e-to7rgcpx {
 --x: 0;
@@ -3310,6 +3324,9 @@ padding-top: calc(39px + var(--bd-wt));
 padding-top: calc(39px + var(--bd-wt));
 }
 .bd-ly-art[data-id="blgcom01"] > .bd-panel {
+padding-top: calc(39px + var(--bd-wt));
+}
+.bd-ly-art[data-id="hnb4ahmi"] > .bd-panel {
 padding-top: calc(39px + var(--bd-wt));
 }
 .bd-ly-art[data-id="6nqav62x"] > .bd-panel {
