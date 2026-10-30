@@ -506,7 +506,7 @@ bdLayers(document, !!window.BD_PREVIEW);
 });
 
 /* DATA */
-var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items":[{"title":"Art","slug":"art"},
+var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items":[{"title":"Art","slug":""},
 {"title":"Commentary","slug":"commentary"},
 {"title":"Biography","slug":"biography"},
 {"title":"Resume","slug":"resume"},
@@ -514,7 +514,7 @@ var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items"
 {"title":"","url":"#","ext":false}]}],"pager":false,"nav":{"icon":"text","label":"index;","openLabel":"","corner":"right","headings":true,"accordion":true,"current":"dim","title":"hide"},"sections":[{"key":"a","label":"a. art"},
 {"key":"b","label":"b. biography"},
 {"key":"c","label":"c. commentary"},
-{"key":"e","label":"e. external"}],"pages":[{"section":"","slug":"","num":"","title":"–"},
+{"key":"e","label":"e. external"}],"pages":[{"section":"","slug":"page","num":"","title":"–"},
 {"section":"a","slug":"eoup","num":"","title":"EOUP"},
 {"section":"","slug":"forbidden-fruit","num":"","title":"Forbidden Fruit"},
 {"section":"","slug":"eternity-of-silence","num":"","title":"Eternity Of Silence"},
@@ -528,8 +528,8 @@ var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items"
 {"section":"","slug":"grasshopper","num":"","title":"Grasshopper"},
 {"section":"","slug":"hiding","num":"","title":"Hiding"},
 {"section":"","slug":"new-post","num":"","title":"New post"},
-{"section":"","slug":"art","num":"","title":"Art"},
-{"section":"","slug":"commentary","num":"","title":"Commentary"},
+{"section":"a","slug":"","num":"","title":"Art"},
+{"section":"c","slug":"commentary","num":"","title":"Commentary"},
 {"section":"b","slug":"biography","num":"","title":"Biography"},
 {"section":"b","slug":"resume","num":"","title":"Resume"},
 {"section":"","slug":"how-to-deseed-a-watermelon","num":"","title":"How To Deseed A Watermelon For Safe Consumption"},
