@@ -746,7 +746,9 @@
     "z-right-line": "#c2c2c2",
     "z-stage-line": "#000000",
     "z-stage-bg": "#ebebeb",
-    "z-rail-bg": "#ff6250"
+    "z-rail-bg": "#ff6250",
+    "z-rail-line": "#e22400",
+    "z-rail-rad": 0
    }
   },
   "layOrderV1": true,
