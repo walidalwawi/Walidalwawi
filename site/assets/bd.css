@@ -1,4 +1,4 @@
-/* PUBLISHED mvuzxuu7 */
+/* PUBLISHED mvuzz11m */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2066,7 +2066,7 @@ right: 0px;
 bottom: 0px;
 left: 0px;
 --k-peek: 200px;
---k-sliver: 44px;
+--k-sliver: 124px;
 --k-strip: 0px;
 --k-nudge: 0px;
 box-shadow: none;
@@ -2078,7 +2078,7 @@ right: 0px;
 bottom: 0px;
 left: 0px;
 --k-peek: 200px;
---k-sliver: 44px;
+--k-sliver: 124px;
 --k-strip: 0px;
 --k-nudge: 0px;
 box-shadow: none;
@@ -2245,6 +2245,148 @@ bottom: 0;
 left: auto;
 width: var(--k-strip);
 height: auto;
+}
+.bd-ly .bd-ly-k.is-e-top.is-st-open {
+--kx: 0px;
+--ky: 0px;
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+.bd-ly .bd-ly-k.is-e-top.is-st-peek {
+--kx: 0px;
+--ky: calc(var(--k-peek) - 100%);
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+@media (hover: hover) and (min-width: 761px) {
+.bd-ly .bd-ly-k.is-e-top.is-st-peek:hover:not(:has(a:hover)) {
+--kx: 0px;
+--ky: calc((var(--k-peek) + var(--k-nudge)) - 100%);
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+}
+.bd-ly .bd-ly-k.is-e-top.is-st-hidden {
+--kx: 0px;
+--ky: calc(-100% - 24px);
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+.bd-ly.is-t-slide .bd-ly-k.is-e-top.is-st-tuck {
+--kx: 0px;
+--ky: calc(var(--k-sliver) - 100%);
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+#bd-ly .bd-ly-k.is-lv-slide.is-e-top.is-st-tuck {
+--kx: 0px;
+--ky: calc(var(--k-sliver) - 100%);
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+.bd-ly.is-t-drop .bd-ly-k.is-e-top.is-st-tuck {
+--kx: 0px;
+--ky: calc(100% - var(--k-sliver));
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+#bd-ly .bd-ly-k.is-lv-drop.is-e-top.is-st-tuck {
+--kx: 0px;
+--ky: calc(100% - var(--k-sliver));
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+.bd-ly.is-t-push .bd-ly-k.is-e-top.is-st-tuck {
+--kx: calc(100% - var(--k-sliver));
+--ky: 0px;
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+#bd-ly .bd-ly-k.is-lv-push.is-e-top.is-st-tuck {
+--kx: calc(100% - var(--k-sliver));
+--ky: 0px;
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+.bd-ly.is-t-rise .bd-ly-k.is-e-top.is-st-tuck {
+--kx: 0px;
+--ky: calc(var(--k-sliver) - 100%);
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+#bd-ly .bd-ly-k.is-lv-rise.is-e-top.is-st-tuck {
+--kx: 0px;
+--ky: calc(var(--k-sliver) - 100%);
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+.bd-ly.is-t-cut .bd-ly-k.is-e-top.is-st-tuck {
+--kx: 0px;
+--ky: calc(var(--k-sliver) - 100%);
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+#bd-ly .bd-ly-k.is-lv-cut.is-e-top.is-st-tuck {
+--kx: 0px;
+--ky: calc(var(--k-sliver) - 100%);
+--kfx: 0deg;
+--kfy: 0deg;
+--ksx: 1;
+--ksy: 1;
+transform-origin: 50% 0;
+}
+.bd-ly-k.is-e-top > .bd-ly-body {
+top: 0;
+right: 0;
+bottom: var(--k-strip);
+left: 0;
+}
+.bd-ly-k.is-e-top > .bd-ly-strip {
+top: auto;
+right: 0;
+bottom: 0;
+left: 0;
+width: auto;
+height: var(--k-strip);
 }
 .bd-ly-strip .bd-panel,
 .bd-site.is-strip .bd-panel,

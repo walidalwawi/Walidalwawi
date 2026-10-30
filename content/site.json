@@ -626,7 +626,7 @@
    "lift": true,
    "reveal": "focus",
    "focusBlur": 5,
-   "trans": "push"
+   "trans": "slide"
   },
   "sheets": [
    {
@@ -689,7 +689,7 @@
      "blgart01"
     ],
     "restPage": "",
-    "edge": "left",
+    "edge": "top",
     "edgeM": "top",
     "rest": "open",
     "peek": 200,
@@ -734,7 +734,7 @@
      "blgcom01"
     ],
     "restPage": "",
-    "edge": "left",
+    "edge": "top",
     "edgeM": "top",
     "rest": "open",
     "peek": 200,
@@ -778,7 +778,7 @@
    "sheetBg": "none"
   },
   "postGo": {
-   "side": "left",
+   "side": "top",
    "sideM": "top"
   },
   "postLayout": {
