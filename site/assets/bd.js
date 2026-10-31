@@ -529,6 +529,8 @@ var BD_DATA = {"site":"Walid Al Wawi","menu":false,"groups":[{"label":"","items"
 {"section":"","slug":"hiding","num":"","title":"Hiding"},
 {"section":"","slug":"new-post","num":"","title":"New post"},
 {"section":"a","slug":"","num":"","title":"Art"},
+{"section":"a","slug":"blog","num":"","title":"Blog"},
+{"section":"","slug":"first-post","num":"","title":"First post"},
 {"section":"c","slug":"commentary","num":"","title":"Commentary"},
 {"section":"b","slug":"biography","num":"","title":"Biography"},
 {"section":"b","slug":"resume","num":"","title":"Resume"},

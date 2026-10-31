@@ -15,6 +15,8 @@
   "site/hiding.html",
   "site/new-post.html",
   "site/index.html",
+  "site/blog.html",
+  "site/first-post.html",
   "site/commentary.html",
   "site/biography.html",
   "site/resume.html",
@@ -27,5 +29,5 @@
   "site/sheet-3.html",
   "site/404.html"
  ],
- "published": "2026-10-30T13:17:48.898Z"
+ "published": "2026-10-31T07:09:51.397Z"
 }
