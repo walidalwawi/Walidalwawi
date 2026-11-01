@@ -703,7 +703,7 @@
     "covers": "all",
     "coverPages": [],
     "color": "#ffffff",
-    "alpha": 0,
+    "alpha": 40,
     "blur": 0,
     "shadow": "none",
     "grain": 0,

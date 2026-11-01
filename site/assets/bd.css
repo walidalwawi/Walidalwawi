@@ -1,4 +1,4 @@
-/* PUBLISHED mvxi1h2s */
+/* PUBLISHED mvxi7p36 */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2587,7 +2587,7 @@ box-shadow: none;
 --pm-b: 0px;
 }
 .bd-ly-pane[data-page="blgart01"] > .bd-ly-paper {
-background: rgba(255, 255, 255, 1);
+background: rgba(255, 255, 255, 0.6);
 }
 .bd-ly-pane[data-page="blgart01"] > .bd-ly-paper > .bd-panel {
 padding-top: calc(80px + var(--bd-wt));
