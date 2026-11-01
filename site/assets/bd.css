@@ -1,4 +1,4 @@
-/* PUBLISHED mvxj1ctm */
+/* PUBLISHED mvxqeijx */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -30,7 +30,7 @@
 --bd-ll: 18px;
 --bd-space: 50px;
 --bd-head-x: 2;
---bd-head-space: 60px;
+--bd-head-space: 30px;
 --bd-btn-font: var(--bd-sans);
 --bd-btn-size: 15px;
 --bd-btn-color: var(--bd-ink);
@@ -2063,7 +2063,7 @@ right: 0px;
 bottom: 0px;
 left: 0px;
 --k-peek: 200px;
---k-sliver: -12px;
+--k-sliver: calc(20px + max(80px, var(--bd-pin-top, 0px)));
 --k-strip: 0px;
 --k-nudge: 0px;
 box-shadow: none;
@@ -2075,7 +2075,7 @@ right: 0px;
 bottom: 0px;
 left: 0px;
 --k-peek: 200px;
---k-sliver: -12px;
+--k-sliver: calc(20px + max(80px, var(--bd-pin-top, 0px)));
 --k-strip: 0px;
 --k-nudge: 0px;
 box-shadow: none;
@@ -3284,7 +3284,7 @@ right: 0px;
 bottom: 0px;
 left: 0px;
 --k-peek: 52px;
---k-sliver: -12px;
+--k-sliver: calc(10px + max(39px, var(--bd-pin-top, 0px)));
 --k-strip: 0px;
 --k-nudge: 0px;
 box-shadow: none;
@@ -3295,7 +3295,7 @@ right: 0px;
 bottom: 0px;
 left: 0px;
 --k-peek: 52px;
---k-sliver: -12px;
+--k-sliver: calc(10px + max(39px, var(--bd-pin-top, 0px)));
 --k-strip: 0px;
 --k-nudge: 0px;
 box-shadow: none;
@@ -3583,8 +3583,8 @@ padding-bottom: var(--bd-wb);
 padding-left: var(--bd-wl);
 }
 .bd-ly-pane[data-page="blgart01"] > .bd-ly-paper {
-margin: calc(max(39px, var(--bd-pin-top, 0px)) + 15vh) 0px 0 0px;
-min-height: calc(100% - calc(max(39px, var(--bd-pin-top, 0px)) + 15vh) - 0px);
+margin: calc(max(39px, var(--bd-pin-top, 0px)) + 0px) 0px 0 0px;
+min-height: calc(100% - calc(max(39px, var(--bd-pin-top, 0px)) + 0px) - 0px);
 box-shadow: none;
 }
 .bd-ly-pane[data-page="blgart01"] {

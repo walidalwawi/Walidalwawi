@@ -6,6 +6,8 @@ var pane = p ? p.i : k.main || 0;
 var cov = !k.covers || k.covers.indexOf(f.id) > -1 || k.panes.indexOf(f.id) > -1;
 if (f.k === n) return { st: "open", i: f.i };
 if (k.pin > -1) return { st: "open", i: k.main };
+/* "STRIP ONLY FOR ITS POSTS" (Walid, 1 Nov): A POST OF THIS SHEET'S BLOG OPENS → THE SHEET LEAVES A STRIP YOU CAN TAP TO COME BACK; ANY OTHER PAGE UNDERNEATH → IT SLIDES FULLY AWAY */
+if (k.out === "posts" && f.k < 0 && k.rest !== "still") return { st: f.par && (k.bl || []).indexOf(f.par) > -1 ? "tuck" : "hidden", i: pane };
 /* THE BLOG ANIMATION TOOL: A POST OF THIS SHEET'S BLOG OPENS UNDERNEATH, SO THE SHEET LEAVES TO THE CHOSEN SIDE */
 if (k.pe && f.k < 0 && f.par && (k.blogs || []).indexOf(f.par) > -1) return { st: "hidden", i: pane };
 /* A STILL SHEET BELOW THE PAGE THAT OPENS STAYS WHERE IT IS: THAT PAGE ALREADY LIES OVER IT */
@@ -32,7 +34,7 @@ var before = home;
 var model = els.map(function (k) {
 var c = k.getAttribute("data-covers");
 var st = k.querySelector(".bd-ly-strip > .bd-panel");
-return { el: k, e0: k.getAttribute("data-edge") || "left", em0: k.getAttribute("data-edge-m") || "top", pe: k.getAttribute("data-pe") || "", peM: k.getAttribute("data-pe-m") || "", blogs: (k.getAttribute("data-blogs") || "").split(" ").filter(Boolean), rest: k.getAttribute("data-rest") || "open", main: parseInt(k.getAttribute(window.matchMedia("(max-width: 760px)").matches && k.hasAttribute("data-main-m") ? "data-main-m" : "data-main"), 10) || 0, pin: isNaN(parseInt(k.getAttribute(window.matchMedia("(max-width: 760px)").matches && k.hasAttribute("data-pin-m") ? "data-pin-m" : "data-pin"), 10)) ? -1 : parseInt(k.getAttribute(window.matchMedia("(max-width: 760px)").matches && k.hasAttribute("data-pin-m") ? "data-pin-m" : "data-pin"), 10), rev: k.hasAttribute("data-rev-m"), covers: c && c !== "all" ? c.split(",") : null, panes: Array.prototype.map.call(k.querySelectorAll(".bd-ly-pane"), function (p) { return p.getAttribute("data-page"); }), track: k.querySelector(".bd-ly-track"), strip: st ? (st.className.match(/\bbd-pg-(\S+)/) || [])[1] || "" : "" };
+return { el: k, e0: k.getAttribute("data-edge") || "left", em0: k.getAttribute("data-edge-m") || "top", pe: k.getAttribute("data-pe") || "", peM: k.getAttribute("data-pe-m") || "", blogs: (k.getAttribute("data-blogs") || "").split(" ").filter(Boolean), out: k.getAttribute("data-out") || "", bl: (k.getAttribute("data-bl") || "").split(" ").filter(Boolean), rest: k.getAttribute("data-rest") || "open", main: parseInt(k.getAttribute(window.matchMedia("(max-width: 760px)").matches && k.hasAttribute("data-main-m") ? "data-main-m" : "data-main"), 10) || 0, pin: isNaN(parseInt(k.getAttribute(window.matchMedia("(max-width: 760px)").matches && k.hasAttribute("data-pin-m") ? "data-pin-m" : "data-pin"), 10)) ? -1 : parseInt(k.getAttribute(window.matchMedia("(max-width: 760px)").matches && k.hasAttribute("data-pin-m") ? "data-pin-m" : "data-pin"), 10), rev: k.hasAttribute("data-rev-m"), covers: c && c !== "all" ? c.split(",") : null, panes: Array.prototype.map.call(k.querySelectorAll(".bd-ly-pane"), function (p) { return p.getAttribute("data-page"); }), track: k.querySelector(".bd-ly-track"), strip: st ? (st.className.match(/\bbd-pg-(\S+)/) || [])[1] || "" : "" };
 });
 /* THE PHONE'S OWN PAGE ORDER: --i COUNTS PAGES AS THEY LIE (CSS order), THE PLAN COUNTS THEM IN THE MARKUP */
 var vis = function (m, i) { return m.rev && window.matchMedia("(max-width: 760px)").matches ? m.panes.length - 1 - i : i; };
@@ -369,6 +371,21 @@ content.scrollTop = 0;
 }
 }
 var next = bdSheetPlan(model, f, cur);
+/* SCROLL A PANE TO y OVER ONE SLIDE, ON THE SAME EASE-OUT AS THE PAPER */
+var glide = function (pn, y) {
+var y0 = pn.scrollTop;
+var t0 = null;
+var len = reduce ? 0 : dur;
+cancelAnimationFrame(pn.bdGlide);
+var step = function (t) {
+if (t0 == null) t0 = t;
+var k = len ? Math.min(1, (t - t0) / len) : 1;
+var e = 1 - Math.pow(1 - k, 3);
+pn.scrollTop = y0 + (y - y0) * e;
+if (k < 1) pn.bdGlide = requestAnimationFrame(step);
+};
+pn.bdGlide = requestAnimationFrame(step);
+};
 /* ONE SHEET NEVER SPLITS: A PAGE LEAVING A PINNED SHEET SCROLLS BACK TO ITS TOP WHILE IT SLIDES, AND THE PINNED PAGE KEEPS FOLLOWING IT, SO THE PAPER STAYS ONE PIECE */
 next.forEach(function (n, x) {
 var m = model[x];
@@ -421,6 +438,18 @@ clearTimeout(m.el.bdSb);
 m.el.bdSb = setTimeout(function () { m.el.classList.remove("is-snapbox"); }, dur + 80);
 m.el.classList.remove("is-st-" + c.st);
 m.el.classList.add("is-st-" + n.st);
+/* THE WHOLE PAGE MOVES: A SHEET THAT STEPS BACK UPWARDS SCROLLS TO ITS END WHILE IT SLIDES, SO THE STRIP THAT STAYS IS THE BOTTOM OF THE PAGE (DOWNWARDS: ITS TOP). COMING BACK, IT SCROLLS TO WHERE IT WAS */
+var side = window.matchMedia("(max-width: 760px)").matches ? (useP ? m.peM : m.em0) : (useP ? m.pe : m.e0);
+var pnS = m.track.children[n.i];
+if (pnS && m.pin < 0) {
+if (n.st === "tuck" && (side === "top" || side === "bottom")) {
+if (pnS.bdKeep == null) pnS.bdKeep = pnS.scrollTop;
+glide(pnS, side === "top" ? pnS.scrollHeight - pnS.clientHeight : 0);
+} else if (n.st === "open" && pnS.bdKeep != null) {
+glide(pnS, pnS.bdKeep);
+pnS.bdKeep = null;
+}
+}
 moving(m);
 } else if (n.i !== c.i) moving(m);
 if (n.st !== c.st || n.i !== c.i) onPage(m, n.st, n.i);
@@ -494,12 +523,35 @@ if (window.bdLayerOpen(a.href)) ev.preventDefault();
 doc.addEventListener("keydown", function (ev) {
 if (ev.key === "Escape") back();
 });
+/* TAP A SHEET'S STRIP (IT STEPPED BACK FOR A PAGE UNDERNEATH OR ONE OF ITS POSTS) → IT COMES BACK ON ITS PAGE */
+root.addEventListener("click", function (ev) {
+var k = ev.target.closest && ev.target.closest(".bd-ly-k.is-st-tuck");
+if (!k) return;
+var n = els.indexOf(k);
+if (n < 0 || !cur[n]) return;
+ev.preventDefault();
+ev.stopPropagation();
+go(model[n].panes[cur[n].i] || model[n].panes[0]);
+}, true);
 if (!preview) {
 window.addEventListener("popstate", function () {
 go(bySlug(location.pathname) || home, true);
 });
 }
 mark();
+/* OPENED STRAIGHT ON A POST: A SHEET ALREADY STEPPED BACK UPWARDS SHOWS THE END OF ITS PAGE */
+var endUp = function () {
+model.forEach(function (m, x) {
+if (!cur[x] || cur[x].st !== "tuck" || m.pin > -1) return;
+var ph = window.matchMedia("(max-width: 760px)").matches;
+var cls = m.el.className.match(ph ? /\bis-em-([a-z]+)/ : /\bis-e-([a-z]+)/);
+var pn = m.track.children[cur[x].i];
+if (!pn || !cls) return;
+if (cls[1] === "top") { pn.scrollTop = pn.scrollHeight - pn.clientHeight; pn.bdKeep = 0; }
+});
+};
+endUp();
+window.addEventListener("load", endUp);
 }
 document.addEventListener("DOMContentLoaded", function () {
 bdLayers(document, !!window.BD_PREVIEW);

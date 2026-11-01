@@ -39,7 +39,7 @@
    "spaceM": 50,
    "headX": 2,
    "headXM": 1,
-   "headSpace": 60,
+   "headSpace": 30,
    "headSpaceM": 40,
    "types": {
     "text": {
@@ -697,8 +697,8 @@
     "rest": "open",
     "peek": 200,
     "peekM": 52,
-    "sliver": 0,
-    "sliverM": 0,
+    "sliver": 20,
+    "sliverM": 10,
     "axis": "y",
     "covers": "all",
     "coverPages": [],
@@ -714,7 +714,7 @@
      "mb": "",
      "ml": "",
      "mr": "",
-     "mtM": "15%",
+     "mtM": "0",
      "mbM": "0",
      "mlM": "0",
      "mrM": "0"
@@ -723,7 +723,7 @@
     "patColor": "#000000",
     "patSize": 28,
     "patAlpha": 14,
-    "out": "hide",
+    "out": "posts",
     "lv": "",
     "arrive": "slide",
     "main": "blgart01",
@@ -745,8 +745,8 @@
     "rest": "open",
     "peek": 200,
     "peekM": 52,
-    "sliver": 44,
-    "sliverM": 14,
+    "sliver": 20,
+    "sliverM": 10,
     "axis": "y",
     "covers": "all",
     "coverPages": [],
@@ -761,20 +761,25 @@
      "mt": "",
      "mb": "",
      "ml": "",
-     "mr": ""
+     "mr": "",
+     "mtM": "0",
+     "mbM": "0",
+     "mlM": "0",
+     "mrM": "0"
     },
     "pattern": "",
     "patColor": "#000000",
     "patSize": 28,
     "patAlpha": 14,
-    "out": "hide",
+    "out": "posts",
     "lv": "",
     "arrive": "slide",
     "main": "blgcom01",
     "hover": "",
     "rim": {
      "shape": ""
-    }
+    },
+    "mainM": "blgcom01"
    }
   ],
   "pinV1": true,
