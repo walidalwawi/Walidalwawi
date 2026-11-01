@@ -725,7 +725,10 @@
     "arrive": "slide",
     "main": "blgart01",
     "hover": "",
-    "mainM": "blgart01"
+    "mainM": "blgart01",
+    "rim": {
+     "shape": "punch"
+    }
    },
    {
     "id": "0i0zpwz5",
@@ -783,7 +786,7 @@
    "sheetBg": ""
   },
   "postGo": {
-   "side": "bottom",
+   "side": "top",
    "sideM": "top"
   },
   "postLayout": {
