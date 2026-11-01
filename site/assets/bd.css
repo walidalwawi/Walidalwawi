@@ -1,4 +1,4 @@
-/* PUBLISHED mvxixy7j */
+/* PUBLISHED mvxizzj5 */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -1864,10 +1864,10 @@ padding-bottom: 30px;
 
 /* LAYERS */
 :root {
---ly-dur: 460ms;
+--ly-dur: 400ms;
 --ly-ease: cubic-bezier(.65,0,.35,1);
 --ly-tilt: 0deg;
---ly-focus: 5px;
+--ly-focus: 10px;
 }
 body.bd-layered {
 height: 100%;
@@ -2528,8 +2528,8 @@ left: 0;
 width: 100%;
 height: 100%;
 pointer-events: none;
--webkit-backdrop-filter: blur(5px);
-backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
 }
 .bd-ly-pane[data-page="mnu0sh01"] > .bd-ly-paper {
 margin: 0px 0 0 0;
@@ -2575,8 +2575,8 @@ left: 0;
 width: 100%;
 height: 100%;
 pointer-events: none;
--webkit-backdrop-filter: blur(5px);
-backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
 }
 .bd-ly-pane[data-page="blgart01"] > .bd-ly-paper {
 margin: calc(max(80px, var(--bd-pin-top, 0px)) + 0px) 0px 0 0px;
@@ -2602,8 +2602,8 @@ left: 0;
 width: 100%;
 height: 100%;
 pointer-events: none;
--webkit-backdrop-filter: blur(10.3px);
-backdrop-filter: blur(10.3px);
+-webkit-backdrop-filter: blur(13.5px);
+backdrop-filter: blur(13.5px);
 }
 .bd-ly-pane[data-page="blgcom01"] > .bd-ly-paper {
 margin: calc(max(80px, var(--bd-pin-top, 0px)) + 0px) 0px 0 0px;

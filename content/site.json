@@ -620,12 +620,12 @@
    "sliverM": 14,
    "indexEdge": false,
    "ease": "slide",
-   "dur": 460,
+   "dur": 400,
    "menuDur": 460,
    "tilt": 0,
    "lift": true,
    "reveal": "focus",
-   "focusBlur": 5,
+   "focusBlur": 10,
    "trans": "slide"
   },
   "sheets": [
