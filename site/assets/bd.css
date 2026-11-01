@@ -1,4 +1,4 @@
-/* PUBLISHED mvxhguyv */
+/* PUBLISHED mvxhj2xa */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2583,12 +2583,6 @@ margin: 10vh 0px 0 0px;
 min-height: calc(100% - 10vh - 0px);
 box-shadow: none;
 }
-.bd-ly-pane[data-page="blgart01"] > .bd-ly-paper {
-position: relative;
--webkit-mask: linear-gradient(#000 0 0) 36px 36px / calc(100% - 72px) calc(100% - 72px) no-repeat, radial-gradient(circle at 50% 18px, #0000 6px, #000 6.5px) 0 0 / 64px 36px round no-repeat, radial-gradient(circle at 18px 50%, #0000 6px, #000 6.5px) 100% 0 / 36px 64px no-repeat round, radial-gradient(circle at 50% 18px, #0000 6px, #000 6.5px) 0 100% / 64px 36px round no-repeat, radial-gradient(circle at 18px 50%, #0000 6px, #000 6.5px) 0 0 / 36px 64px no-repeat round;
-mask: linear-gradient(#000 0 0) 36px 36px / calc(100% - 72px) calc(100% - 72px) no-repeat, radial-gradient(circle at 50% 18px, #0000 6px, #000 6.5px) 0 0 / 64px 36px round no-repeat, radial-gradient(circle at 18px 50%, #0000 6px, #000 6.5px) 100% 0 / 36px 64px no-repeat round, radial-gradient(circle at 50% 18px, #0000 6px, #000 6.5px) 0 100% / 64px 36px round no-repeat, radial-gradient(circle at 18px 50%, #0000 6px, #000 6.5px) 0 0 / 36px 64px no-repeat round;
-box-shadow: none;
-}
 .bd-ly-pane[data-page="blgart01"] {
 --pm-b: 0px;
 }
@@ -3598,15 +3592,6 @@ padding-left: var(--bd-wl);
 margin: 15vh 0px 0 0px;
 min-height: calc(100% - 15vh - 0px);
 box-shadow: none;
-}
-.bd-ly-pane[data-page="blgart01"] > .bd-ly-paper {
-position: relative;
--webkit-mask: linear-gradient(#000 0 0) 36px 36px / calc(100% - 72px) calc(100% - 72px) no-repeat, radial-gradient(circle at 50% 18px, #0000 6px, #000 6.5px) 0 0 / 64px 36px round no-repeat, radial-gradient(circle at 18px 50%, #0000 6px, #000 6.5px) 100% 0 / 36px 64px no-repeat round, radial-gradient(circle at 50% 18px, #0000 6px, #000 6.5px) 0 100% / 64px 36px round no-repeat, radial-gradient(circle at 18px 50%, #0000 6px, #000 6.5px) 0 0 / 36px 64px no-repeat round;
-mask: linear-gradient(#000 0 0) 36px 36px / calc(100% - 72px) calc(100% - 72px) no-repeat, radial-gradient(circle at 50% 18px, #0000 6px, #000 6.5px) 0 0 / 64px 36px round no-repeat, radial-gradient(circle at 18px 50%, #0000 6px, #000 6.5px) 100% 0 / 36px 64px no-repeat round, radial-gradient(circle at 50% 18px, #0000 6px, #000 6.5px) 0 100% / 64px 36px round no-repeat, radial-gradient(circle at 18px 50%, #0000 6px, #000 6.5px) 0 0 / 36px 64px no-repeat round;
-box-shadow: none;
-}
-.bd-ly-pane[data-page="blgart01"] {
-filter: none;
 }
 .bd-ly-pane[data-page="blgart01"] {
 --pm-b: 0px;

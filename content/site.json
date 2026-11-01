@@ -727,7 +727,7 @@
     "hover": "",
     "mainM": "blgart01",
     "rim": {
-     "shape": "punch"
+     "shape": ""
     }
    },
    {
@@ -768,7 +768,10 @@
     "lv": "",
     "arrive": "slide",
     "main": "blgcom01",
-    "hover": ""
+    "hover": "",
+    "rim": {
+     "shape": ""
+    }
    }
   ],
   "pinV1": true,
@@ -1894,7 +1897,10 @@
    "stack": [],
    "title": "EOUP",
    "box": {
-    "shadow": "none"
+    "shadow": "none",
+    "rim": {
+     "shape": ""
+    }
    },
    "parent": "blgart01",
    "date": "",
