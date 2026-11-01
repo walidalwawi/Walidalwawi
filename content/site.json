@@ -680,7 +680,10 @@
     "vcM": 0,
     "vrM": 1,
     "mainM": "wt3x1lay",
-    "axisM": "y"
+    "axisM": "y",
+    "rim": {
+     "shape": ""
+    }
    },
    {
     "id": "3mdr5syo",
