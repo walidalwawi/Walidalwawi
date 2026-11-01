@@ -1,4 +1,4 @@
-/* PUBLISHED mvxiq36j */
+/* PUBLISHED mvxixmy6 */
 /* FONTS */
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,400&display=swap");
 
@@ -2542,7 +2542,7 @@ margin-left: 0px;
 margin-right: 0px;
 }
 .bd-ly-pane[data-page="mnu0sh01"] > .bd-ly-paper {
-background: linear-gradient(180deg, rgba(214, 214, 214, 0.8), rgba(255, 255, 255, 0.8)) 0 0% / 100% 200% local;
+background: linear-gradient(180deg, rgba(214, 214, 214, 0.7), rgba(255, 255, 255, 0.7)) 0 0% / 100% 200% local;
 }
 .bd-ly-pane[data-page="mnu0sh01"] > .bd-ly-paper > .bd-panel {
 padding-top: var(--bd-wt);
@@ -2559,7 +2559,7 @@ box-shadow: none;
 --pm-b: 90vh;
 }
 .bd-ly-pane[data-page="wt3x1lay"] > .bd-ly-paper {
-background: linear-gradient(180deg, rgba(214, 214, 214, 0.8), rgba(255, 255, 255, 0.8)) 0 100% / 100% 200% local;
+background: linear-gradient(180deg, rgba(214, 214, 214, 0.7), rgba(255, 255, 255, 0.7)) 0 100% / 100% 200% local;
 }
 .bd-ly-pane[data-page="wt3x1lay"] > .bd-ly-paper > .bd-panel {
 padding-top: var(--bd-wt);
@@ -2579,18 +2579,18 @@ pointer-events: none;
 backdrop-filter: blur(5px);
 }
 .bd-ly-pane[data-page="blgart01"] > .bd-ly-paper {
-margin: 10vh 0px 0 0px;
-min-height: calc(100% - 10vh - 0px);
+margin: calc(max(80px, var(--bd-pin-top, 0px)) + 0px) 0px 0 0px;
+min-height: calc(100% - calc(max(80px, var(--bd-pin-top, 0px)) + 0px) - 0px);
 box-shadow: none;
 }
 .bd-ly-pane[data-page="blgart01"] {
 --pm-b: 0px;
 }
 .bd-ly-pane[data-page="blgart01"] > .bd-ly-paper {
-background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(214, 214, 214, 0.6)) 0 0% / 100% 100% local;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(214, 214, 214, 0.7)) 0 0% / 100% 100% local;
 }
 .bd-ly-pane[data-page="blgart01"] > .bd-ly-paper > .bd-panel {
-padding-top: calc(80px + var(--bd-wt));
+padding-top: var(--bd-wt);
 padding-right: var(--bd-wr);
 padding-bottom: var(--bd-wb);
 padding-left: var(--bd-wl);
@@ -2606,18 +2606,18 @@ pointer-events: none;
 backdrop-filter: blur(10.3px);
 }
 .bd-ly-pane[data-page="blgcom01"] > .bd-ly-paper {
-margin: 10vh 0px 0 0px;
-min-height: calc(100% - 10vh - 0px);
+margin: calc(max(80px, var(--bd-pin-top, 0px)) + 0px) 0px 0 0px;
+min-height: calc(100% - calc(max(80px, var(--bd-pin-top, 0px)) + 0px) - 0px);
 box-shadow: 0 0 28px rgba(0, 0, 0, 0.16);
 }
 .bd-ly-pane[data-page="blgcom01"] {
 --pm-b: 0px;
 }
 .bd-ly-pane[data-page="blgcom01"] > .bd-ly-paper {
-background: linear-gradient(180deg, rgba(255, 255, 255, 0.55), rgba(214, 214, 214, 0.55)) 0 0% / 100% 100% local;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(214, 214, 214, 0.7)) 0 0% / 100% 100% local;
 }
 .bd-ly-pane[data-page="blgcom01"] > .bd-ly-paper > .bd-panel {
-padding-top: calc(80px + var(--bd-wt));
+padding-top: var(--bd-wt);
 padding-right: var(--bd-wr);
 padding-bottom: var(--bd-wb);
 padding-left: var(--bd-wl);
@@ -3583,29 +3583,29 @@ padding-bottom: var(--bd-wb);
 padding-left: var(--bd-wl);
 }
 .bd-ly-pane[data-page="blgart01"] > .bd-ly-paper {
-margin: 15vh 0px 0 0px;
-min-height: calc(100% - 15vh - 0px);
+margin: calc(max(39px, var(--bd-pin-top, 0px)) + 15vh) 0px 0 0px;
+min-height: calc(100% - calc(max(39px, var(--bd-pin-top, 0px)) + 15vh) - 0px);
 box-shadow: none;
 }
 .bd-ly-pane[data-page="blgart01"] {
 --pm-b: 0px;
 }
 .bd-ly-pane[data-page="blgart01"] > .bd-ly-paper > .bd-panel {
-padding-top: calc(39px + var(--bd-wt));
+padding-top: var(--bd-wt);
 padding-right: var(--bd-wr);
 padding-bottom: var(--bd-wb);
 padding-left: var(--bd-wl);
 }
 .bd-ly-pane[data-page="blgcom01"] > .bd-ly-paper {
-margin: 10vh 0px 0 0px;
-min-height: calc(100% - 10vh - 0px);
+margin: calc(max(39px, var(--bd-pin-top, 0px)) + 0px) 0px 0 0px;
+min-height: calc(100% - calc(max(39px, var(--bd-pin-top, 0px)) + 0px) - 0px);
 box-shadow: 0 0 28px rgba(0, 0, 0, 0.16);
 }
 .bd-ly-pane[data-page="blgcom01"] {
 --pm-b: 0px;
 }
 .bd-ly-pane[data-page="blgcom01"] > .bd-ly-paper > .bd-panel {
-padding-top: calc(39px + var(--bd-wt));
+padding-top: var(--bd-wt);
 padding-right: var(--bd-wr);
 padding-bottom: var(--bd-wb);
 padding-left: var(--bd-wl);
